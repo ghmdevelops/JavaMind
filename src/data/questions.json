@@ -1,0 +1,3917 @@
+[
+  {
+    "id": 1,
+    "question": "Qual palavra-chave define uma classe em Java?",
+    "options": ["function", "define", "class", "public"],
+    "answer": "class",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 2,
+    "question": "Qual é o tipo de dado para números inteiros em Java?",
+    "options": ["String", "float", "int", "boolean"],
+    "answer": "int",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 3,
+    "question": "O que significa JVM?",
+    "options": ["Java Virtual Memory", "Java Very Much", "Java Virtual Machine", "Java Verified Module"],
+    "answer": "Java Virtual Machine",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 4,
+    "question": "Qual método é usado para iniciar a execução de um programa Java?",
+    "options": ["start()", "main()", "run()", "execute()"],
+    "answer": "main()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 5,
+    "question": "Qual palavra-chave Java indica que uma variável não pode ser alterada após ser inicializada?",
+    "options": ["constant", "final", "immutable", "static"],
+    "answer": "final",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 6,
+    "question": "Qual pacote Java contém a classe Scanner para entrada de dados?",
+    "options": ["java.util", "java.io", "java.lang", "java.net"],
+    "answer": "java.util",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 7,
+    "question": "Qual é a saída do código: `System.out.println(5 + \"5\");`?",
+    "options": ["10", "55", "Erro de compilação", "5 5"],
+    "answer": "55",
+    "difficulty": "médio"
+  },
+  {
+    "id": 8,
+    "question": "Qual é o resultado da expressão lógica `true && false` em Java?",
+    "options": ["true", "false", "1", "0"],
+    "answer": "false",
+    "difficulty": "médio"
+  },
+  {
+    "id": 9,
+    "question": "Qual interface deve ser implementada para criar uma thread em Java?",
+    "options": ["Runnable", "Threadable", "Callable", "Executor"],
+    "answer": "Runnable",
+    "difficulty": "médio"
+  },
+  {
+    "id": 10,
+    "question": "Qual a diferença entre `==` e `.equals()` em Java?",
+    "options": [
+      "`==` compara referências, `.equals()` compara valores",
+      "Ambos comparam valores",
+      "Ambos comparam referências",
+      "`==` é para objetos e `.equals()` para primitivos"
+    ],
+    "answer": "`==` compara referências, `.equals()` compara valores",
+    "difficulty": "médio"
+  },
+  {
+    "id": 11,
+    "question": "O que acontece se uma exceção não for capturada em Java?",
+    "options": ["Programa continua normalmente", "Programa encerra com erro", "Compilador ignora", "Exceção é ignorada"],
+    "answer": "Programa encerra com erro",
+    "difficulty": "médio"
+  },
+  {
+    "id": 12,
+    "question": "Qual palavra-chave é usada para herança em Java?",
+    "options": ["implement", "extends", "inherits", "super"],
+    "answer": "extends",
+    "difficulty": "médio"
+  },
+  {
+    "id": 13,
+    "question": "Qual é a saída do código: \n```java\nint a = 5;\nint b = ++a;\nSystem.out.println(b);\n```",
+    "options": ["5", "6", "Erro", "4"],
+    "answer": "6",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 14,
+    "question": "Qual interface do Java Collections define um método `iterator()`?",
+    "options": ["Iterable", "Collection", "List", "Set"],
+    "answer": "Iterable",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 15,
+    "question": "Qual é o resultado da expressão: \n```java\nList<String> list = new ArrayList<>();\nlist.add(\"A\");\nlist.add(\"B\");\nlist.remove(0);\nSystem.out.println(list.get(0));\n```",
+    "options": ["A", "B", "Erro de compilação", "IndexOutOfBoundsException"],
+    "answer": "B",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 16,
+    "question": "Qual palavra-chave é usada para criar uma constante em Java?",
+    "options": ["const", "final", "immutable", "static"],
+    "answer": "final",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 17,
+    "question": "Qual dos seguintes tipos não é primitivo em Java?",
+    "options": ["int", "boolean", "String", "char"],
+    "answer": "String",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 18,
+    "question": "Qual modificador de acesso permite que um membro seja acessado somente dentro do mesmo pacote?",
+    "options": ["private", "protected", "public", "default (sem modificador)"],
+    "answer": "default (sem modificador)",
+    "difficulty": "médio"
+  },
+  {
+    "id": 19,
+    "question": "O que significa o modificador 'static' em Java?",
+    "options": [
+      "Pertence à classe, não à instância",
+      "É um método abstrato",
+      "Indica uma variável constante",
+      "Define uma interface"
+    ],
+    "answer": "Pertence à classe, não à instância",
+    "difficulty": "médio"
+  },
+  {
+    "id": 20,
+    "question": "Qual das opções abaixo representa corretamente a sintaxe para um construtor em Java?",
+    "options": [
+      "public void Constructor() {}",
+      "public ClassName() {}",
+      "void ClassName() {}",
+      "public ClassName(void) {}"
+    ],
+    "answer": "public ClassName() {}",
+    "difficulty": "médio"
+  },
+  {
+    "id": 21,
+    "question": "Como você chama o construtor da superclasse dentro do construtor da subclasse?",
+    "options": ["super()", "this()", "parent()", "base()"],
+    "answer": "super()",
+    "difficulty": "médio"
+  },
+  {
+    "id": 22,
+    "question": "Qual classe é usada para ler arquivos texto em Java?",
+    "options": ["FileReader", "Scanner", "BufferedReader", "InputStreamReader"],
+    "answer": "BufferedReader",
+    "difficulty": "médio"
+  },
+  {
+    "id": 23,
+    "question": "Qual é o resultado da seguinte expressão?\n\n```java\nint x = 10;\nint y = x-- + 5;\nSystem.out.println(y);\n```",
+    "options": ["15", "16", "10", "Erro de compilação"],
+    "answer": "15",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 24,
+    "question": "O que acontece se um método é declarado como 'abstract' em Java?",
+    "options": [
+      "O método deve ser implementado por subclasses",
+      "O método é executado automaticamente",
+      "O método é privado",
+      "O método não pode ser sobrescrito"
+    ],
+    "answer": "O método deve ser implementado por subclasses",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 25,
+    "question": "Qual é a diferença principal entre uma ArrayList e um array tradicional em Java?",
+    "options": [
+      "ArrayList tem tamanho dinâmico, array é fixo",
+      "Array é mais lento que ArrayList",
+      "ArrayList pode armazenar apenas objetos String",
+      "Array suporta somente tipos primitivos"
+    ],
+    "answer": "ArrayList tem tamanho dinâmico, array é fixo",
+    "difficulty": "médio"
+  },
+  {
+    "id": 26,
+    "question": "O que significa a palavra-chave 'synchronized' em Java?",
+    "options": [
+      "Controla o acesso concorrente a métodos ou blocos",
+      "Marca um método como estático",
+      "Define um método abstrato",
+      "Indica que o método é privado"
+    ],
+    "answer": "Controla o acesso concorrente a métodos ou blocos",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 27,
+    "question": "Qual exceção é lançada ao tentar acessar um índice fora do limite de um array em Java?",
+    "options": [
+      "ArrayIndexOutOfBoundsException",
+      "NullPointerException",
+      "IndexOutOfBoundsException",
+      "IllegalArgumentException"
+    ],
+    "answer": "ArrayIndexOutOfBoundsException",
+    "difficulty": "médio"
+  },
+  {
+    "id": 28,
+    "question": "Em Java, qual é a forma correta de declarar um método genérico?",
+    "options": [
+      "public <T> void method(T param) {}",
+      "public void <T> method(T param) {}",
+      "public void method<T>(T param) {}",
+      "public void method(T param) {}"
+    ],
+    "answer": "public <T> void method(T param) {}",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 29,
+    "question": "Qual das seguintes classes Java é imutável?",
+    "options": ["StringBuilder", "StringBuffer", "String", "StringTokenizer"],
+    "answer": "String",
+    "difficulty": "médio"
+  },
+  {
+    "id": 30,
+    "question": "Qual é o pacote padrão onde se encontra a classe HashMap?",
+    "options": ["java.lang", "java.util", "java.io", "java.net"],
+    "answer": "java.util",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 31,
+    "question": "Qual palavra-chave é usada para herdar uma classe em Java?",
+    "options": ["inherit", "extends", "implements", "super"],
+    "answer": "extends",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 32,
+    "question": "Qual das seguintes coleções Java permite elementos duplicados?",
+    "options": ["Set", "List", "Map", "Queue"],
+    "answer": "List",
+    "difficulty": "médio"
+  },
+  {
+    "id": 33,
+    "question": "O que é autoboxing em Java?",
+    "options": [
+      "Conversão automática entre tipos primitivos e suas classes wrapper",
+      "Processo de serialização de objetos",
+      "Execução paralela de threads",
+      "Gerenciamento automático de memória"
+    ],
+    "answer": "Conversão automática entre tipos primitivos e suas classes wrapper",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 34,
+    "question": "Qual método é usado para comparar duas Strings ignorando maiúsculas/minúsculas?",
+    "options": [
+      "equals()",
+      "equalsIgnoreCase()",
+      "compareTo()",
+      "compareToIgnoreCase()"
+    ],
+    "answer": "equalsIgnoreCase()",
+    "difficulty": "médio"
+  },
+  {
+    "id": 35,
+    "question": "Qual dos seguintes é um tipo de exceção verificada em Java?",
+    "options": [
+      "NullPointerException",
+      "IOException",
+      "ArithmeticException",
+      "ArrayIndexOutOfBoundsException"
+    ],
+    "answer": "IOException",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 36,
+    "question": "Qual palavra-chave Java é usada para lançar uma exceção manualmente?",
+    "options": ["throw", "throws", "catch", "try"],
+    "answer": "throw",
+    "difficulty": "médio"
+  },
+  {
+    "id": 37,
+    "question": "Qual é o tipo padrão para números decimais em Java?",
+    "options": ["double", "float", "decimal", "BigDecimal"],
+    "answer": "double",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 38,
+    "question": "O que significa o modificador 'transient' em Java?",
+    "options": [
+      "Indica que o campo não deve ser serializado",
+      "Marca um método como sincronizado",
+      "Indica uma variável estática",
+      "Define um método abstrato"
+    ],
+    "answer": "Indica que o campo não deve ser serializado",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 39,
+    "question": "Como é declarado um array de inteiros em Java?",
+    "options": [
+      "int[] array;",
+      "array int[];",
+      "int array[];",
+      "Ambas as opções 1 e 3 estão corretas"
+    ],
+    "answer": "Ambas as opções 1 e 3 estão corretas",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 40,
+    "question": "Qual palavra-chave Java indica que um método não pode ser sobrescrito?",
+    "options": ["final", "static", "abstract", "private"],
+    "answer": "final",
+    "difficulty": "médio"
+  },
+  {
+    "id": 41,
+    "question": "Qual método é chamado automaticamente quando um objeto é convertido para String?",
+    "options": ["toString()", "hashCode()", "equals()", "finalize()"],
+    "answer": "toString()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 42,
+    "question": "O que acontece quando um bloco try não possui um catch correspondente e a exceção é lançada?",
+    "options": [
+      "O programa é encerrado",
+      "O método lança a exceção para quem chamou",
+      "A exceção é ignorada",
+      "A exceção é capturada automaticamente"
+    ],
+    "answer": "O método lança a exceção para quem chamou",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 43,
+    "question": "Qual o resultado da expressão lógica em Java: `!(true && false)`?",
+    "options": ["true", "false", "null", "Erro"],
+    "answer": "true",
+    "difficulty": "médio"
+  },
+  {
+    "id": 44,
+    "question": "Qual é o valor inicial padrão de um objeto declarado como variável de instância sem inicialização explícita?",
+    "options": ["null", "0", "false", "undefined"],
+    "answer": "null",
+    "difficulty": "médio"
+  },
+  {
+    "id": 45,
+    "question": "Qual das seguintes interfaces Java representa um mapeamento chave-valor?",
+    "options": ["Map", "Set", "List", "Queue"],
+    "answer": "Map",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 46,
+    "question": "Qual é a saída do código Java abaixo?\n\n```java\nint[] arr = {1, 2, 3};\nSystem.out.println(arr.length);\n```",
+    "options": ["3", "2", "Erro de compilação", "0"],
+    "answer": "3",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 47,
+    "question": "O que significa o termo 'polimorfismo' em programação orientada a objetos?",
+    "options": [
+      "Capacidade de uma variável ou método assumir múltiplas formas",
+      "Herança de classes",
+      "Encapsulamento de dados",
+      "Abstração de classes"
+    ],
+    "answer": "Capacidade de uma variável ou método assumir múltiplas formas",
+    "difficulty": "médio"
+  },
+  {
+    "id": 48,
+    "question": "Qual a diferença entre um HashMap e um Hashtable em Java?",
+    "options": [
+      "Hashtable é sincronizado, HashMap não",
+      "HashMap é sincronizado, Hashtable não",
+      "Ambos são sincronizados",
+      "Nenhum é sincronizado"
+    ],
+    "answer": "Hashtable é sincronizado, HashMap não",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 49,
+    "question": "Qual palavra-chave permite definir uma classe interna em Java?",
+    "options": ["inner", "nested", "class", "static"],
+    "answer": "class",
+    "difficulty": "médio"
+  },
+  {
+    "id": 50,
+    "question": "Qual das opções abaixo é usada para comentar várias linhas em Java?",
+    "options": ["// comentário", "/* comentário */", "# comentário", "<!-- comentário -->"],
+    "answer": "/* comentário */",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 51,
+    "question": "Como você cria um objeto da classe String em Java?",
+    "options": [
+      "String s = new String(\"texto\");",
+      "String s = \"texto\";",
+      "Ambas as respostas estão corretas",
+      "Nenhuma das respostas está correta"
+    ],
+    "answer": "Ambas as respostas estão corretas",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 52,
+    "question": "Qual o modificador de acesso que torna um método acessível apenas na própria classe?",
+    "options": ["private", "public", "protected", "default"],
+    "answer": "private",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 53,
+    "question": "Qual é a saída do seguinte código?\n\n```java\nSystem.out.println(3 + 4 + \"5\");\n```",
+    "options": ["75", "345", "12", "Erro de compilação"],
+    "answer": "75",
+    "difficulty": "médio"
+  },
+  {
+    "id": 54,
+    "question": "Qual método é usado para interromper uma thread em Java (apesar de ser desaconselhado)?",
+    "options": ["stop()", "kill()", "exit()", "terminate()"],
+    "answer": "stop()",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 55,
+    "question": "Qual classe Java é utilizada para trabalhar com números arbitrariamente grandes?",
+    "options": ["BigInteger", "Integer", "Long", "Double"],
+    "answer": "BigInteger",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 56,
+    "question": "O que significa a palavra-chave 'this' em Java?",
+    "options": [
+      "Refere-se ao objeto atual",
+      "Indica o construtor",
+      "Referência a variável estática",
+      "Nenhuma das anteriores"
+    ],
+    "answer": "Refere-se ao objeto atual",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 57,
+    "question": "Qual é a classe pai de todas as classes em Java?",
+    "options": ["Object", "Class", "Parent", "Base"],
+    "answer": "Object",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 58,
+    "question": "O que é encapsulamento em programação orientada a objetos?",
+    "options": [
+      "Esconder os detalhes internos de uma classe e expor apenas o necessário",
+      "Herança entre classes",
+      "Polimorfismo de métodos",
+      "Abstração de dados"
+    ],
+    "answer": "Esconder os detalhes internos de uma classe e expor apenas o necessário",
+    "difficulty": "médio"
+  },
+  {
+    "id": 59,
+    "question": "Qual a forma correta de lançar múltiplas exceções em uma cláusula throws?",
+    "options": [
+      "throws IOException, SQLException",
+      "throw IOException, SQLException",
+      "throws IOException | SQLException",
+      "throw IOException | SQLException"
+    ],
+    "answer": "throws IOException, SQLException",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 60,
+    "question": "Qual método é usado para copiar um array em Java?",
+    "options": [
+      "System.arraycopy()",
+      "array.copy()",
+      "array.clone()",
+      "System.copy()"
+    ],
+    "answer": "System.arraycopy()",
+    "difficulty": "médio"
+  },
+  {
+    "id": 61,
+    "question": "Qual é o valor padrão de uma variável do tipo boolean em Java?",
+    "options": ["true", "false", "null", "0"],
+    "answer": "false",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 62,
+    "question": "Qual operador é usado para concatenar Strings em Java?",
+    "options": ["+", "&", ".", "concat()"],
+    "answer": "+",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 63,
+    "question": "Qual é a palavra-chave para definir uma interface em Java?",
+    "options": ["interface", "class", "implements", "extends"],
+    "answer": "interface",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 64,
+    "question": "O que acontece se você tentar acessar um elemento fora dos limites de um array?",
+    "options": ["ArrayIndexOutOfBoundsException", "NullPointerException", "IllegalArgumentException", "IndexOutOfBoundsException"],
+    "answer": "ArrayIndexOutOfBoundsException",
+    "difficulty": "médio"
+  },
+  {
+    "id": 65,
+    "question": "Qual método é usado para lançar uma exceção em Java?",
+    "options": ["throw", "throws", "catch", "try"],
+    "answer": "throw",
+    "difficulty": "médio"
+  },
+  {
+    "id": 66,
+    "question": "Como declarar um método que não retorna nenhum valor?",
+    "options": ["void methodName()", "int methodName()", "null methodName()", "none methodName()"],
+    "answer": "void methodName()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 67,
+    "question": "Qual é o resultado da expressão: 5 + 2 * 3 em Java?",
+    "options": ["21", "11", "16", "15"],
+    "answer": "11",
+    "difficulty": "médio"
+  },
+  {
+    "id": 68,
+    "question": "Como é chamada a técnica que permite que um método tenha o mesmo nome mas diferentes parâmetros?",
+    "options": ["Overloading", "Overriding", "Polymorphism", "Inheritance"],
+    "answer": "Overloading",
+    "difficulty": "médio"
+  },
+  {
+    "id": 69,
+    "question": "Qual palavra-chave é usada para impedir que uma classe seja herdada?",
+    "options": ["final", "static", "private", "abstract"],
+    "answer": "final",
+    "difficulty": "médio"
+  },
+  {
+    "id": 70,
+    "question": "O que faz o método equals() em Java?",
+    "options": ["Compara conteúdos de objetos", "Compara referências", "Compara tipos", "Compara classes"],
+    "answer": "Compara conteúdos de objetos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 71,
+    "question": "Como você chama um construtor de uma classe pai em uma subclasse?",
+    "options": ["super()", "parent()", "this()", "base()"],
+    "answer": "super()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 72,
+    "question": "O que é um 'package' em Java?",
+    "options": ["Um agrupamento de classes", "Um tipo de variável", "Um método", "Um tipo de exceção"],
+    "answer": "Um agrupamento de classes",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 73,
+    "question": "Qual a forma correta de criar uma exceção customizada?",
+    "options": [
+      "class MinhaExcecao extends Exception {}",
+      "class MinhaExcecao implements Exception {}",
+      "class MinhaExcecao extends Throwable {}",
+      "class MinhaExcecao extends Runtime {}"
+    ],
+    "answer": "class MinhaExcecao extends Exception {}",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 74,
+    "question": "Qual classe do Java é usada para ler entradas do teclado?",
+    "options": ["Scanner", "InputStream", "BufferedReader", "Console"],
+    "answer": "Scanner",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 75,
+    "question": "Qual é a saída do código: System.out.println(10 / 4); ?",
+    "options": ["2", "2.5", "2.0", "Erro"],
+    "answer": "2",
+    "difficulty": "médio"
+  },
+  {
+    "id": 76,
+    "question": "Como você pode garantir que um bloco de código seja executado independentemente de exceções?",
+    "options": ["finally", "catch", "try", "throw"],
+    "answer": "finally",
+    "difficulty": "médio"
+  },
+  {
+    "id": 77,
+    "question": "Qual método é usado para obter o tamanho de um ArrayList?",
+    "options": ["size()", "length()", "count()", "getSize()"],
+    "answer": "size()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 78,
+    "question": "O que é um lambda expression em Java?",
+    "options": [
+      "Uma função anônima",
+      "Uma classe abstrata",
+      "Um tipo de exceção",
+      "Uma interface funcional"
+    ],
+    "answer": "Uma função anônima",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 79,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nint x = 5;\nint y = ++x;\nSystem.out.println(y);\n```",
+    "options": ["5", "6", "Erro", "7"],
+    "answer": "6",
+    "difficulty": "médio"
+  },
+  {
+    "id": 80,
+    "question": "O que faz o operador 'instanceof' em Java?",
+    "options": [
+      "Verifica se um objeto é instância de uma classe/interface",
+      "Cria uma nova instância",
+      "Define uma interface",
+      "Invoca um método"
+    ],
+    "answer": "Verifica se um objeto é instância de uma classe/interface",
+    "difficulty": "médio"
+  },
+  {
+    "id": 81,
+    "question": "Qual das opções a seguir é uma classe wrapper para o tipo primitivo 'int'?",
+    "options": ["Integer", "Int", "IntWrapper", "Number"],
+    "answer": "Integer",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 82,
+    "question": "Qual método é usado para remover um elemento de um ArrayList?",
+    "options": ["remove()", "delete()", "pop()", "discard()"],
+    "answer": "remove()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 83,
+    "question": "O que significa que uma classe é 'abstrata' em Java?",
+    "options": [
+      "Não pode ser instanciada diretamente",
+      "É uma interface",
+      "É uma classe com métodos estáticos",
+      "É uma classe final"
+    ],
+    "answer": "Não pode ser instanciada diretamente",
+    "difficulty": "médio"
+  },
+  {
+    "id": 84,
+    "question": "Qual pacote contém classes para manipulação de arquivos e diretórios?",
+    "options": ["java.io", "java.util", "java.lang", "java.net"],
+    "answer": "java.io",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 85,
+    "question": "Qual das seguintes opções não é um modificador de acesso em Java?",
+    "options": ["transient", "public", "private", "protected"],
+    "answer": "transient",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 86,
+    "question": "O que significa o termo 'garbage collection' em Java?",
+    "options": [
+      "Coleta automática de objetos não utilizados para liberar memória",
+      "Coleta de dados do usuário",
+      "Processamento de exceções",
+      "Compilação de código"
+    ],
+    "answer": "Coleta automática de objetos não utilizados para liberar memória",
+    "difficulty": "médio"
+  },
+  {
+    "id": 87,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nString s = \"Java\";\ns += \" Mind\";\nSystem.out.println(s);\n```",
+    "options": ["Java Mind", "JavaMind", "Java", "Mind"],
+    "answer": "Java Mind",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 88,
+    "question": "Qual palavra-chave é usada para lançar uma exceção checada em Java?",
+    "options": ["throws", "throw", "catch", "try"],
+    "answer": "throws",
+    "difficulty": "médio"
+  },
+  {
+    "id": 89,
+    "question": "Qual método é usado para comparar dois objetos para igualdade lógica?",
+    "options": ["equals()", "==", "compareTo()", "hashCode()"],
+    "answer": "equals()",
+    "difficulty": "médio"
+  },
+  {
+    "id": 90,
+    "question": "Qual classe Java permite criar listas ligadas (linked lists)?",
+    "options": ["LinkedList", "ArrayList", "List", "Set"],
+    "answer": "LinkedList",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 91,
+    "question": "Qual é a palavra-chave para criar uma exceção personalizada que pode ser verificada pelo compilador?",
+    "options": ["extends Exception", "implements Throwable", "extends RuntimeException", "implements Exception"],
+    "answer": "extends Exception",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 92,
+    "question": "Qual o valor padrão de um tipo primitivo 'char' em Java?",
+    "options": ["'\\u0000'", "' '", "null", "'a'"],
+    "answer": "'\\u0000'",
+    "difficulty": "médio"
+  },
+  {
+    "id": 93,
+    "question": "Como você cria um array de Strings com 5 posições em Java?",
+    "options": [
+      "String[] arr = new String[5];",
+      "String arr[] = new String(5);",
+      "String arr[] = new String[];",
+      "String arr = new String[5];"
+    ],
+    "answer": "String[] arr = new String[5];",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 94,
+    "question": "O que acontece quando você não define um construtor em uma classe Java?",
+    "options": [
+      "O compilador gera um construtor padrão sem argumentos",
+      "A classe não pode ser instanciada",
+      "A classe é abstrata automaticamente",
+      "Erro de compilação"
+    ],
+    "answer": "O compilador gera um construtor padrão sem argumentos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 95,
+    "question": "Qual dos seguintes tipos permite armazenar números decimais com alta precisão em Java?",
+    "options": ["BigDecimal", "float", "double", "int"],
+    "answer": "BigDecimal",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 96,
+    "question": "Qual palavra-chave Java é usada para impedir que uma variável seja modificada?",
+    "options": ["final", "const", "immutable", "static"],
+    "answer": "final",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 97,
+    "question": "Qual a saída do código abaixo?\n\n```java\nint a = 3;\nint b = a++ + ++a;\nSystem.out.println(b);\n```",
+    "options": ["8", "7", "9", "6"],
+    "answer": "8",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 98,
+    "question": "Qual método de interface funcional do pacote java.util.function representa uma função que recebe um argumento e retorna um valor?",
+    "options": ["Function<T,R>", "Supplier<T>", "Consumer<T>", "Predicate<T>"],
+    "answer": "Function<T,R>",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 99,
+    "question": "Qual é a classe base para todas as exceções não verificadas (unchecked) em Java?",
+    "options": ["RuntimeException", "Exception", "Error", "Throwable"],
+    "answer": "RuntimeException",
+    "difficulty": "médio"
+  },
+  {
+    "id": 100,
+    "question": "Como você declara um método que pode lançar múltiplas exceções?",
+    "options": [
+      "public void foo() throws IOException, SQLException {}",
+      "public void foo() throw IOException, SQLException {}",
+      "public void foo() throws IOException | SQLException {}",
+      "public void foo() throws IOException; throws SQLException {}"
+    ],
+    "answer": "public void foo() throws IOException, SQLException {}",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 101,
+    "question": "Qual é o resultado da operação lógica: true || false && false?",
+    "options": ["true", "false", "Erro", "null"],
+    "answer": "true",
+    "difficulty": "médio"
+  },
+  {
+    "id": 102,
+    "question": "Qual pacote contém a classe ArrayList?",
+    "options": ["java.util", "java.lang", "java.io", "java.net"],
+    "answer": "java.util",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 103,
+    "question": "Qual é o modificador de acesso padrão quando nenhum é especificado em Java?",
+    "options": ["package-private", "public", "private", "protected"],
+    "answer": "package-private",
+    "difficulty": "médio"
+  },
+  {
+    "id": 104,
+    "question": "Qual método é usado para comparar strings lexicograficamente em Java?",
+    "options": ["compareTo()", "equals()", "equalsIgnoreCase()", "toString()"],
+    "answer": "compareTo()",
+    "difficulty": "médio"
+  },
+  {
+    "id": 105,
+    "question": "Qual das opções abaixo NÃO é uma interface funcional em Java 8?",
+    "options": ["Runnable", "Callable", "Comparator", "List"],
+    "answer": "List",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 106,
+    "question": "Como você converte uma String para um inteiro em Java?",
+    "options": ["Integer.parseInt()", "Integer.valueOf()", "String.toInt()", "Integer.toString()"],
+    "answer": "Integer.parseInt()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 107,
+    "question": "Qual é o resultado do código:\n\n```java\nString s = null;\nSystem.out.println(s + \"test\");\n```",
+    "options": ["nulltest", "test", "Erro", "null"],
+    "answer": "nulltest",
+    "difficulty": "médio"
+  },
+  {
+    "id": 108,
+    "question": "Qual das alternativas é usada para garantir exclusão mútua em um método?",
+    "options": ["synchronized", "final", "static", "volatile"],
+    "answer": "synchronized",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 109,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nint[] nums = {1, 2, 3};\nfor (int num : nums) {\n  System.out.print(num + \" \");\n}\n```",
+    "options": ["1 2 3 ", "123", "Erro", "1,2,3"],
+    "answer": "1 2 3 ",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 110,
+    "question": "O que significa o modificador 'volatile' em Java?",
+    "options": [
+      "Indica que a variável pode ser alterada por múltiplas threads",
+      "Impede que a variável seja alterada",
+      "Define uma variável estática",
+      "Marca um método como abstrato"
+    ],
+    "answer": "Indica que a variável pode ser alterada por múltiplas threads",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 111,
+    "question": "Qual o resultado da expressão: `5 & 3` em Java (operador bit a bit)?",
+    "options": ["1", "7", "8", "0"],
+    "answer": "1",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 112,
+    "question": "O que é um Enum em Java?",
+    "options": [
+      "Um tipo que representa um conjunto fixo de constantes",
+      "Uma classe abstrata",
+      "Uma interface funcional",
+      "Um pacote"
+    ],
+    "answer": "Um tipo que representa um conjunto fixo de constantes",
+    "difficulty": "médio"
+  },
+  {
+    "id": 113,
+    "question": "Qual das seguintes palavras-chave pode ser usada para implementar uma interface?",
+    "options": ["implements", "extends", "inherits", "imports"],
+    "answer": "implements",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 114,
+    "question": "Qual das seguintes interfaces Java permite percorrer uma coleção de objetos?",
+    "options": ["Iterator", "Iterable", "Comparator", "Runnable"],
+    "answer": "Iterator",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 115,
+    "question": "Qual das alternativas representa uma classe imutável em Java?",
+    "options": ["String", "StringBuilder", "StringBuffer", "ArrayList"],
+    "answer": "String",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 116,
+    "question": "Qual método é usado para iniciar uma thread em Java?",
+    "options": ["start()", "run()", "init()", "begin()"],
+    "answer": "start()",
+    "difficulty": "médio"
+  },
+  {
+    "id": 117,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nSystem.out.println(10 % 3);\n```",
+    "options": ["1", "3", "0", "Erro"],
+    "answer": "1",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 118,
+    "question": "Qual palavra-chave é usada para criar um bloco de código que será executado independentemente de erros?",
+    "options": ["finally", "catch", "try", "throw"],
+    "answer": "finally",
+    "difficulty": "médio"
+  },
+  {
+    "id": 119,
+    "question": "Qual a saída do código: \n\n```java\nint x = 1;\nint y = x++ + ++x;\nSystem.out.println(y);\n```",
+    "options": ["4", "3", "5", "2"],
+    "answer": "4",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 120,
+    "question": "Qual palavra-chave é usada para importar pacotes ou classes em Java?",
+    "options": ["import", "package", "include", "using"],
+    "answer": "import",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 121,
+    "question": "O que significa o termo 'boxing' em Java?",
+    "options": [
+      "Conversão de tipo primitivo para objeto wrapper",
+      "Execução paralela de threads",
+      "Manipulação de arquivos",
+      "Herança múltipla"
+    ],
+    "answer": "Conversão de tipo primitivo para objeto wrapper",
+    "difficulty": "médio"
+  },
+  {
+    "id": 122,
+    "question": "Qual operador é usado para realizar a operação 'OU' bit a bit?",
+    "options": ["|", "&", "^", "~"],
+    "answer": "|",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 123,
+    "question": "O que é o método hashCode() em Java?",
+    "options": [
+      "Um método que retorna um código hash do objeto para uso em coleções",
+      "Um método que compara objetos",
+      "Um método que converte um objeto para String",
+      "Um método que calcula a soma de números"
+    ],
+    "answer": "Um método que retorna um código hash do objeto para uso em coleções",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 124,
+    "question": "Qual é o propósito do pacote java.lang?",
+    "options": [
+      "Contém classes fundamentais para o Java, como String e Math",
+      "Manipulação de arquivos",
+      "Trabalhar com redes",
+      "Interfaces gráficas"
+    ],
+    "answer": "Contém classes fundamentais para o Java, como String e Math",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 125,
+    "question": "Como você cria um thread em Java estendendo a classe Thread?",
+    "options": [
+      "class MinhaThread extends Thread { public void run() { } }",
+      "class MinhaThread implements Runnable { public void run() { } }",
+      "class MinhaThread { public void run() { } }",
+      "class MinhaThread extends Runnable { public void run() { } }"
+    ],
+    "answer": "class MinhaThread extends Thread { public void run() { } }",
+    "difficulty": "médio"
+  },
+  {
+    "id": 126,
+    "question": "Qual palavra-chave permite definir um bloco de código que será executado por uma thread?",
+    "options": ["synchronized", "static", "volatile", "final"],
+    "answer": "synchronized",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 127,
+    "question": "O que é polimorfismo em Java?",
+    "options": [
+      "Capacidade de um método agir de diferentes formas com diferentes objetos",
+      "Definição de classes abstratas",
+      "Uso de interfaces",
+      "Criação de objetos"
+    ],
+    "answer": "Capacidade de um método agir de diferentes formas com diferentes objetos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 128,
+    "question": "Qual dos seguintes tipos pode armazenar um valor decimal de alta precisão?",
+    "options": ["BigDecimal", "float", "double", "int"],
+    "answer": "BigDecimal",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 129,
+    "question": "Qual método é usado para transformar um array em uma lista em Java?",
+    "options": ["Arrays.asList()", "List.of()", "ArrayList()", "Collections.list()"],
+    "answer": "Arrays.asList()",
+    "difficulty": "médio"
+  },
+  {
+    "id": 130,
+    "question": "Qual é a diferença entre 'throw' e 'throws' em Java?",
+    "options": [
+      "'throw' lança uma exceção, 'throws' declara que um método pode lançar exceções",
+      "'throws' lança uma exceção, 'throw' declara exceções",
+      "São sinônimos",
+      "Nenhuma das alternativas"
+    ],
+    "answer": "'throw' lança uma exceção, 'throws' declara que um método pode lançar exceções",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 131,
+    "question": "Qual é o valor padrão de uma variável local em Java?",
+    "options": ["Não há valor padrão", "null", "0", "false"],
+    "answer": "Não há valor padrão",
+    "difficulty": "médio"
+  },
+  {
+    "id": 132,
+    "question": "Qual o modificador usado para garantir que uma variável ou método pertence à classe e não à instância?",
+    "options": ["static", "final", "abstract", "transient"],
+    "answer": "static",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 133,
+    "question": "Qual o resultado da expressão: 10 / 3 em Java quando se usa tipos inteiros?",
+    "options": ["3", "3.33", "Erro", "4"],
+    "answer": "3",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 134,
+    "question": "Qual a palavra-chave para declarar uma constante em Java?",
+    "options": ["final", "const", "immutable", "constant"],
+    "answer": "final",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 135,
+    "question": "Qual método é usado para iniciar a execução de uma Thread em Java?",
+    "options": ["start()", "run()", "execute()", "begin()"],
+    "answer": "start()",
+    "difficulty": "médio"
+  },
+  {
+    "id": 136,
+    "question": "Qual o operador lógico para 'E' em Java?",
+    "options": ["&&", "||", "!", "&"],
+    "answer": "&&",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 137,
+    "question": "Qual das opções representa uma exceção não verificada (unchecked exception) em Java?",
+    "options": ["NullPointerException", "IOException", "SQLException", "FileNotFoundException"],
+    "answer": "NullPointerException",
+    "difficulty": "médio"
+  },
+  {
+    "id": 138,
+    "question": "Qual das classes abaixo é usada para ler dados do arquivo em Java?",
+    "options": ["FileReader", "FileWriter", "BufferedWriter", "PrintWriter"],
+    "answer": "FileReader",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 139,
+    "question": "Como você declara uma variável que pode armazenar números de ponto flutuante de precisão simples?",
+    "options": ["float", "double", "decimal", "int"],
+    "answer": "float",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 140,
+    "question": "O que é um bloco estático em Java?",
+    "options": [
+      "Bloco de código executado quando a classe é carregada",
+      "Bloco executado ao criar uma instância",
+      "Bloco que declara variáveis estáticas",
+      "Bloco dentro de um método estático"
+    ],
+    "answer": "Bloco de código executado quando a classe é carregada",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 141,
+    "question": "Qual palavra-chave Java é usada para implementar uma interface?",
+    "options": ["implements", "extends", "inherits", "uses"],
+    "answer": "implements",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 142,
+    "question": "Como você converte um tipo primitivo int para String em Java?",
+    "options": ["String.valueOf()", "Integer.parseInt()", "toString()", "String.parse()"],
+    "answer": "String.valueOf()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 143,
+    "question": "Qual das classes abaixo é thread-safe para operações de lista?",
+    "options": ["CopyOnWriteArrayList", "ArrayList", "LinkedList", "Vector"],
+    "answer": "CopyOnWriteArrayList",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 144,
+    "question": "O que é encapsulamento em Java?",
+    "options": [
+      "Ocultar detalhes internos de uma classe e expor uma interface pública",
+      "Herança de classes",
+      "Polimorfismo em métodos",
+      "Criação de objetos"
+    ],
+    "answer": "Ocultar detalhes internos de uma classe e expor uma interface pública",
+    "difficulty": "médio"
+  },
+  {
+    "id": 145,
+    "question": "Qual palavra-chave Java é usada para criar uma classe abstrata?",
+    "options": ["abstract", "interface", "final", "static"],
+    "answer": "abstract",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 146,
+    "question": "Qual é a saída do código: System.out.println('A' + 1); ?",
+    "options": ["66", "A1", "Erro", "1A"],
+    "answer": "66",
+    "difficulty": "médio"
+  },
+  {
+    "id": 147,
+    "question": "Como se chama o processo de liberar memória ocupada por objetos não referenciados?",
+    "options": ["Garbage Collection", "Memory Allocation", "Finalization", "Compilation"],
+    "answer": "Garbage Collection",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 148,
+    "question": "Qual das interfaces abaixo é funcional em Java 8?",
+    "options": ["Runnable", "List", "Set", "Map"],
+    "answer": "Runnable",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 149,
+    "question": "O que significa a palavra-chave 'super' em Java?",
+    "options": [
+      "Refere-se à superclasse imediata",
+      "Refere-se à classe atual",
+      "Define uma classe abstrata",
+      "Cria uma nova instância"
+    ],
+    "answer": "Refere-se à superclasse imediata",
+    "difficulty": "médio"
+  },
+  {
+    "id": 150,
+    "question": "Qual classe Java representa a raiz da hierarquia de classes?",
+    "options": ["Object", "Class", "String", "System"],
+    "answer": "Object",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 151,
+    "question": "Qual dos seguintes não é um tipo primitivo em Java?",
+    "options": ["String", "int", "double", "boolean"],
+    "answer": "String",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 152,
+    "question": "O que acontece quando você marca um método com a palavra-chave 'final'?",
+    "options": [
+      "O método não pode ser sobrescrito por subclasses",
+      "O método não pode ser chamado",
+      "O método é estático",
+      "O método é privado"
+    ],
+    "answer": "O método não pode ser sobrescrito por subclasses",
+    "difficulty": "médio"
+  },
+  {
+    "id": 153,
+    "question": "Qual é a saída do código: System.out.println(3 + 4 + \"5\"); ?",
+    "options": ["75", "345", "12", "Erro"],
+    "answer": "75",
+    "difficulty": "médio"
+  },
+  {
+    "id": 154,
+    "question": "Qual a saída do código:\n\n```java\nSystem.out.println(10 % 3);\n```",
+    "options": ["1", "0", "3", "Erro"],
+    "answer": "1",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 155,
+    "question": "O que é uma interface funcional em Java?",
+    "options": [
+      "Uma interface com um único método abstrato",
+      "Uma interface com múltiplos métodos padrão",
+      "Uma classe abstrata",
+      "Uma interface com construtores"
+    ],
+    "answer": "Uma interface com um único método abstrato",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 156,
+    "question": "Qual método da classe String retorna o comprimento da string?",
+    "options": ["length()", "size()", "count()", "getLength()"],
+    "answer": "length()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 157,
+    "question": "Como declarar uma exceção personalizada em Java?",
+    "options": [
+      "class MinhaExcecao extends Exception {}",
+      "class MinhaExcecao implements Throwable {}",
+      "class MinhaExcecao extends RuntimeException {}",
+      "class MinhaExcecao {}"
+    ],
+    "answer": "class MinhaExcecao extends Exception {}",
+    "difficulty": "médio"
+  },
+  {
+    "id": 158,
+    "question": "Qual das opções abaixo é verdadeira sobre o método equals()?",
+    "options": [
+      "Compara conteúdo de objetos",
+      "Compara referência de objetos",
+      "Sempre retorna true",
+      "Compara classes"
+    ],
+    "answer": "Compara conteúdo de objetos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 159,
+    "question": "Qual das classes abaixo é usada para armazenar pares chave-valor?",
+    "options": ["HashMap", "ArrayList", "LinkedList", "TreeSet"],
+    "answer": "HashMap",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 160,
+    "question": "Qual a saída do código:\n\n```java\nSystem.out.println(\"Java\".charAt(1));\n```",
+    "options": ["a", "J", "v", "Error"],
+    "answer": "a",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 161,
+    "question": "Qual palavra-chave em Java é usada para criar um loop infinito?",
+    "options": ["while(true)", "for(;;)", "do{}while(true)", "Todas as anteriores"],
+    "answer": "Todas as anteriores",
+    "difficulty": "médio"
+  },
+  {
+    "id": 162,
+    "question": "Qual das opções representa um tipo de dado imutável em Java?",
+    "options": ["String", "StringBuilder", "StringBuffer", "ArrayList"],
+    "answer": "String",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 163,
+    "question": "Qual é a palavra-chave para importar todas as classes de um pacote em Java?",
+    "options": ["import pacote.*;", "import pacote;", "include pacote.*;", "using pacote.*;"],
+    "answer": "import pacote.*;",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 164,
+    "question": "Qual palavra-chave em Java é usada para definir um método que deve ser implementado por subclasses?",
+    "options": ["abstract", "final", "static", "private"],
+    "answer": "abstract",
+    "difficulty": "médio"
+  },
+  {
+    "id": 165,
+    "question": "Qual é o resultado da expressão: 'Hello'.substring(1,4); ?",
+    "options": ["ell", "Hel", "lo", "Hello"],
+    "answer": "ell",
+    "difficulty": "médio"
+  },
+  {
+    "id": 166,
+    "question": "Qual a saída do código abaixo?\n\n```java\nSystem.out.println(Math.max(3, 7));\n```",
+    "options": ["7", "3", "Erro", "0"],
+    "answer": "7",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 167,
+    "question": "Como você verifica se um objeto é uma instância de uma classe específica?",
+    "options": ["instanceof", "typeof", "is", "equals"],
+    "answer": "instanceof",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 168,
+    "question": "Qual é a palavra-chave usada para definir uma exceção que deve ser tratada ou declarada?",
+    "options": ["throws", "throw", "try", "catch"],
+    "answer": "throws",
+    "difficulty": "médio"
+  },
+  {
+    "id": 169,
+    "question": "Qual classe Java é usada para manipular números grandes (inteiros arbitrariamente grandes)?",
+    "options": ["BigInteger", "Integer", "Long", "Double"],
+    "answer": "BigInteger",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 170,
+    "question": "Qual o resultado da expressão lógica: !(false || true) && true?",
+    "options": ["false", "true", "Erro", "null"],
+    "answer": "false",
+    "difficulty": "médio"
+  },
+  {
+    "id": 171,
+    "question": "Qual das interfaces abaixo representa um tipo de função que recebe um argumento e não retorna valor?",
+    "options": ["Consumer", "Function", "Supplier", "Predicate"],
+    "answer": "Consumer",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 172,
+    "question": "Qual método é usado para converter um objeto em uma representação String?",
+    "options": ["toString()", "hashCode()", "equals()", "getClass()"],
+    "answer": "toString()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 173,
+    "question": "O que faz o método System.exit(0)?",
+    "options": [
+      "Encerra a JVM com status 0",
+      "Pausa a execução do programa",
+      "Lança uma exceção",
+      "Nenhuma das anteriores"
+    ],
+    "answer": "Encerra a JVM com status 0",
+    "difficulty": "médio"
+  },
+  {
+    "id": 174,
+    "question": "Qual a saída do código:\n\n```java\nint x = 10;\nint y = 20;\nSystem.out.println(x > y ? x : y);\n```",
+    "options": ["20", "10", "Erro", "true"],
+    "answer": "20",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 175,
+    "question": "Qual é a principal característica da programação orientada a objetos?",
+    "options": [
+      "Encapsulamento, herança, polimorfismo e abstração",
+      "Programação funcional",
+      "Manipulação direta de memória",
+      "Execução sequencial"
+    ],
+    "answer": "Encapsulamento, herança, polimorfismo e abstração",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 176,
+    "question": "Qual das palavras-chave impede que uma classe seja herdada?",
+    "options": ["final", "abstract", "static", "private"],
+    "answer": "final",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 177,
+    "question": "Como se chama o processo de uma classe herdar propriedades e métodos de outra?",
+    "options": ["Herança", "Encapsulamento", "Polimorfismo", "Abstração"],
+    "answer": "Herança",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 178,
+    "question": "Qual operador é usado para negar uma expressão lógica?",
+    "options": ["!", "&&", "||", "^"],
+    "answer": "!",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 179,
+    "question": "Qual é a palavra-chave usada para declarar um bloco de código que deve ser executado independentemente da ocorrência de exceções?",
+    "options": ["finally", "catch", "throw", "try"],
+    "answer": "finally",
+    "difficulty": "médio"
+  },
+  {
+    "id": 180,
+    "question": "O que significa a palavra-chave 'volatile' em Java?",
+    "options": [
+      "Indica que uma variável pode ser modificada por múltiplas threads",
+      "Marca uma variável constante",
+      "Define uma variável estática",
+      "Define um método abstrato"
+    ],
+    "answer": "Indica que uma variável pode ser modificada por múltiplas threads",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 181,
+    "question": "Qual das opções abaixo representa uma interface funcional com um método que recebe um valor e retorna um booleano?",
+    "options": ["Predicate<T>", "Consumer<T>", "Function<T, R>", "Supplier<T>"],
+    "answer": "Predicate<T>",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 182,
+    "question": "Qual é a saída do seguinte código?\n\n```java\nSystem.out.println(\"abc\" + 1 + 2);\n```",
+    "options": ["abc12", "abc3", "Erro", "abc 3"],
+    "answer": "abc12",
+    "difficulty": "médio"
+  },
+  {
+    "id": 183,
+    "question": "Qual palavra-chave em Java é usada para impedir que uma classe seja instanciada diretamente?",
+    "options": ["abstract", "final", "static", "private"],
+    "answer": "abstract",
+    "difficulty": "médio"
+  },
+  {
+    "id": 184,
+    "question": "O que é um 'Wrapper Class' em Java?",
+    "options": [
+      "Uma classe que encapsula um tipo primitivo em um objeto",
+      "Uma classe que representa uma interface funcional",
+      "Uma classe para manipulação de arquivos",
+      "Uma classe abstrata"
+    ],
+    "answer": "Uma classe que encapsula um tipo primitivo em um objeto",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 185,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nint[] arr = {1, 2, 3};\nSystem.out.println(arr[3]);\n```",
+    "options": ["Exception", "3", "0", "Erro de compilação"],
+    "answer": "Exception",
+    "difficulty": "médio"
+  },
+  {
+    "id": 186,
+    "question": "Qual método de interface permite percorrer elementos de uma coleção em Java?",
+    "options": ["Iterator", "Iterable", "Collection", "Enumeration"],
+    "answer": "Iterator",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 187,
+    "question": "Qual palavra-chave é usada para criar um loop que sempre executa pelo menos uma vez?",
+    "options": ["do-while", "while", "for", "foreach"],
+    "answer": "do-while",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 188,
+    "question": "Qual das opções abaixo não é um modificador de acesso em Java?",
+    "options": ["package", "public", "private", "protected"],
+    "answer": "package",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 189,
+    "question": "Qual das palavras-chave é usada para lançar uma exceção em Java?",
+    "options": ["throw", "throws", "try", "catch"],
+    "answer": "throw",
+    "difficulty": "médio"
+  },
+  {
+    "id": 190,
+    "question": "Qual é o significado da palavra-chave 'transient' em Java?",
+    "options": [
+      "Impede que um campo seja serializado",
+      "Impede que uma variável seja modificada",
+      "Marca uma variável como estática",
+      "Marca um método abstrato"
+    ],
+    "answer": "Impede que um campo seja serializado",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 191,
+    "question": "Qual é a diferença principal entre ArrayList e LinkedList em Java?",
+    "options": [
+      "ArrayList é baseado em array e tem acesso rápido por índice; LinkedList é baseado em nós encadeados",
+      "ArrayList é mais lento que LinkedList para acesso por índice",
+      "LinkedList não suporta operações de remoção",
+      "Não há diferença"
+    ],
+    "answer": "ArrayList é baseado em array e tem acesso rápido por índice; LinkedList é baseado em nós encadeados",
+    "difficulty": "médio"
+  },
+  {
+    "id": 192,
+    "question": "Qual método você usa para comparar objetos para igualdade de conteúdo em Java?",
+    "options": ["equals()", "==", "compareTo()", "hashCode()"],
+    "answer": "equals()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 193,
+    "question": "Qual classe Java é usada para manipular datas e horas a partir do Java 8?",
+    "options": ["LocalDateTime", "Date", "Calendar", "SimpleDateFormat"],
+    "answer": "LocalDateTime",
+    "difficulty": "médio"
+  },
+  {
+    "id": 194,
+    "question": "Qual palavra-chave é usada para herança em Java?",
+    "options": ["extends", "implements", "inherits", "super"],
+    "answer": "extends",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 195,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nint x = 5;\nSystem.out.println(++x);\n```",
+    "options": ["6", "5", "Erro", "7"],
+    "answer": "6",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 196,
+    "question": "Qual palavra-chave é usada para criar uma classe interna estática em Java?",
+    "options": ["static", "final", "abstract", "inner"],
+    "answer": "static",
+    "difficulty": "médio"
+  },
+  {
+    "id": 197,
+    "question": "Qual interface representa uma tarefa que pode ser executada e retornar um resultado em Java?",
+    "options": ["Callable", "Runnable", "Executor", "Thread"],
+    "answer": "Callable",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 198,
+    "question": "O que significa a palavra-chave 'synchronized' em Java?",
+    "options": [
+      "Garante que um método ou bloco seja acessado por apenas uma thread por vez",
+      "Indica que o método é estático",
+      "Define uma variável constante",
+      "Marca um método abstrato"
+    ],
+    "answer": "Garante que um método ou bloco seja acessado por apenas uma thread por vez",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 199,
+    "question": "Qual é o valor inicial padrão de uma variável do tipo boolean em Java?",
+    "options": ["false", "true", "null", "0"],
+    "answer": "false",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 200,
+    "question": "Qual método da classe String é usado para transformar todos os caracteres em minúsculo?",
+    "options": ["toLowerCase()", "toUpperCase()", "trim()", "substring()"],
+    "answer": "toLowerCase()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 201,
+    "question": "Qual das interfaces abaixo é usada para representar uma função que não recebe argumentos e retorna um valor?",
+    "options": ["Supplier<T>", "Consumer<T>", "Function<T, R>", "Predicate<T>"],
+    "answer": "Supplier<T>",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 202,
+    "question": "Qual das opções abaixo lança uma exceção verificada em Java?",
+    "options": ["IOException", "NullPointerException", "ArrayIndexOutOfBoundsException", "IllegalArgumentException"],
+    "answer": "IOException",
+    "difficulty": "médio"
+  },
+  {
+    "id": 203,
+    "question": "Como você converte uma String em um inteiro em Java?",
+    "options": ["Integer.parseInt()", "String.toInt()", "Integer.valueOf()", "parseInt()"],
+    "answer": "Integer.parseInt()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 204,
+    "question": "Qual é o propósito do método hashCode() em Java?",
+    "options": [
+      "Fornecer um código hash usado em coleções como HashMap",
+      "Comparar se dois objetos são iguais",
+      "Converter um objeto para String",
+      "Gerar números aleatórios"
+    ],
+    "answer": "Fornecer um código hash usado em coleções como HashMap",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 205,
+    "question": "Qual palavra-chave impede que um método seja sobrescrito em subclasses?",
+    "options": ["final", "static", "abstract", "private"],
+    "answer": "final",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 206,
+    "question": "Qual das opções abaixo é uma interface de coleção ordenada que não permite elementos duplicados?",
+    "options": ["Set", "List", "Queue", "Map"],
+    "answer": "Set",
+    "difficulty": "médio"
+  },
+  {
+    "id": 207,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nint[] arr = {1, 2, 3};\nfor (int i = 0; i < arr.length; i++) {\n  System.out.print(arr[i] + \" \");\n}\n```",
+    "options": ["1 2 3 ", "123", "Erro", "1,2,3"],
+    "answer": "1 2 3 ",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 208,
+    "question": "Qual operador é usado para verificar igualdade entre dois valores primitivos em Java?",
+    "options": ["==", "!=", "equals()", "==="],
+    "answer": "==",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 209,
+    "question": "Qual palavra-chave é usada para definir uma constante de classe em Java?",
+    "options": ["static final", "final", "const", "immutable"],
+    "answer": "static final",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 210,
+    "question": "Qual a saída do código abaixo?\n\n```java\nSystem.out.println(Math.pow(2, 3));\n```",
+    "options": ["8.0", "6", "9", "Erro"],
+    "answer": "8.0",
+    "difficulty": "médio"
+  },
+  {
+    "id": 211,
+    "question": "Qual o resultado da expressão: `5 + 3 * 2` em Java?",
+    "options": ["11", "16", "10", "Erro"],
+    "answer": "11",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 212,
+    "question": "O que significa a palavra-chave `this` em Java?",
+    "options": [
+      "Referência ao objeto atual",
+      "Referência à classe pai",
+      "Referência a uma variável local",
+      "Referência ao método atual"
+    ],
+    "answer": "Referência ao objeto atual",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 213,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nSystem.out.println(10 / 4);\n```",
+    "options": ["2", "2.5", "2.0", "Erro"],
+    "answer": "2",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 214,
+    "question": "Qual classe Java é usada para gerar números aleatórios?",
+    "options": ["Random", "Math", "NumberGenerator", "Generator"],
+    "answer": "Random",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 215,
+    "question": "Qual das seguintes estruturas não é um tipo de loop em Java?",
+    "options": ["foreach", "for", "while", "do-while"],
+    "answer": "foreach",
+    "difficulty": "médio"
+  },
+  {
+    "id": 216,
+    "question": "Qual palavra-chave é usada para criar um método que não pode ser sobrescrito?",
+    "options": ["final", "static", "abstract", "private"],
+    "answer": "final",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 217,
+    "question": "O que faz o operador `instanceof` em Java?",
+    "options": [
+      "Verifica se um objeto é instância de uma classe ou interface",
+      "Compara duas variáveis",
+      "Declara um objeto",
+      "Lança uma exceção"
+    ],
+    "answer": "Verifica se um objeto é instância de uma classe ou interface",
+    "difficulty": "médio"
+  },
+  {
+    "id": 218,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nString s = null;\nSystem.out.println(s + \"test\");\n```",
+    "options": ["nulltest", "test", "Erro", "null"],
+    "answer": "nulltest",
+    "difficulty": "médio"
+  },
+  {
+    "id": 219,
+    "question": "O que é Polimorfismo em Java?",
+    "options": [
+      "Capacidade de um objeto assumir muitas formas",
+      "Herança de classes",
+      "Ocultar dados internos",
+      "Classe abstrata"
+    ],
+    "answer": "Capacidade de um objeto assumir muitas formas",
+    "difficulty": "médio"
+  },
+  {
+    "id": 220,
+    "question": "Qual método é usado para iniciar uma thread em Java?",
+    "options": ["start()", "run()", "execute()", "init()"],
+    "answer": "start()",
+    "difficulty": "médio"
+  },
+  {
+    "id": 221,
+    "question": "Qual das seguintes opções NÃO é um tipo primitivo em Java?",
+    "options": ["int", "String", "boolean", "char"],
+    "answer": "String",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 222,
+    "question": "Qual palavra-chave é usada para tratar exceções em Java?",
+    "options": ["try", "throw", "catch", "try-catch"],
+    "answer": "try",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 223,
+    "question": "O que significa a palavra-chave `super` em Java?",
+    "options": [
+      "Chama o construtor ou método da superclasse",
+      "Cria uma nova instância",
+      "Define uma variável estática",
+      "Marca uma classe como abstrata"
+    ],
+    "answer": "Chama o construtor ou método da superclasse",
+    "difficulty": "médio"
+  },
+  {
+    "id": 224,
+    "question": "Qual classe é a raiz da hierarquia de classes em Java?",
+    "options": ["Object", "Class", "String", "System"],
+    "answer": "Object",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 225,
+    "question": "Qual método da classe String retorna o índice da primeira ocorrência de um caractere?",
+    "options": ["indexOf()", "lastIndexOf()", "contains()", "search()"],
+    "answer": "indexOf()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 226,
+    "question": "Qual das palavras-chave abaixo define uma interface em Java?",
+    "options": ["interface", "abstract", "class", "implements"],
+    "answer": "interface",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 227,
+    "question": "O que acontece quando você usa `break` dentro de um loop?",
+    "options": [
+      "Sai imediatamente do loop",
+      "Pula uma iteração do loop",
+      "Continua o loop normalmente",
+      "Reinicia o loop"
+    ],
+    "answer": "Sai imediatamente do loop",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 228,
+    "question": "Qual operador em Java é usado para realizar uma comparação de igualdade de objetos (não de referências)?",
+    "options": ["equals()", "==", "!=", "compareTo()"],
+    "answer": "equals()",
+    "difficulty": "médio"
+  },
+  {
+    "id": 229,
+    "question": "Qual o modificador que indica que uma variável não pode ser modificada após sua inicialização?",
+    "options": ["final", "static", "const", "immutable"],
+    "answer": "final",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 230,
+    "question": "Qual o resultado da expressão lógica: `true && false || true`?",
+    "options": ["true", "false", "Erro", "null"],
+    "answer": "true",
+    "difficulty": "médio"
+  },
+  {
+    "id": 231,
+    "question": "Qual é a saída do código:\n\n```java\nint a = 3;\nint b = 4;\nSystem.out.println(a > b ? a : b);\n```",
+    "options": ["4", "3", "true", "false"],
+    "answer": "4",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 232,
+    "question": "Qual método da classe `Math` retorna o valor absoluto de um número?",
+    "options": ["abs()", "absValue()", "absolute()", "valueOf()"],
+    "answer": "abs()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 233,
+    "question": "O que significa a palavra-chave `volatile` em Java?",
+    "options": [
+      "Indica que a variável pode ser acessada por múltiplas threads",
+      "Define uma variável constante",
+      "Marca um método estático",
+      "Indica uma variável local"
+    ],
+    "answer": "Indica que a variável pode ser acessada por múltiplas threads",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 234,
+    "question": "Qual das classes abaixo é usada para armazenar pares chave-valor em Java?",
+    "options": ["HashMap", "ArrayList", "LinkedList", "TreeSet"],
+    "answer": "HashMap",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 235,
+    "question": "O que acontece se você chamar o método `run()` diretamente em uma Thread ao invés de `start()`?",
+    "options": [
+      "O código é executado na thread atual, não criando uma nova",
+      "Uma nova thread é criada e executada",
+      "Erro de compilação",
+      "Erro em tempo de execução"
+    ],
+    "answer": "O código é executado na thread atual, não criando uma nova",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 236,
+    "question": "Qual palavra-chave é usada para herdar de uma superclasse em Java?",
+    "options": ["extends", "implements", "inherits", "super"],
+    "answer": "extends",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 237,
+    "question": "Como você converte uma String em um número inteiro em Java?",
+    "options": ["Integer.parseInt()", "String.toInt()", "Integer.valueOf()", "parseInt()"],
+    "answer": "Integer.parseInt()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 238,
+    "question": "Qual das palavras-chave abaixo é usada para criar um bloco que será sempre executado após try-catch?",
+    "options": ["finally", "final", "finalize", "catch"],
+    "answer": "finally",
+    "difficulty": "médio"
+  },
+  {
+    "id": 239,
+    "question": "Qual das opções abaixo NÃO é um tipo de exceção em Java?",
+    "options": ["Error", "Exception", "Throwable", "Warning"],
+    "answer": "Warning",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 240,
+    "question": "Qual é o modificador de acesso padrão em Java quando nenhum modificador é especificado?",
+    "options": ["package-private", "public", "private", "protected"],
+    "answer": "package-private",
+    "difficulty": "médio"
+  },
+  {
+    "id": 241,
+    "question": "O que faz o método `equalsIgnoreCase()` da classe String?",
+    "options": [
+      "Compara duas strings ignorando diferenças de maiúsculas e minúsculas",
+      "Compara duas strings considerando maiúsculas e minúsculas",
+      "Retorna o comprimento da string",
+      "Remove espaços da string"
+    ],
+    "answer": "Compara duas strings ignorando diferenças de maiúsculas e minúsculas",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 242,
+    "question": "Qual classe é usada para ler entrada do usuário no console em Java?",
+    "options": ["Scanner", "InputStream", "BufferedReader", "Console"],
+    "answer": "Scanner",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 243,
+    "question": "O que é um 'enum' em Java?",
+    "options": [
+      "Um tipo que define um conjunto fixo de constantes",
+      "Uma classe abstrata",
+      "Um tipo primitivo",
+      "Um método especial"
+    ],
+    "answer": "Um tipo que define um conjunto fixo de constantes",
+    "difficulty": "médio"
+  },
+  {
+    "id": 244,
+    "question": "Qual a saída do código:\n\n```java\nSystem.out.println(\"Java\".substring(1,3));\n```",
+    "options": ["av", "Ja", "va", "avj"],
+    "answer": "av",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 245,
+    "question": "Qual é o propósito do método `hashCode()` em Java?",
+    "options": [
+      "Retorna um código hash para o objeto, usado em coleções",
+      "Converte o objeto para String",
+      "Compara dois objetos",
+      "Gera números aleatórios"
+    ],
+    "answer": "Retorna um código hash para o objeto, usado em coleções",
+    "difficulty": "médio"
+  },
+  {
+    "id": 246,
+    "question": "Qual operador é usado para negar uma expressão booleana em Java?",
+    "options": ["!", "&&", "||", "^"],
+    "answer": "!",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 247,
+    "question": "Qual das interfaces abaixo representa uma tarefa que não retorna valor e não recebe parâmetros?",
+    "options": ["Runnable", "Callable", "Supplier", "Consumer"],
+    "answer": "Runnable",
+    "difficulty": "médio"
+  },
+  {
+    "id": 248,
+    "question": "O que faz o modificador `synchronized` em Java?",
+    "options": [
+      "Controla o acesso a métodos ou blocos por múltiplas threads",
+      "Marca um método estático",
+      "Impede que uma variável seja modificada",
+      "Define um método abstrato"
+    ],
+    "answer": "Controla o acesso a métodos ou blocos por múltiplas threads",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 249,
+    "question": "Qual a saída do código:\n\n```java\nSystem.out.println(5 + \"5\");\n```",
+    "options": ["55", "10", "Erro", "5 5"],
+    "answer": "55",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 250,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nint x = 10;\nint y = 20;\nSystem.out.println(x == y);\n```",
+    "options": ["false", "true", "Erro", "0"],
+    "answer": "false",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 251,
+    "question": "Qual dos seguintes tipos é usado para armazenar valores booleanos em Java?",
+    "options": ["boolean", "Boolean", "bool", "Bool"],
+    "answer": "boolean",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 252,
+    "question": "Qual palavra-chave é usada para criar uma interface em Java 8 que contenha métodos padrão?",
+    "options": ["default", "static", "abstract", "final"],
+    "answer": "default",
+    "difficulty": "médio"
+  },
+  {
+    "id": 253,
+    "question": "Qual das seguintes coleções mantém a ordem de inserção?",
+    "options": ["LinkedHashSet", "HashSet", "TreeSet", "HashMap"],
+    "answer": "LinkedHashSet",
+    "difficulty": "médio"
+  },
+  {
+    "id": 254,
+    "question": "O que o método `trim()` da classe String faz?",
+    "options": [
+      "Remove espaços em branco no início e no fim da string",
+      "Remove todos os espaços da string",
+      "Converte a string para minúsculas",
+      "Converte a string para maiúsculas"
+    ],
+    "answer": "Remove espaços em branco no início e no fim da string",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 255,
+    "question": "Qual das palavras-chave a seguir define uma variável que não pode ser modificada após sua inicialização?",
+    "options": ["final", "static", "const", "immutable"],
+    "answer": "final",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 256,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nint i = 0;\nwhile(i < 3) {\n  System.out.print(i);\n  i++;\n}\n```",
+    "options": ["012", "123", "0123", "Erro"],
+    "answer": "012",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 257,
+    "question": "O que faz o método `compareTo()` em Java?",
+    "options": [
+      "Compara dois objetos para ordenação",
+      "Compara igualdade",
+      "Calcula hashCode",
+      "Converte para String"
+    ],
+    "answer": "Compara dois objetos para ordenação",
+    "difficulty": "médio"
+  },
+  {
+    "id": 258,
+    "question": "Qual palavra-chave é usada para indicar que um método ou variável pertence à classe em vez de uma instância?",
+    "options": ["static", "final", "abstract", "public"],
+    "answer": "static",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 259,
+    "question": "O que acontece se uma exceção não for tratada em Java?",
+    "options": [
+      "O programa termina abruptamente",
+      "O programa continua normalmente",
+      "A exceção é ignorada",
+      "O programa entra em loop infinito"
+    ],
+    "answer": "O programa termina abruptamente",
+    "difficulty": "médio"
+  },
+  {
+    "id": 260,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nSystem.out.println(\"Hello\".length());\n```",
+    "options": ["5", "4", "6", "Erro"],
+    "answer": "5",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 261,
+    "question": "Qual palavra-chave é usada para criar uma classe que não pode ser estendida?",
+    "options": ["final", "abstract", "static", "private"],
+    "answer": "final",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 262,
+    "question": "Qual método é chamado automaticamente quando um objeto é convertido para String?",
+    "options": ["toString()", "hashCode()", "equals()", "compareTo()"],
+    "answer": "toString()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 263,
+    "question": "Qual é o valor padrão de uma variável do tipo int em Java?",
+    "options": ["0", "null", "1", "-1"],
+    "answer": "0",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 264,
+    "question": "Como você declara um array de inteiros com 5 posições em Java?",
+    "options": [
+      "int[] arr = new int[5];",
+      "int arr = new int[5];",
+      "int arr[] = 5;",
+      "int arr = [5];"
+    ],
+    "answer": "int[] arr = new int[5];",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 265,
+    "question": "O que significa a palavra-chave `implements` em Java?",
+    "options": [
+      "Uma classe implementa uma interface",
+      "Herança de uma superclasse",
+      "Criação de uma instância",
+      "Declaração de uma variável"
+    ],
+    "answer": "Uma classe implementa uma interface",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 266,
+    "question": "Qual das seguintes é uma classe imutável em Java?",
+    "options": ["String", "StringBuilder", "ArrayList", "HashMap"],
+    "answer": "String",
+    "difficulty": "médio"
+  },
+  {
+    "id": 267,
+    "question": "Qual das opções abaixo é correta para capturar múltiplas exceções em um único bloco catch (Java 7+)?",
+    "options": [
+      "catch (IOException | SQLException e)",
+      "catch (IOException & SQLException e)",
+      "catch (IOException, SQLException e)",
+      "catch (IOException SQLException e)"
+    ],
+    "answer": "catch (IOException | SQLException e)",
+    "difficulty": "médio"
+  },
+  {
+    "id": 268,
+    "question": "O que acontece se você não sobrescrever o método `equals()` em uma classe personalizada?",
+    "options": [
+      "O método `equals()` da classe Object será usado, que compara referências",
+      "Erro de compilação",
+      "O objeto não poderá ser criado",
+      "O método `equals()` será abstrato"
+    ],
+    "answer": "O método `equals()` da classe Object será usado, que compara referências",
+    "difficulty": "médio"
+  },
+  {
+    "id": 269,
+    "question": "Qual é o modificador que permite que uma variável seja acessada apenas dentro da mesma classe?",
+    "options": ["private", "public", "protected", "default"],
+    "answer": "private",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 270,
+    "question": "Qual o nome do processo pelo qual um método em uma subclasse substitui o método da superclasse?",
+    "options": ["Overriding", "Overloading", "Encapsulation", "Polymorphism"],
+    "answer": "Overriding",
+    "difficulty": "médio"
+  },
+  {
+    "id": 271,
+    "question": "Qual é o nome do processo pelo qual vários métodos têm o mesmo nome, mas parâmetros diferentes?",
+    "options": ["Overloading", "Overriding", "Encapsulation", "Inheritance"],
+    "answer": "Overloading",
+    "difficulty": "médio"
+  },
+  {
+    "id": 272,
+    "question": "Qual palavra-chave é usada para acessar o construtor da superclasse?",
+    "options": ["super", "this", "parent", "base"],
+    "answer": "super",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 273,
+    "question": "Qual classe é usada para manipular exceções verificadas relacionadas a operações de arquivo?",
+    "options": ["IOException", "SQLException", "NullPointerException", "FileNotFoundException"],
+    "answer": "IOException",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 274,
+    "question": "Qual dos seguintes não é um tipo de exceção em Java?",
+    "options": ["RuntimeException", "CheckedException", "LogicalException", "Error"],
+    "answer": "LogicalException",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 275,
+    "question": "Qual método da interface List remove o elemento na posição especificada?",
+    "options": ["remove(int index)", "delete(int index)", "removeElement(int index)", "discard(int index)"],
+    "answer": "remove(int index)",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 276,
+    "question": "Qual das seguintes coleções permite elementos duplicados?",
+    "options": ["List", "Set", "Map", "Queue"],
+    "answer": "List",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 277,
+    "question": "Qual classe em Java é usada para ler texto de um arquivo?",
+    "options": ["BufferedReader", "Scanner", "FileReader", "FileWriter"],
+    "answer": "BufferedReader",
+    "difficulty": "médio"
+  },
+  {
+    "id": 278,
+    "question": "Qual palavra-chave define que um método não pode ser chamado diretamente, mas deve ser implementado por subclasses?",
+    "options": ["abstract", "final", "static", "private"],
+    "answer": "abstract",
+    "difficulty": "médio"
+  },
+  {
+    "id": 279,
+    "question": "O que faz o método `System.gc()` em Java?",
+    "options": [
+      "Solicita ao Garbage Collector para realizar coleta de lixo",
+      "Cria uma nova instância",
+      "Finaliza o programa",
+      "Aloca memória para um objeto"
+    ],
+    "answer": "Solicita ao Garbage Collector para realizar coleta de lixo",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 280,
+    "question": "Qual o resultado da expressão: `\"5\" + 3 + 2` em Java?",
+    "options": ["532", "10", "55", "Erro"],
+    "answer": "532",
+    "difficulty": "médio"
+  },
+  {
+    "id": 281,
+    "question": "O que significa o termo 'boxing' em Java?",
+    "options": [
+      "Conversão automática de tipos primitivos para objetos wrapper",
+      "Conversão de String para int",
+      "Declaração de uma variável",
+      "Conversão de objetos para arrays"
+    ],
+    "answer": "Conversão automática de tipos primitivos para objetos wrapper",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 282,
+    "question": "Qual dos seguintes não é um modificador de acesso válido em Java?",
+    "options": ["protected", "private", "public", "internal"],
+    "answer": "internal",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 283,
+    "question": "Qual classe do pacote java.util é usada para armazenar pares chave-valor ordenados por chave?",
+    "options": ["TreeMap", "HashMap", "LinkedHashMap", "Hashtable"],
+    "answer": "TreeMap",
+    "difficulty": "médio"
+  },
+  {
+    "id": 284,
+    "question": "Qual palavra-chave define um bloco que é executado independentemente se uma exceção foi lançada ou não?",
+    "options": ["finally", "catch", "try", "throw"],
+    "answer": "finally",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 285,
+    "question": "Qual é o método principal para criar uma thread usando a interface Runnable?",
+    "options": ["run()", "start()", "execute()", "init()"],
+    "answer": "run()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 286,
+    "question": "O que faz o método `notify()` em Java?",
+    "options": [
+      "Acorda uma thread que está esperando em um objeto",
+      "Inicia uma nova thread",
+      "Para uma thread",
+      "Cria um novo objeto"
+    ],
+    "answer": "Acorda uma thread que está esperando em um objeto",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 287,
+    "question": "Qual das seguintes opções é um exemplo de herança múltipla em Java?",
+    "options": [
+      "Java não suporta herança múltipla de classes, mas suporta múltiplas interfaces",
+      "Uma classe estende várias classes",
+      "Uma interface estende várias classes",
+      "Nenhuma das anteriores"
+    ],
+    "answer": "Java não suporta herança múltipla de classes, mas suporta múltiplas interfaces",
+    "difficulty": "médio"
+  },
+  {
+    "id": 288,
+    "question": "Qual método é usado para interromper uma thread em Java?",
+    "options": ["interrupt()", "stop()", "destroy()", "exit()"],
+    "answer": "interrupt()",
+    "difficulty": "médio"
+  },
+  {
+    "id": 289,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nSystem.out.println(\"Java\".charAt(2));\n```",
+    "options": ["v", "a", "J", "Erro"],
+    "answer": "v",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 290,
+    "question": "Qual palavra-chave é usada para declarar um bloco de código que pode lançar uma exceção?",
+    "options": ["throws", "throw", "try", "catch"],
+    "answer": "throws",
+    "difficulty": "médio"
+  },
+  {
+    "id": 291,
+    "question": "O que significa encapsulamento em programação orientada a objetos?",
+    "options": [
+      "Ocultar os detalhes internos e expor apenas a interface necessária",
+      "Herança de métodos",
+      "Polimorfismo de classes",
+      "Abstração de métodos"
+    ],
+    "answer": "Ocultar os detalhes internos e expor apenas a interface necessária",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 292,
+    "question": "Qual método da classe String é usado para comparar duas strings lexicograficamente?",
+    "options": ["compareTo()", "equals()", "contains()", "startsWith()"],
+    "answer": "compareTo()",
+    "difficulty": "médio"
+  },
+  {
+    "id": 293,
+    "question": "Qual dos seguintes é um método estático da classe Math que retorna o menor valor entre dois números?",
+    "options": ["min()", "max()", "abs()", "ceil()"],
+    "answer": "min()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 294,
+    "question": "Qual o resultado da expressão `true || false && false` em Java?",
+    "options": ["true", "false", "Erro", "null"],
+    "answer": "true",
+    "difficulty": "médio"
+  },
+  {
+    "id": 295,
+    "question": "O que significa a palavra-chave `native` em Java?",
+    "options": [
+      "Indica que um método é implementado em código nativo (fora do Java)",
+      "Marca um método como estático",
+      "Define um método abstrato",
+      "Define uma variável constante"
+    ],
+    "answer": "Indica que um método é implementado em código nativo (fora do Java)",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 296,
+    "question": "Qual das seguintes opções não é uma classe de coleção em Java?",
+    "options": ["HashMap", "ArrayList", "String", "LinkedList"],
+    "answer": "String",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 297,
+    "question": "O que é um construtor em Java?",
+    "options": [
+      "Um método especial usado para inicializar objetos",
+      "Um método que retorna um valor",
+      "Uma variável",
+      "Um tipo de exceção"
+    ],
+    "answer": "Um método especial usado para inicializar objetos",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 298,
+    "question": "Qual palavra-chave é usada para herdar múltiplas interfaces em uma classe Java?",
+    "options": ["implements", "extends", "inherits", "uses"],
+    "answer": "implements",
+    "difficulty": "médio"
+  },
+  {
+    "id": 299,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nint x = 5;\nSystem.out.println(x++);\n```",
+    "options": ["5", "6", "Erro", "7"],
+    "answer": "5",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 300,
+    "question": "Qual a diferença entre ArrayList e Vector em Java?",
+    "options": [
+      "Vector é sincronizado, ArrayList não",
+      "ArrayList é sincronizado, Vector não",
+      "Não há diferença",
+      "Vector é mais rápido que ArrayList"
+    ],
+    "answer": "Vector é sincronizado, ArrayList não",
+    "difficulty": "médio"
+  },
+  {
+    "id": 301,
+    "question": "O que faz o método `wait()` em Java?",
+    "options": [
+      "Coloca a thread atual em espera até ser notificada",
+      "Inicia uma nova thread",
+      "Para uma thread",
+      "Cria um novo objeto"
+    ],
+    "answer": "Coloca a thread atual em espera até ser notificada",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 302,
+    "question": "Qual operador em Java é usado para o operador lógico 'E'?",
+    "options": ["&&", "||", "!", "^"],
+    "answer": "&&",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 303,
+    "question": "Qual dos seguintes não é um tipo de dado primitivo em Java?",
+    "options": ["boolean", "char", "String", "int"],
+    "answer": "String",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 304,
+    "question": "Qual palavra-chave é usada para criar uma exceção personalizada em Java?",
+    "options": ["extends Exception", "implements Exception", "extends Throwable", "implements Throwable"],
+    "answer": "extends Exception",
+    "difficulty": "médio"
+  },
+  {
+    "id": 305,
+    "question": "Qual método da classe String é usado para substituir uma substring por outra?",
+    "options": ["replace()", "replaceAll()", "replaceFirst()", "substitute()"],
+    "answer": "replace()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 306,
+    "question": "Qual classe Java representa uma exceção que ocorre quando uma divisão por zero é feita?",
+    "options": ["ArithmeticException", "NullPointerException", "NumberFormatException", "IOException"],
+    "answer": "ArithmeticException",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 307,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nint[] arr = {1, 2, 3};\nSystem.out.println(arr.length);\n```",
+    "options": ["3", "2", "Erro", "0"],
+    "answer": "3",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 308,
+    "question": "Qual palavra-chave é usada para criar um método que não possui corpo em Java?",
+    "options": ["abstract", "final", "static", "native"],
+    "answer": "abstract",
+    "difficulty": "médio"
+  },
+  {
+    "id": 309,
+    "question": "Qual das seguintes coleções é ordenada e não permite duplicatas?",
+    "options": ["TreeSet", "HashSet", "ArrayList", "LinkedList"],
+    "answer": "TreeSet",
+    "difficulty": "médio"
+  },
+  {
+    "id": 310,
+    "question": "Qual operador em Java é usado para verificar se dois objetos são exatamente o mesmo objeto na memória?",
+    "options": ["==", "equals()", "!=", "compareTo()"],
+    "answer": "==",
+    "difficulty": "médio"
+  },
+  {
+    "id": 311,
+    "question": "Qual é o modificador de acesso que permite acesso apenas dentro do mesmo pacote?",
+    "options": ["package-private (default)", "public", "private", "protected"],
+    "answer": "package-private (default)",
+    "difficulty": "médio"
+  },
+  {
+    "id": 312,
+    "question": "Qual palavra-chave é usada para garantir que um método possa ser sobrescrito por subclasses?",
+    "options": ["Não há palavra-chave; métodos são sobrescritíveis por padrão", "final", "static", "abstract"],
+    "answer": "Não há palavra-chave; métodos são sobrescritíveis por padrão",
+    "difficulty": "médio"
+  },
+  {
+    "id": 313,
+    "question": "Qual das seguintes interfaces Java representa uma coleção que não permite elementos duplicados?",
+    "options": ["Set", "List", "Queue", "Map"],
+    "answer": "Set",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 314,
+    "question": "Qual o valor padrão de um objeto (por exemplo, String) em Java quando não inicializado?",
+    "options": ["null", "0", "\"\"", "undefined"],
+    "answer": "null",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 315,
+    "question": "Qual método da classe `Thread` inicia a execução de uma thread?",
+    "options": ["start()", "run()", "execute()", "init()"],
+    "answer": "start()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 316,
+    "question": "O que acontece se um bloco `try` não tiver um bloco `catch` ou `finally`?",
+    "options": ["Erro de compilação", "O código funciona normalmente", "Ignora o bloco try", "Executa catch automaticamente"],
+    "answer": "Erro de compilação",
+    "difficulty": "médio"
+  },
+  {
+    "id": 317,
+    "question": "Qual palavra-chave em Java é usada para herdar uma classe?",
+    "options": ["extends", "implements", "inherits", "super"],
+    "answer": "extends",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 318,
+    "question": "O que a palavra-chave `static` significa para um método ou variável?",
+    "options": [
+      "Pertence à classe, não a instâncias",
+      "Não pode ser modificado",
+      "É abstrato",
+      "É privado"
+    ],
+    "answer": "Pertence à classe, não a instâncias",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 319,
+    "question": "Qual é o propósito do método `hashCode()` em Java?",
+    "options": [
+      "Fornecer um código hash para objetos usados em coleções",
+      "Converter objetos em strings",
+      "Verificar igualdade",
+      "Ordenar objetos"
+    ],
+    "answer": "Fornecer um código hash para objetos usados em coleções",
+    "difficulty": "médio"
+  },
+  {
+    "id": 320,
+    "question": "Qual palavra-chave é usada para impedir que uma classe seja herdada?",
+    "options": ["final", "abstract", "static", "sealed"],
+    "answer": "final",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 321,
+    "question": "Qual é o resultado da expressão: `10 / 3` em Java (considerando variáveis do tipo int)?",
+    "options": ["3", "3.3333", "Erro", "4"],
+    "answer": "3",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 322,
+    "question": "O que faz o operador `&&` em Java?",
+    "options": ["Operador lógico AND", "Operador lógico OR", "Negação lógica", "Comparação de igualdade"],
+    "answer": "Operador lógico AND",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 323,
+    "question": "Qual método da classe `String` retorna o comprimento da string?",
+    "options": ["length()", "size()", "count()", "length"],
+    "answer": "length()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 324,
+    "question": "Qual das seguintes é uma classe abstrata na API Java?",
+    "options": ["AbstractList", "ArrayList", "LinkedList", "HashMap"],
+    "answer": "AbstractList",
+    "difficulty": "médio"
+  },
+  {
+    "id": 325,
+    "question": "O que significa o modificador `final` quando aplicado a um método?",
+    "options": [
+      "O método não pode ser sobrescrito em subclasses",
+      "O método é estático",
+      "O método não pode ser chamado",
+      "O método é abstrato"
+    ],
+    "answer": "O método não pode ser sobrescrito em subclasses",
+    "difficulty": "médio"
+  },
+  {
+    "id": 326,
+    "question": "Qual das interfaces abaixo possui o método `call()` que retorna um valor?",
+    "options": ["Callable", "Runnable", "Supplier", "Function"],
+    "answer": "Callable",
+    "difficulty": "médio"
+  },
+  {
+    "id": 327,
+    "question": "Como você cria uma instância de uma classe em Java?",
+    "options": [
+      "Usando o operador new",
+      "Usando o operador create",
+      "Usando o operador make",
+      "Usando o operador instantiate"
+    ],
+    "answer": "Usando o operador new",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 328,
+    "question": "Qual palavra-chave define uma exceção em Java que deve ser tratada obrigatoriamente?",
+    "options": ["checked exception", "unchecked exception", "error", "runtime exception"],
+    "answer": "checked exception",
+    "difficulty": "médio"
+  },
+  {
+    "id": 329,
+    "question": "Qual dos métodos abaixo é chamado para liberar recursos ou limpar antes de um objeto ser destruído?",
+    "options": ["finalize()", "destroy()", "cleanup()", "dispose()"],
+    "answer": "finalize()",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 330,
+    "question": "Qual é o método principal que inicia a execução de um programa Java?",
+    "options": [
+      "public static void main(String[] args)",
+      "public void main(String[] args)",
+      "public static void start(String[] args)",
+      "main()"
+    ],
+    "answer": "public static void main(String[] args)",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 331,
+    "question": "Qual das seguintes opções NÃO é uma classe wrapper para tipos primitivos em Java?",
+    "options": ["Integer", "Boolean", "Character", "StringBuilder"],
+    "answer": "StringBuilder",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 332,
+    "question": "Qual palavra-chave é usada para lançar uma exceção explicitamente em Java?",
+    "options": ["throw", "throws", "try", "catch"],
+    "answer": "throw",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 333,
+    "question": "Qual método da classe `Collections` é usado para ordenar uma lista?",
+    "options": ["sort()", "order()", "arrange()", "orderBy()"],
+    "answer": "sort()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 334,
+    "question": "O que acontece se você tentar acessar um índice inválido em um array em Java?",
+    "options": [
+      "Lança uma ArrayIndexOutOfBoundsException",
+      "Retorna null",
+      "Retorna 0",
+      "Erro de compilação"
+    ],
+    "answer": "Lança uma ArrayIndexOutOfBoundsException",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 335,
+    "question": "Qual das seguintes palavras-chave pode ser usada para criar uma variável constante em Java?",
+    "options": ["final", "const", "immutable", "static"],
+    "answer": "final",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 336,
+    "question": "Qual classe em Java é usada para criar listas que podem crescer dinamicamente?",
+    "options": ["ArrayList", "LinkedList", "Vector", "Todas as anteriores"],
+    "answer": "Todas as anteriores",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 337,
+    "question": "Qual das interfaces abaixo é funcional, possuindo um único método abstrato?",
+    "options": ["Runnable", "Comparator", "Iterable", "Serializable"],
+    "answer": "Runnable",
+    "difficulty": "médio"
+  },
+  {
+    "id": 338,
+    "question": "Qual método é usado para converter uma string para um inteiro em Java?",
+    "options": ["Integer.parseInt()", "String.toInt()", "Integer.valueOf()", "parseInt()"],
+    "answer": "Integer.parseInt()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 339,
+    "question": "Qual palavra-chave em Java é usada para indicar que um método não pode ser chamado diretamente, mas deve ser implementado por subclasses?",
+    "options": ["abstract", "final", "static", "private"],
+    "answer": "abstract",
+    "difficulty": "médio"
+  },
+  {
+    "id": 340,
+    "question": "Qual dos seguintes é um mecanismo para proteger os dados em uma classe?",
+    "options": ["Encapsulamento", "Herança", "Polimorfismo", "Abstração"],
+    "answer": "Encapsulamento",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 341,
+    "question": "Qual é o tipo primitivo usado para armazenar valores de ponto flutuante de dupla precisão?",
+    "options": ["double", "float", "decimal", "long"],
+    "answer": "double",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 342,
+    "question": "Qual das seguintes classes permite modificar strings de forma eficiente?",
+    "options": ["StringBuilder", "String", "StringBuffer", "StringUtils"],
+    "answer": "StringBuilder",
+    "difficulty": "médio"
+  },
+  {
+    "id": 343,
+    "question": "Qual é o resultado do código abaixo?\n\n```java\nSystem.out.println(10 % 3);\n```",
+    "options": ["1", "3", "0", "Erro"],
+    "answer": "1",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 344,
+    "question": "O que significa a palavra-chave `transient` em Java?",
+    "options": [
+      "Indica que um campo não deve ser serializado",
+      "Indica um método temporário",
+      "Define uma variável local",
+      "Marca um método como temporário"
+    ],
+    "answer": "Indica que um campo não deve ser serializado",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 345,
+    "question": "Qual classe Java é usada para criar mapas sincronizados?",
+    "options": ["Hashtable", "HashMap", "TreeMap", "LinkedHashMap"],
+    "answer": "Hashtable",
+    "difficulty": "médio"
+  },
+  {
+    "id": 346,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nint a = 5;\nint b = 10;\nSystem.out.println(a > b ? a : b);\n```",
+    "options": ["10", "5", "true", "false"],
+    "answer": "10",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 347,
+    "question": "Qual é o tipo de dado para armazenar um caractere em Java?",
+    "options": ["char", "Character", "String", "byte"],
+    "answer": "char",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 348,
+    "question": "Qual palavra-chave é usada para definir uma constante estática em Java?",
+    "options": ["static final", "const", "final static", "immutable"],
+    "answer": "static final",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 349,
+    "question": "Qual método é usado para comparar se dois objetos são iguais em Java?",
+    "options": ["equals()", "==", "compareTo()", "equalsIgnoreCase()"],
+    "answer": "equals()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 350,
+    "question": "Qual das opções abaixo representa a hierarquia correta da POO?",
+    "options": ["Abstração -> Encapsulamento -> Herança -> Polimorfismo", "Herança -> Polimorfismo -> Encapsulamento -> Abstração", "Polimorfismo -> Herança -> Encapsulamento -> Abstração", "Encapsulamento -> Herança -> Abstração -> Polimorfismo"],
+    "answer": "Abstração -> Encapsulamento -> Herança -> Polimorfismo",
+    "difficulty": "médio"
+  },
+  {
+    "id": 351,
+    "question": "O que acontece quando um método é declarado com o modificador `synchronized`?",
+    "options": [
+      "Só permite uma thread executar o método por vez",
+      "Método é chamado automaticamente",
+      "Método não pode ser sobrescrito",
+      "Método é estático"
+    ],
+    "answer": "Só permite uma thread executar o método por vez",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 352,
+    "question": "Qual das seguintes classes é usada para representar números grandes e precisos em Java?",
+    "options": ["BigDecimal", "Double", "Float", "Integer"],
+    "answer": "BigDecimal",
+    "difficulty": "médio"
+  },
+  {
+    "id": 353,
+    "question": "Qual palavra-chave é usada para herdar uma interface em outra interface?",
+    "options": ["extends", "implements", "inherits", "uses"],
+    "answer": "extends",
+    "difficulty": "médio"
+  },
+  {
+    "id": 354,
+    "question": "Qual o resultado do seguinte código?\n\n```java\nint x = 10;\nint y = 20;\nint z = x > y ? x : y;\nSystem.out.println(z);\n```",
+    "options": ["20", "10", "Erro", "0"],
+    "answer": "20",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 355,
+    "question": "Qual das seguintes coleções permite acesso rápido por índice?",
+    "options": ["ArrayList", "LinkedList", "HashSet", "TreeSet"],
+    "answer": "ArrayList",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 356,
+    "question": "Qual a saída do código abaixo?\n\n```java\nString s = \"Java\";\ns = s.toUpperCase();\nSystem.out.println(s);\n```",
+    "options": ["JAVA", "java", "JaVa", "Erro"],
+    "answer": "JAVA",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 357,
+    "question": "Qual dos seguintes métodos converte um objeto para sua representação em string?",
+    "options": ["toString()", "equals()", "hashCode()", "compareTo()"],
+    "answer": "toString()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 358,
+    "question": "Qual é a palavra-chave usada para declarar uma classe interna estática?",
+    "options": ["static", "final", "abstract", "inner"],
+    "answer": "static",
+    "difficulty": "médio"
+  },
+  {
+    "id": 359,
+    "question": "Qual é a saída do seguinte código?\n\n```java\nSystem.out.println(3 + 4 + \"5\");\n```",
+    "options": ["75", "345", "12", "Erro"],
+    "answer": "75",
+    "difficulty": "médio"
+  },
+  {
+    "id": 360,
+    "question": "Qual dos seguintes é um exemplo de encapsulamento em Java?",
+    "options": [
+      "Declarar variáveis privadas com getters e setters públicos",
+      "Herança entre classes",
+      "Polimorfismo de métodos",
+      "Definir classes abstratas"
+    ],
+    "answer": "Declarar variáveis privadas com getters e setters públicos",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 361,
+    "question": "Qual é a função do operador `instanceof` em Java?",
+    "options": [
+      "Verificar se um objeto é uma instância de uma classe ou interface",
+      "Criar uma nova instância",
+      "Converter tipos primitivos",
+      "Invocar um método"
+    ],
+    "answer": "Verificar se um objeto é uma instância de uma classe ou interface",
+    "difficulty": "médio"
+  },
+  {
+    "id": 362,
+    "question": "Qual dos seguintes métodos é usado para comparar o conteúdo de duas strings ignorando maiúsculas e minúsculas?",
+    "options": [
+      "equalsIgnoreCase()",
+      "equals()",
+      "compareToIgnoreCase()",
+      "compareTo()"
+    ],
+    "answer": "equalsIgnoreCase()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 363,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nint x = 10;\nint y = ++x;\nSystem.out.println(y);\n```",
+    "options": ["11", "10", "Erro", "9"],
+    "answer": "11",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 364,
+    "question": "Qual interface funcional é usada para representar uma função que recebe um argumento e retorna um resultado?",
+    "options": [
+      "Function<T, R>",
+      "Supplier<T>",
+      "Consumer<T>",
+      "Predicate<T>"
+    ],
+    "answer": "Function<T, R>",
+    "difficulty": "médio"
+  },
+  {
+    "id": 365,
+    "question": "Em Java, o que representa a palavra-chave `this`?",
+    "options": [
+      "Referência para o objeto atual",
+      "Referência para a superclasse",
+      "Um método estático",
+      "Um construtor"
+    ],
+    "answer": "Referência para o objeto atual",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 366,
+    "question": "Qual método é usado para adicionar um elemento a um ArrayList?",
+    "options": [
+      "add()",
+      "insert()",
+      "append()",
+      "put()"
+    ],
+    "answer": "add()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 367,
+    "question": "Qual das palavras-chave abaixo é usada para criar uma classe anônima em Java?",
+    "options": [
+      "new",
+      "class",
+      "abstract",
+      "interface"
+    ],
+    "answer": "new",
+    "difficulty": "médio"
+  },
+  {
+    "id": 368,
+    "question": "Qual exceção é lançada quando se tenta acessar um índice inválido em uma lista?",
+    "options": [
+      "IndexOutOfBoundsException",
+      "NullPointerException",
+      "IllegalArgumentException",
+      "ClassCastException"
+    ],
+    "answer": "IndexOutOfBoundsException",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 369,
+    "question": "Qual a finalidade do modificador `volatile` em Java?",
+    "options": [
+      "Garantir visibilidade imediata de mudanças em variáveis compartilhadas entre threads",
+      "Impedir que uma variável seja modificada",
+      "Marcar um método como estático",
+      "Impedir herança de classes"
+    ],
+    "answer": "Garantir visibilidade imediata de mudanças em variáveis compartilhadas entre threads",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 370,
+    "question": "Qual método da classe String é usado para verificar se uma string termina com um sufixo específico?",
+    "options": [
+      "endsWith()",
+      "startsWith()",
+      "contains()",
+      "equals()"
+    ],
+    "answer": "endsWith()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 371,
+    "question": "O que significa a palavra-chave `synchronized` em um método Java?",
+    "options": [
+      "Permite que apenas uma thread execute o método por vez",
+      "Marca o método como abstrato",
+      "Indica que o método não pode ser sobrescrito",
+      "Define que o método é estático"
+    ],
+    "answer": "Permite que apenas uma thread execute o método por vez",
+    "difficulty": "médio"
+  },
+  {
+    "id": 372,
+    "question": "Qual classe Java é usada para mapear pares chave-valor e permite acesso rápido aos valores?",
+    "options": [
+      "HashMap",
+      "ArrayList",
+      "LinkedList",
+      "HashSet"
+    ],
+    "answer": "HashMap",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 373,
+    "question": "Qual palavra-chave é usada para lançar uma exceção em Java?",
+    "options": [
+      "throw",
+      "throws",
+      "try",
+      "catch"
+    ],
+    "answer": "throw",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 374,
+    "question": "Qual método é chamado para iniciar a execução de um thread em Java?",
+    "options": [
+      "start()",
+      "run()",
+      "init()",
+      "execute()"
+    ],
+    "answer": "start()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 375,
+    "question": "Qual palavra-chave em Java define uma variável que não pode ter seu valor modificado após a inicialização?",
+    "options": [
+      "final",
+      "const",
+      "immutable",
+      "static"
+    ],
+    "answer": "final",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 376,
+    "question": "Qual operador é usado para comparação de igualdade entre objetos em Java?",
+    "options": [
+      "equals()",
+      "==",
+      "!=",
+      "compareTo()"
+    ],
+    "answer": "equals()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 377,
+    "question": "O que significa 'polimorfismo' em programação orientada a objetos?",
+    "options": [
+      "Capacidade de um objeto assumir várias formas",
+      "Encapsulamento de dados",
+      "Herança de métodos",
+      "Ocultar dados"
+    ],
+    "answer": "Capacidade de um objeto assumir várias formas",
+    "difficulty": "médio"
+  },
+  {
+    "id": 378,
+    "question": "Qual é o método da classe Object usado para comparar objetos para igualdade de conteúdo?",
+    "options": [
+      "equals()",
+      "hashCode()",
+      "compareTo()",
+      "toString()"
+    ],
+    "answer": "equals()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 379,
+    "question": "Qual a finalidade do operador `?:` em Java?",
+    "options": [
+      "Operador ternário condicional",
+      "Operador lógico E",
+      "Operador de negação",
+      "Operador de incremento"
+    ],
+    "answer": "Operador ternário condicional",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 380,
+    "question": "Qual pacote Java contém a maioria das classes fundamentais, como String, Math e Integer?",
+    "options": [
+      "java.lang",
+      "java.util",
+      "java.io",
+      "java.net"
+    ],
+    "answer": "java.lang",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 381,
+    "question": "Qual é a finalidade do método `equals()` em Java?",
+    "options": [
+      "Comparar se dois objetos são semanticamente iguais",
+      "Converter um objeto em string",
+      "Comparar referências de objeto",
+      "Criar uma nova instância"
+    ],
+    "answer": "Comparar se dois objetos são semanticamente iguais",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 382,
+    "question": "Qual dos seguintes é um tipo primitivo em Java?",
+    "options": [
+      "int",
+      "String",
+      "Integer",
+      "Double"
+    ],
+    "answer": "int",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 383,
+    "question": "O que acontece quando você tenta acessar uma posição inválida de um array em Java?",
+    "options": [
+      "Lança ArrayIndexOutOfBoundsException",
+      "Retorna null",
+      "Retorna 0",
+      "Nada acontece"
+    ],
+    "answer": "Lança ArrayIndexOutOfBoundsException",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 384,
+    "question": "Qual das seguintes palavras-chave define uma classe abstrata em Java?",
+    "options": [
+      "abstract",
+      "final",
+      "static",
+      "public"
+    ],
+    "answer": "abstract",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 385,
+    "question": "Qual dos seguintes é um modificador de acesso em Java?",
+    "options": [
+      "private",
+      "secure",
+      "hidden",
+      "locked"
+    ],
+    "answer": "private",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 386,
+    "question": "Qual método é chamado para converter um objeto em uma representação textual?",
+    "options": [
+      "toString()",
+      "print()",
+      "show()",
+      "display()"
+    ],
+    "answer": "toString()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 387,
+    "question": "Qual é a saída do seguinte código?\n\n```java\nSystem.out.println(\"Hello\" + 10 + 20);\n```",
+    "options": [
+      "Hello1020",
+      "Hello30",
+      "Erro",
+      "Hello 10 20"
+    ],
+    "answer": "Hello1020",
+    "difficulty": "médio"
+  },
+  {
+    "id": 388,
+    "question": "O que significa a palavra-chave `super` em Java?",
+    "options": [
+      "Referência à superclasse imediata",
+      "Variável estática",
+      "Classe abstrata",
+      "Método estático"
+    ],
+    "answer": "Referência à superclasse imediata",
+    "difficulty": "médio"
+  },
+  {
+    "id": 389,
+    "question": "Qual é o resultado da operação `5 & 3` em Java?",
+    "options": [
+      "1",
+      "7",
+      "0",
+      "Erro"
+    ],
+    "answer": "1",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 390,
+    "question": "Qual é o tipo de exceção gerada por operações inválidas em tempo de execução, como divisão por zero?",
+    "options": [
+      "RuntimeException",
+      "IOException",
+      "SQLException",
+      "Error"
+    ],
+    "answer": "RuntimeException",
+    "difficulty": "médio"
+  },
+  {
+    "id": 391,
+    "question": "Qual palavra-chave é usada para implementar uma interface em uma classe?",
+    "options": ["implements", "extends", "inherits", "imports"],
+    "answer": "implements",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 392,
+    "question": "O que acontece se uma classe não implementar todos os métodos de uma interface?",
+    "options": ["A classe deve ser declarada abstract", "A classe compila normalmente", "O código lança exceção em runtime", "A interface é ignorada"],
+    "answer": "A classe deve ser declarada abstract",
+    "difficulty": "médio"
+  },
+  {
+    "id": 393,
+    "question": "Qual método é usado para obter o número de elementos em uma ArrayList?",
+    "options": ["size()", "length()", "count()", "getLength()"],
+    "answer": "size()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 394,
+    "question": "Qual palavra-chave indica que um método pode lançar uma exceção?",
+    "options": ["throws", "throw", "try", "catch"],
+    "answer": "throws",
+    "difficulty": "médio"
+  },
+  {
+    "id": 395,
+    "question": "Qual é o resultado do seguinte código?\n\n```java\nSystem.out.println(5 + 3 * 2);\n```",
+    "options": ["11", "16", "13", "Erro"],
+    "answer": "11",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 396,
+    "question": "Qual das seguintes classes não é parte do pacote java.util?",
+    "options": ["Scanner", "ArrayList", "File", "HashMap"],
+    "answer": "File",
+    "difficulty": "médio"
+  },
+  {
+    "id": 397,
+    "question": "Qual método é usado para converter um inteiro em String?",
+    "options": ["String.valueOf()", "Integer.toString()", "toString()", "parseInt()"],
+    "answer": "String.valueOf()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 398,
+    "question": "O que significa o modificador 'abstract' em Java?",
+    "options": [
+      "A classe ou método não pode ser instanciado diretamente",
+      "O método é privado",
+      "A classe é final",
+      "O método é estático"
+    ],
+    "answer": "A classe ou método não pode ser instanciado diretamente",
+    "difficulty": "médio"
+  },
+  {
+    "id": 399,
+    "question": "Qual operador é usado para fazer a negação lógica em Java?",
+    "options": ["!", "&&", "||", "~"],
+    "answer": "!",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 400,
+    "question": "Qual método da classe String remove espaços em branco no início e no fim da string?",
+    "options": ["trim()", "strip()", "clean()", "remove()"],
+    "answer": "trim()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 401,
+    "question": "Qual das opções abaixo é uma exceção verificada (checked exception)?",
+    "options": ["IOException", "NullPointerException", "ArithmeticException", "ArrayIndexOutOfBoundsException"],
+    "answer": "IOException",
+    "difficulty": "médio"
+  },
+  {
+    "id": 402,
+    "question": "O que significa a palavra-chave 'super' em um construtor?",
+    "options": [
+      "Chama o construtor da superclasse",
+      "Declara um método da superclasse",
+      "Acessa uma variável estática",
+      "Invoca o método principal"
+    ],
+    "answer": "Chama o construtor da superclasse",
+    "difficulty": "médio"
+  },
+  {
+    "id": 403,
+    "question": "Qual a saída do código abaixo?\n\n```java\nSystem.out.println(\"Java\".charAt(2));\n```",
+    "options": ["v", "a", "J", "Error"],
+    "answer": "v",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 404,
+    "question": "Qual classe Java é usada para ler dados da entrada padrão (teclado)?",
+    "options": ["Scanner", "InputStream", "BufferedReader", "Console"],
+    "answer": "Scanner",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 405,
+    "question": "Qual das opções abaixo é verdadeira para uma variável estática (static)?",
+    "options": [
+      "Pertence à classe e não a instâncias",
+      "Pertence à instância da classe",
+      "Não pode ser acessada fora da classe",
+      "Só pode ser inicializada no construtor"
+    ],
+    "answer": "Pertence à classe e não a instâncias",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 406,
+    "question": "Qual das seguintes palavras-chave impede a modificação de um método?",
+    "options": ["final", "static", "abstract", "synchronized"],
+    "answer": "final",
+    "difficulty": "médio"
+  },
+  {
+    "id": 407,
+    "question": "Qual dos seguintes tipos primitivos usa 8 bits em Java?",
+    "options": ["byte", "int", "short", "long"],
+    "answer": "byte",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 408,
+    "question": "Qual é o tipo padrão para números decimais em Java?",
+    "options": ["double", "float", "decimal", "int"],
+    "answer": "double",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 409,
+    "question": "Qual a saída do código abaixo?\n\n```java\nint x = 5;\nSystem.out.println(++x);\n```",
+    "options": ["6", "5", "Erro", "7"],
+    "answer": "6",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 410,
+    "question": "Qual das opções abaixo NÃO é um conceito fundamental da Programação Orientada a Objetos?",
+    "options": ["Compilação", "Encapsulamento", "Herança", "Polimorfismo"],
+    "answer": "Compilação",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 411,
+    "question": "Qual é a função do método `compareTo()` em Java?",
+    "options": [
+      "Comparar dois objetos para ordenação",
+      "Verificar igualdade",
+      "Converter objeto em string",
+      "Calcular hash"
+    ],
+    "answer": "Comparar dois objetos para ordenação",
+    "difficulty": "médio"
+  },
+  {
+    "id": 412,
+    "question": "O que acontece quando uma exceção não é tratada em Java?",
+    "options": [
+      "O programa termina abruptamente",
+      "O programa ignora a exceção",
+      "A exceção é registrada, mas o programa continua",
+      "A exceção é convertida em erro"
+    ],
+    "answer": "O programa termina abruptamente",
+    "difficulty": "médio"
+  },
+  {
+    "id": 413,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nSystem.out.println(\"5\" + 5);\n```",
+    "options": ["55", "10", "Erro", "5 5"],
+    "answer": "55",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 414,
+    "question": "Qual a saída do código abaixo?\n\n```java\nSystem.out.println(5 + 5 + \"5\");\n```",
+    "options": ["105", "55", "10", "Erro"],
+    "answer": "105",
+    "difficulty": "médio"
+  },
+  {
+    "id": 415,
+    "question": "Qual é o tipo da variável que pode armazenar o valor booleano verdadeiro ou falso?",
+    "options": ["boolean", "Boolean", "bool", "int"],
+    "answer": "boolean",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 416,
+    "question": "O que acontece se um método não retorna valor em Java?",
+    "options": [
+      "Ele deve ser declarado como void",
+      "Ele retorna null automaticamente",
+      "O código não compila",
+      "O método é considerado abstrato"
+    ],
+    "answer": "Ele deve ser declarado como void",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 417,
+    "question": "Qual é a forma correta de declarar um array de inteiros em Java?",
+    "options": [
+      "int[] arr;",
+      "int arr[];",
+      "Ambas estão corretas",
+      "Nenhuma está correta"
+    ],
+    "answer": "Ambas estão corretas",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 418,
+    "question": "Qual das opções abaixo representa um loop que executa enquanto a condição for verdadeira?",
+    "options": ["while", "for", "do-while", "switch"],
+    "answer": "while",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 419,
+    "question": "Qual dos seguintes tipos é uma classe wrapper para o tipo primitivo 'char'?",
+    "options": ["Character", "Char", "CharWrapper", "String"],
+    "answer": "Character",
+    "difficulty": "médio"
+  },
+  {
+    "id": 420,
+    "question": "Qual classe permite manipulação de arquivos em Java?",
+    "options": ["File", "Buffer", "Stream", "Socket"],
+    "answer": "File",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 421,
+    "question": "Qual é o modificador padrão de acesso quando nenhum modificador é especificado?",
+    "options": [
+      "package-private",
+      "public",
+      "private",
+      "protected"
+    ],
+    "answer": "package-private",
+    "difficulty": "médio"
+  },
+  {
+    "id": 422,
+    "question": "Qual método é usado para iniciar a execução de um programa Java?",
+    "options": [
+      "public static void main(String[] args)",
+      "public void main()",
+      "static void start()",
+      "public start()"
+    ],
+    "answer": "public static void main(String[] args)",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 423,
+    "question": "Qual é o resultado da operação bit a bit AND entre 5 (0101) e 3 (0011)?",
+    "options": ["1", "7", "3", "0"],
+    "answer": "1",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 424,
+    "question": "O que é polimorfismo em Java?",
+    "options": [
+      "A habilidade de uma variável referenciar objetos de diferentes tipos",
+      "Encapsulamento de dados",
+      "Herança entre classes",
+      "Exceções em tempo de execução"
+    ],
+    "answer": "A habilidade de uma variável referenciar objetos de diferentes tipos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 425,
+    "question": "Qual das seguintes opções é um exemplo válido de declaração de uma variável em Java?",
+    "options": [
+      "int numero = 10;",
+      "int numero := 10;",
+      "int numero == 10;",
+      "int numero => 10;"
+    ],
+    "answer": "int numero = 10;",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 426,
+    "question": "Qual é a palavra-chave para criar uma exceção personalizada em Java?",
+    "options": [
+      "extends Exception",
+      "implements Exception",
+      "throws Exception",
+      "try Exception"
+    ],
+    "answer": "extends Exception",
+    "difficulty": "médio"
+  },
+  {
+    "id": 427,
+    "question": "Qual dos seguintes tipos de dados tem maior capacidade de armazenamento?",
+    "options": [
+      "long",
+      "int",
+      "short",
+      "byte"
+    ],
+    "answer": "long",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 428,
+    "question": "Qual classe em Java representa um fluxo de dados para entrada de bytes?",
+    "options": [
+      "InputStream",
+      "OutputStream",
+      "Reader",
+      "Writer"
+    ],
+    "answer": "InputStream",
+    "difficulty": "médio"
+  },
+  {
+    "id": 429,
+    "question": "Qual método é usado para interromper um thread em Java (não recomendado)?",
+    "options": [
+      "stop()",
+      "interrupt()",
+      "pause()",
+      "exit()"
+    ],
+    "answer": "stop()",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 430,
+    "question": "O que significa a sigla JDK?",
+    "options": [
+      "Java Development Kit",
+      "Java Debugger Kit",
+      "Java Deployment Kit",
+      "Java Design Kit"
+    ],
+    "answer": "Java Development Kit",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 431,
+    "question": "Qual método da classe String permite substituir caracteres ou sequências por outras?",
+    "options": [
+      "replace()",
+      "change()",
+      "swap()",
+      "update()"
+    ],
+    "answer": "replace()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 432,
+    "question": "Qual é a forma correta de escrever um comentário de múltiplas linhas em Java?",
+    "options": [
+      "/* comentário */",
+      "// comentário",
+      "<!-- comentário -->",
+      "# comentário"
+    ],
+    "answer": "/* comentário */",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 433,
+    "question": "Qual interface Java permite o uso de streams para manipulação funcional de coleções?",
+    "options": [
+      "Stream",
+      "Iterable",
+      "Collection",
+      "Comparator"
+    ],
+    "answer": "Stream",
+    "difficulty": "médio"
+  },
+  {
+    "id": 434,
+    "question": "Qual o modificador para criar uma constante de classe em Java?",
+    "options": [
+      "static final",
+      "const",
+      "final",
+      "immutable"
+    ],
+    "answer": "static final",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 435,
+    "question": "Qual dos seguintes tipos é um tipo primitivo em Java?",
+    "options": [
+      "float",
+      "String",
+      "Integer",
+      "Double"
+    ],
+    "answer": "float",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 436,
+    "question": "Qual palavra-chave define um bloco que sempre será executado após um bloco try/catch?",
+    "options": [
+      "finally",
+      "final",
+      "finalize",
+      "end"
+    ],
+    "answer": "finally",
+    "difficulty": "médio"
+  },
+  {
+    "id": 437,
+    "question": "Qual dos seguintes é um exemplo válido de declaração de método em Java?",
+    "options": [
+      "public int soma(int a, int b) { return a + b; }",
+      "int soma public(int a, int b) { return a + b; }",
+      "public soma(int a, int b) { return a + b; }",
+      "int public soma(int a, int b) { return a + b; }"
+    ],
+    "answer": "public int soma(int a, int b) { return a + b; }",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 438,
+    "question": "Qual a saída do código abaixo?\n\n```java\nString s = null;\nSystem.out.println(s + \"Java\");\n```",
+    "options": [
+      "nullJava",
+      "Java",
+      "Erro de compilação",
+      "Erro em tempo de execução"
+    ],
+    "answer": "nullJava",
+    "difficulty": "médio"
+  },
+  {
+    "id": 439,
+    "question": "Qual é o nome da JVM que é utilizada para executar código Java?",
+    "options": [
+      "HotSpot",
+      "JRE",
+      "JDK",
+      "JVM Basic"
+    ],
+    "answer": "HotSpot",
+    "difficulty": "médio"
+  },
+  {
+    "id": 440,
+    "question": "Qual palavra-chave é usada para criar um bloco de código que será executado em segundo plano em Java?",
+    "options": [
+      "thread",
+      "Runnable",
+      "async",
+      "background"
+    ],
+    "answer": "Runnable",
+    "difficulty": "médio"
+  },
+  {
+    "id": 441,
+    "question": "Qual é a função do método `wait()` em Java?",
+    "options": [
+      "Faz a thread liberar o bloqueio e esperar uma notificação",
+      "Suspende a execução da thread por um tempo fixo",
+      "Interrompe a thread",
+      "Inicia uma nova thread"
+    ],
+    "answer": "Faz a thread liberar o bloqueio e esperar uma notificação",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 442,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nSystem.out.println((int) 'A');\n```",
+    "options": [
+      "65",
+      "97",
+      "0",
+      "Erro"
+    ],
+    "answer": "65",
+    "difficulty": "médio"
+  },
+  {
+    "id": 443,
+    "question": "O que significa a palavra-chave `native` em Java?",
+    "options": [
+      "Declara um método implementado em código nativo (ex: C/C++)",
+      "Declara um método abstrato",
+      "Indica que um método é sincronizado",
+      "Define uma variável constante"
+    ],
+    "answer": "Declara um método implementado em código nativo (ex: C/C++)",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 444,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nSystem.out.println(Math.max(3, 7));\n```",
+    "options": [
+      "7",
+      "3",
+      "Erro",
+      "0"
+    ],
+    "answer": "7",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 445,
+    "question": "Qual classe Java é usada para gerar números aleatórios?",
+    "options": [
+      "Random",
+      "Math",
+      "Scanner",
+      "Number"
+    ],
+    "answer": "Random",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 446,
+    "question": "Qual operador é usado para concatenar strings em Java?",
+    "options": [
+      "+",
+      "&",
+      "concat",
+      "||"
+    ],
+    "answer": "+",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 447,
+    "question": "Qual o valor da expressão `10 / 4` em Java (considerando variáveis do tipo int)?",
+    "options": [
+      "2",
+      "2.5",
+      "3",
+      "Erro"
+    ],
+    "answer": "2",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 448,
+    "question": "O que significa a palavra-chave `transient` em Java?",
+    "options": [
+      "Indica que o campo não deve ser serializado",
+      "Define uma variável constante",
+      "Marca um método para execução paralela",
+      "Indica que o campo é estático"
+    ],
+    "answer": "Indica que o campo não deve ser serializado",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 449,
+    "question": "Qual é a saída do código abaixo?\n\n```java\nSystem.out.println(\"Java\".substring(1, 3));\n```",
+    "options": [
+      "av",
+      "Ja",
+      "avJ",
+      "Error"
+    ],
+    "answer": "av",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 450,
+    "question": "Qual palavra-chave é usada para tratar exceções em Java?",
+    "options": [
+      "try",
+      "catch",
+      "throw",
+      "handle"
+    ],
+    "answer": "try",
+    "difficulty": "fácil"
+  }
+]

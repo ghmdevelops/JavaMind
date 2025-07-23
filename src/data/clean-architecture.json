@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "question": "Quem é o autor do conceito de Clean Architecture?",
+    "options": ["Robert C. Martin", "Martin Fowler", "Kent Beck", "Grady Booch"],
+    "answer": "Robert C. Martin",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 2,
+    "question": "Qual camada está no centro da Clean Architecture?",
+    "options": [
+      "Entidades (Entities)",
+      "Interface do usuário",
+      "Banco de dados",
+      "Serviços externos"
+    ],
+    "answer": "Entidades (Entities)",
+    "difficulty": "médio"
+  },
+  {
+    "id": 3,
+    "question": "Na Clean Architecture, as dependências sempre apontam para:",
+    "options": [
+      "Dentro das camadas internas",
+      "Camadas externas",
+      "Banco de dados",
+      "Interface gráfica"
+    ],
+    "answer": "Dentro das camadas internas",
+    "difficulty": "médio"
+  },
+  {
+    "id": 4,
+    "question": "Qual é o objetivo da separação de camadas na Clean Architecture?",
+    "options": [
+      "Manter o código desacoplado e fácil de testar",
+      "Melhorar a performance",
+      "Reduzir o número de classes",
+      "Aumentar o uso de frameworks"
+    ],
+    "answer": "Manter o código desacoplado e fácil de testar",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 5,
+    "question": "O que é uma entidade na Clean Architecture?",
+    "options": [
+      "Objeto do domínio com regras de negócio",
+      "Interface de usuário",
+      "Banco de dados",
+      "Framework externo"
+    ],
+    "answer": "Objeto do domínio com regras de negócio",
+    "difficulty": "médio"
+  },
+  {
+    "id": 6,
+    "question": "Qual princípio da Clean Architecture ajuda a controlar as dependências entre módulos?",
+    "options": [
+      "Princípio da Inversão de Dependência",
+      "Princípio da Responsabilidade Única",
+      "Princípio Aberto/Fechado",
+      "Princípio da Segregação de Interface"
+    ],
+    "answer": "Princípio da Inversão de Dependência",
+    "difficulty": "médio"
+  },
+  {
+    "id": 7,
+    "question": "O que representa a camada de casos de uso na Clean Architecture?",
+    "options": [
+      "Regras específicas da aplicação",
+      "Banco de dados",
+      "Interface do usuário",
+      "Configuração do servidor"
+    ],
+    "answer": "Regras específicas da aplicação",
+    "difficulty": "médio"
+  },
+  {
+    "id": 8,
+    "question": "Na Clean Architecture, a camada externa pode depender da camada interna? ",
+    "options": [
+      "Sim, mas nunca o contrário",
+      "Não, depende apenas da camada externa",
+      "Sim, em ambos os sentidos",
+      "Não há camadas na Clean Architecture"
+    ],
+    "answer": "Sim, mas nunca o contrário",
+    "difficulty": "médio"
+  },
+  {
+    "id": 9,
+    "question": "Qual ferramenta auxilia a manter a separação de responsabilidades na Clean Architecture?",
+    "options": [
+      "Interfaces e abstrações",
+      "Banco de dados relacional",
+      "Frameworks frontend",
+      "Scripts automatizados"
+    ],
+    "answer": "Interfaces e abstrações",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 10,
+    "question": "Qual é um dos benefícios de usar Clean Architecture?",
+    "options": [
+      "Código mais modular e fácil de modificar",
+      "Maior acoplamento entre módulos",
+      "Código menos testável",
+      "Dificulta a manutenção"
+    ],
+    "answer": "Código mais modular e fácil de modificar",
+    "difficulty": "fácil"
+  }
+]

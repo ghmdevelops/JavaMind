@@ -1,0 +1,4742 @@
+[
+  {
+    "id": 1,
+    "question": "Qual versão do Java introduziu o 'var' para inferência de tipos locais?",
+    "options": ["Java 8", "Java 10", "Java 11", "Java 14"],
+    "answer": "Java 10",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 2,
+    "question": "O que é o Spring Boot?",
+    "options": [
+      "Um servidor web",
+      "Um framework para facilitar o desenvolvimento Spring com configuração mínima",
+      "Um banco de dados",
+      "Uma ferramenta de build"
+    ],
+    "answer": "Um framework para facilitar o desenvolvimento Spring com configuração mínima",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 3,
+    "question": "Qual padrão arquitetural promove a separação de responsabilidades em camadas com comunicação unidirecional e independência das tecnologias externas?",
+    "options": ["MVC", "Arquitetura Hexagonal", "Microkernel", "Client-Server"],
+    "answer": "Arquitetura Hexagonal",
+    "difficulty": "médio"
+  },
+  {
+    "id": 4,
+    "question": "No Apache Camel, qual componente é usado para definir rotas de integração?",
+    "options": ["Endpoint", "RouteBuilder", "Processor", "Bean"],
+    "answer": "RouteBuilder",
+    "difficulty": "médio"
+  },
+  {
+    "id": 5,
+    "question": "O que o Quarkus busca otimizar para aplicações Java?",
+    "options": [
+      "Tempo de compilação e memória em containers",
+      "Velocidade do banco de dados",
+      "UI do usuário",
+      "Gerenciamento de dependências"
+    ],
+    "answer": "Tempo de compilação e memória em containers",
+    "difficulty": "médio"
+  },
+  {
+    "id": 6,
+    "question": "Qual tecnologia é usada no Camunda para modelar processos de negócio?",
+    "options": ["BPMN", "UML", "REST", "SOAP"],
+    "answer": "BPMN",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 7,
+    "question": "Para que serve o Grafana em ambientes de desenvolvimento e produção?",
+    "options": [
+      "Monitoramento e visualização de métricas",
+      "Gerenciamento de bancos de dados",
+      "Deploy de aplicações",
+      "Controle de versão"
+    ],
+    "answer": "Monitoramento e visualização de métricas",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 8,
+    "question": "O que é um pipeline CI/CD?",
+    "options": [
+      "Sequência automatizada de etapas para build, teste e deploy",
+      "Backup manual de código",
+      "Sistema de monitoramento",
+      "Editor de texto"
+    ],
+    "answer": "Sequência automatizada de etapas para build, teste e deploy",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 9,
+    "question": "Qual o propósito do GitHub Actions?",
+    "options": [
+      "Automatizar workflows como build, teste e deploy",
+      "Gerenciar branches do Git",
+      "Editar código fonte",
+      "Monitorar servidores"
+    ],
+    "answer": "Automatizar workflows como build, teste e deploy",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 10,
+    "question": "Qual dos princípios SOLID está relacionado à responsabilidade única?",
+    "options": [
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Liskov Substitution Principle",
+      "Interface Segregation Principle"
+    ],
+    "answer": "Single Responsibility Principle",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 11,
+    "question": "Na arquitetura hexagonal, qual termo descreve os adaptadores que ligam a aplicação ao mundo externo?",
+    "options": [
+      "Ports",
+      "Adapters",
+      "Services",
+      "Controllers"
+    ],
+    "answer": "Adapters",
+    "difficulty": "médio"
+  },
+  {
+    "id": 12,
+    "question": "Qual comando do Git é usado para criar uma nova branch?",
+    "options": [
+      "git branch <nome>",
+      "git checkout <nome>",
+      "git commit",
+      "git merge"
+    ],
+    "answer": "git branch <nome>",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 13,
+    "question": "O que é telemetria em sistemas distribuídos?",
+    "options": [
+      "Coleta automatizada de dados operacionais para análise",
+      "Deploy manual de sistemas",
+      "Backup de dados",
+      "Monitoramento visual"
+    ],
+    "answer": "Coleta automatizada de dados operacionais para análise",
+    "difficulty": "médio"
+  },
+  {
+    "id": 14,
+    "question": "O que o Kibana permite fazer em uma stack ELK?",
+    "options": [
+      "Visualizar e analisar logs e métricas",
+      "Enviar emails automáticos",
+      "Gerenciar containers",
+      "Executar testes automatizados"
+    ],
+    "answer": "Visualizar e analisar logs e métricas",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 15,
+    "question": "Qual tecnologia da Red Hat é usada para orquestração de containers?",
+    "options": [
+      "OpenShift",
+      "Kubernetes",
+      "Docker Swarm",
+      "Mesos"
+    ],
+    "answer": "OpenShift",
+    "difficulty": "médio"
+  },
+  {
+    "id": 16,
+    "question": "O que caracteriza a cultura DevOps?",
+    "options": [
+      "Integração entre desenvolvimento e operações para entrega contínua",
+      "Separação rígida entre times",
+      "Foco apenas em operações",
+      "Somente deploy manual"
+    ],
+    "answer": "Integração entre desenvolvimento e operações para entrega contínua",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 17,
+    "question": "No AWS, qual serviço é usado para orquestrar containers Docker?",
+    "options": [
+      "Amazon ECS",
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "answer": "Amazon ECS",
+    "difficulty": "médio"
+  },
+  {
+    "id": 18,
+    "question": "Qual é o novo recurso do Java 17 relacionado a pattern matching?",
+    "options": [
+      "Pattern Matching para instanceof",
+      "Records",
+      "Switch Expressions",
+      "Text Blocks"
+    ],
+    "answer": "Pattern Matching para instanceof",
+    "difficulty": "médio"
+  },
+  {
+    "id": 19,
+    "question": "Qual é o objetivo do princípio Open/Closed do SOLID?",
+    "options": [
+      "Software aberto para extensão, mas fechado para modificação",
+      "Código aberto para todos",
+      "Software fechado para todos",
+      "Evitar herança"
+    ],
+    "answer": "Software aberto para extensão, mas fechado para modificação",
+    "difficulty": "médio"
+  },
+  {
+    "id": 20,
+    "question": "Qual comando Git é usado para unir uma branch ao branch atual?",
+    "options": [
+      "git merge",
+      "git rebase",
+      "git pull",
+      "git checkout"
+    ],
+    "answer": "git merge",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 21,
+    "question": "Qual recurso do Java 11 facilita o tratamento de strings multilinha?",
+    "options": [
+      "Text Blocks",
+      "Lambdas",
+      "Records",
+      "Modules"
+    ],
+    "answer": "Text Blocks",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 22,
+    "question": "Em DevOps, o que significa infraestrutura como código (IaC)?",
+    "options": [
+      "Gerenciar infraestrutura por meio de arquivos de configuração automatizados",
+      "Gerenciar servidores manualmente",
+      "Monitorar redes",
+      "Fazer backup automático"
+    ],
+    "answer": "Gerenciar infraestrutura por meio de arquivos de configuração automatizados",
+    "difficulty": "médio"
+  },
+  {
+    "id": 23,
+    "question": "Qual ferramenta é usada para automação de pipelines e integração contínua em Java?",
+    "options": [
+      "Jenkins",
+      "Docker",
+      "Kubernetes",
+      "Grafana"
+    ],
+    "answer": "Jenkins",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 24,
+    "question": "O que a arquitetura hexagonal visa evitar em sistemas de software?",
+    "options": [
+      "Dependência direta de frameworks externos",
+      "Uso de testes automatizados",
+      "Modularização de código",
+      "Uso de design patterns"
+    ],
+    "answer": "Dependência direta de frameworks externos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 25,
+    "question": "O que faz o padrão de projeto Singleton?",
+    "options": [
+      "Garantir uma única instância de uma classe",
+      "Criar múltiplas instâncias",
+      "Separar responsabilidades",
+      "Definir interfaces"
+    ],
+    "answer": "Garantir uma única instância de uma classe",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 26,
+    "question": "No Spring, qual anotação é usada para injetar dependências automaticamente?",
+    "options": [
+      "@Autowired",
+      "@Inject",
+      "@Service",
+      "@Component"
+    ],
+    "answer": "@Autowired",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 27,
+    "question": "Qual recurso do Java 21 traz melhorias para gerenciamento de memória e segurança?",
+    "options": [
+      "Scoped Values",
+      "Records",
+      "Sealed Classes",
+      "Pattern Matching"
+    ],
+    "answer": "Scoped Values",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 28,
+    "question": "Qual das seguintes práticas é recomendada para monitoração eficiente?",
+    "options": [
+      "Coletar métricas relevantes e configurar alertas",
+      "Ignorar logs antigos",
+      "Monitorar somente em produção",
+      "Não usar dashboards"
+    ],
+    "answer": "Coletar métricas relevantes e configurar alertas",
+    "difficulty": "médio"
+  },
+  {
+    "id": 29,
+    "question": "O que é um microserviço?",
+    "options": [
+      "Uma pequena aplicação independente e focada em um negócio específico",
+      "Um tipo de banco de dados",
+      "Um framework Java",
+      "Um padrão de design"
+    ],
+    "answer": "Uma pequena aplicação independente e focada em um negócio específico",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 30,
+    "question": "Qual dos seguintes não é um benefício do uso do Kubernetes/OpenShift?",
+    "options": [
+      "Gerenciamento automático de containers",
+      "Escalabilidade facilitada",
+      "Alta disponibilidade",
+      "Desenvolvimento de interfaces gráficas"
+    ],
+    "answer": "Desenvolvimento de interfaces gráficas",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 31,
+    "question": "Qual comando do Maven é usado para compilar um projeto Java?",
+    "options": ["mvn compile", "mvn package", "mvn test", "mvn clean"],
+    "answer": "mvn compile",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 32,
+    "question": "O que é o Garbage Collector no Java?",
+    "options": [
+      "Um mecanismo para liberar memória automaticamente",
+      "Uma ferramenta de debug",
+      "Uma API para manipular arquivos",
+      "Um framework de testes"
+    ],
+    "answer": "Um mecanismo para liberar memória automaticamente",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 33,
+    "question": "Qual recurso do Java 17 permite criar classes imutáveis com menos código?",
+    "options": ["Records", "Enums", "Annotations", "Interfaces funcionais"],
+    "answer": "Records",
+    "difficulty": "médio"
+  },
+  {
+    "id": 34,
+    "question": "O que é o princípio Liskov Substitution no SOLID?",
+    "options": [
+      "Subtipos devem ser substituíveis pelos seus tipos base",
+      "Classes devem ter uma única responsabilidade",
+      "Interfaces devem ser específicas",
+      "Código deve estar aberto para extensão"
+    ],
+    "answer": "Subtipos devem ser substituíveis pelos seus tipos base",
+    "difficulty": "médio"
+  },
+  {
+    "id": 35,
+    "question": "Qual comando do Docker cria e inicia um container?",
+    "options": ["docker run", "docker build", "docker stop", "docker ps"],
+    "answer": "docker run",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 36,
+    "question": "No contexto de testes, o que é Mockito?",
+    "options": [
+      "Uma biblioteca para criar mocks em testes unitários",
+      "Uma ferramenta de deploy",
+      "Um servidor de aplicação",
+      "Um framework web"
+    ],
+    "answer": "Uma biblioteca para criar mocks em testes unitários",
+    "difficulty": "médio"
+  },
+  {
+    "id": 37,
+    "question": "Qual anotação do Spring é usada para definir um controlador REST?",
+    "options": ["@RestController", "@Controller", "@Service", "@Repository"],
+    "answer": "@RestController",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 38,
+    "question": "O que é um 'Bean' no contexto do Spring Framework?",
+    "options": [
+      "Objeto gerenciado pelo container Spring",
+      "Uma função estática",
+      "Um arquivo de configuração",
+      "Uma interface"
+    ],
+    "answer": "Objeto gerenciado pelo container Spring",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 39,
+    "question": "Qual dos seguintes é um benefício do uso do OpenShift?",
+    "options": [
+      "Automação e gerenciamento de containers com Kubernetes",
+      "Hospedagem gratuita de sites estáticos",
+      "Compilação de código Java",
+      "Banco de dados relacional"
+    ],
+    "answer": "Automação e gerenciamento de containers com Kubernetes",
+    "difficulty": "médio"
+  },
+  {
+    "id": 40,
+    "question": "Em CI/CD, o que significa 'blue-green deployment'?",
+    "options": [
+      "Estratégia para trocar entre duas versões da aplicação para minimizar downtime",
+      "Criar dois bancos de dados",
+      "Deploy manual",
+      "Monitorar logs"
+    ],
+    "answer": "Estratégia para trocar entre duas versões da aplicação para minimizar downtime",
+    "difficulty": "médio"
+  },
+  {
+    "id": 41,
+    "question": "No Quarkus, o que é o 'live reload'?",
+    "options": [
+      "Recarregamento automático da aplicação durante desenvolvimento",
+      "Compilação offline",
+      "Deploy em produção",
+      "Testes automatizados"
+    ],
+    "answer": "Recarregamento automático da aplicação durante desenvolvimento",
+    "difficulty": "médio"
+  },
+  {
+    "id": 42,
+    "question": "Qual tipo de teste é realizado para verificar se diferentes partes do sistema funcionam juntas?",
+    "options": [
+      "Teste de integração",
+      "Teste unitário",
+      "Teste de carga",
+      "Teste de sistema"
+    ],
+    "answer": "Teste de integração",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 43,
+    "question": "No Git, qual comando reverte um commit específico?",
+    "options": ["git revert", "git reset", "git checkout", "git merge"],
+    "answer": "git revert",
+    "difficulty": "médio"
+  },
+  {
+    "id": 44,
+    "question": "O que significa 'idempotência' em APIs REST?",
+    "options": [
+      "Que a mesma requisição pode ser feita várias vezes sem alterar o resultado",
+      "Que a API suporta múltiplos usuários",
+      "Que a API é rápida",
+      "Que a API está documentada"
+    ],
+    "answer": "Que a mesma requisição pode ser feita várias vezes sem alterar o resultado",
+    "difficulty": "médio"
+  },
+  {
+    "id": 45,
+    "question": "Qual conceito do DevOps enfatiza o feedback rápido e colaboração contínua?",
+    "options": [
+      "Integração Contínua (CI)",
+      "Infraestrutura como Código",
+      "Monitoramento",
+      "Deploy Manual"
+    ],
+    "answer": "Integração Contínua (CI)",
+    "difficulty": "médio"
+  },
+  {
+    "id": 46,
+    "question": "Qual é o objetivo da arquitetura de microserviços?",
+    "options": [
+      "Dividir a aplicação em serviços pequenos, independentes e escaláveis",
+      "Criar um sistema monolítico",
+      "Utilizar bancos de dados não relacionais",
+      "Fazer deploy manual"
+    ],
+    "answer": "Dividir a aplicação em serviços pequenos, independentes e escaláveis",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 47,
+    "question": "Qual é o papel do 'Service Registry' em uma arquitetura de microserviços?",
+    "options": [
+      "Registrar e localizar serviços para comunicação entre eles",
+      "Armazenar dados do usuário",
+      "Gerenciar logs",
+      "Configurar firewalls"
+    ],
+    "answer": "Registrar e localizar serviços para comunicação entre eles",
+    "difficulty": "médio"
+  },
+  {
+    "id": 48,
+    "question": "Qual comando Git é usado para baixar as alterações remotas para o repositório local?",
+    "options": ["git pull", "git push", "git fetch", "git clone"],
+    "answer": "git pull",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 49,
+    "question": "Qual componente do Spring é responsável por mapear URLs para métodos de controladores?",
+    "options": [
+      "@RequestMapping",
+      "@Autowired",
+      "@Component",
+      "@Bean"
+    ],
+    "answer": "@RequestMapping",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 50,
+    "question": "Qual é o principal benefício de usar Containers (ex: Docker)?",
+    "options": [
+      "Isolamento e portabilidade de aplicações",
+      "Melhorar a interface do usuário",
+      "Acelerar a compilação",
+      "Gerenciar banco de dados"
+    ],
+    "answer": "Isolamento e portabilidade de aplicações",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 51,
+    "question": "O que significa 'Shift Left' em DevOps e testes?",
+    "options": [
+      "Mover testes e qualidade para fases iniciais do desenvolvimento",
+      "Mover produção para ambientes de teste",
+      "Fazer deploy mais tarde",
+      "Fazer testes manuais"
+    ],
+    "answer": "Mover testes e qualidade para fases iniciais do desenvolvimento",
+    "difficulty": "médio"
+  },
+  {
+    "id": 52,
+    "question": "Em Java 11, qual método facilita a leitura de arquivos em uma única linha?",
+    "options": [
+      "Files.readString()",
+      "FileInputStream.read()",
+      "BufferedReader.readLine()",
+      "Scanner.nextLine()"
+    ],
+    "answer": "Files.readString()",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 53,
+    "question": "Qual das opções é uma prática recomendada para aumentar a segurança em aplicações Java Spring?",
+    "options": [
+      "Usar Spring Security para autenticação e autorização",
+      "Guardar senhas em texto puro",
+      "Desativar HTTPS",
+      "Usar senhas fracas"
+    ],
+    "answer": "Usar Spring Security para autenticação e autorização",
+    "difficulty": "médio"
+  },
+  {
+    "id": 54,
+    "question": "Qual é o objetivo da ferramenta Prometheus em monitoração?",
+    "options": [
+      "Coletar e armazenar métricas de aplicações",
+      "Realizar deploy automático",
+      "Testar APIs REST",
+      "Gerenciar containers"
+    ],
+    "answer": "Coletar e armazenar métricas de aplicações",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 55,
+    "question": "Em GitHub Actions, qual arquivo configura os workflows?",
+    "options": [
+      "arquivo YAML dentro da pasta .github/workflows",
+      "pom.xml",
+      "Dockerfile",
+      "README.md"
+    ],
+    "answer": "arquivo YAML dentro da pasta .github/workflows",
+    "difficulty": "médio"
+  },
+  {
+    "id": 56,
+    "question": "Qual a principal diferença entre REST e SOAP?",
+    "options": [
+      "REST é mais simples e usa HTTP diretamente; SOAP é um protocolo mais pesado baseado em XML",
+      "REST usa XML; SOAP usa JSON",
+      "REST é usado só em Java; SOAP só em .NET",
+      "REST não suporta segurança"
+    ],
+    "answer": "REST é mais simples e usa HTTP diretamente; SOAP é um protocolo mais pesado baseado em XML",
+    "difficulty": "médio"
+  },
+  {
+    "id": 57,
+    "question": "Qual anotação Java indica uma classe imutável com construtor, equals e hashCode automáticos?",
+    "options": ["@Value (Lombok)", "@Data", "@Service", "@Repository"],
+    "answer": "@Value (Lombok)",
+    "difficulty": "médio"
+  },
+  {
+    "id": 58,
+    "question": "Qual comando do Maven é usado para limpar arquivos gerados no build anterior?",
+    "options": ["mvn clean", "mvn install", "mvn test", "mvn deploy"],
+    "answer": "mvn clean",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 59,
+    "question": "Em Java, qual recurso foi introduzido no Java 14 para facilitar o switch-case?",
+    "options": [
+      "Switch Expressions",
+      "Pattern Matching",
+      "Sealed Classes",
+      "Text Blocks"
+    ],
+    "answer": "Switch Expressions",
+    "difficulty": "médio"
+  },
+  {
+    "id": 60,
+    "question": "O que é um 'Circuit Breaker' em arquitetura de microsserviços?",
+    "options": [
+      "Padrão para prevenir falhas em cascata interrompendo chamadas para serviços com problemas",
+      "Componente para balanceamento de carga",
+      "Banco de dados em cache",
+      "Middleware de autenticação"
+    ],
+    "answer": "Padrão para prevenir falhas em cascata interrompendo chamadas para serviços com problemas",
+    "difficulty": "médio"
+  },
+  {
+    "id": 61,
+    "question": "Qual é a nova API para data e hora introduzida no Java 8?",
+    "options": [
+      "java.time (JSR-310)",
+      "java.util.Date",
+      "java.util.Calendar",
+      "java.sql.Timestamp"
+    ],
+    "answer": "java.time (JSR-310)",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 62,
+    "question": "O que faz a anotação @Autowired no Spring?",
+    "options": [
+      "Injeta automaticamente as dependências",
+      "Define um controlador REST",
+      "Marca um método para ser executado após a inicialização",
+      "Configura propriedades do banco de dados"
+    ],
+    "answer": "Injeta automaticamente as dependências",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 63,
+    "question": "Qual é a principal vantagem do Quarkus em relação ao Spring Boot?",
+    "options": [
+      "Tempo de inicialização muito rápido e menor uso de memória",
+      "Mais fácil de aprender",
+      "Maior comunidade",
+      "Mais bibliotecas disponíveis"
+    ],
+    "answer": "Tempo de inicialização muito rápido e menor uso de memória",
+    "difficulty": "médio"
+  },
+  {
+    "id": 64,
+    "question": "Em DevOps, o que é Infraestrutura como Código (IaC)?",
+    "options": [
+      "Gerenciamento de infraestrutura usando arquivos de configuração versionados",
+      "Configuração manual de servidores",
+      "Monitoramento em tempo real",
+      "Deploy contínuo"
+    ],
+    "answer": "Gerenciamento de infraestrutura usando arquivos de configuração versionados",
+    "difficulty": "médio"
+  },
+  {
+    "id": 65,
+    "question": "O que o comando 'kubectl get pods' faz no Kubernetes?",
+    "options": [
+      "Lista todos os pods em execução no cluster",
+      "Inicia um novo pod",
+      "Deleta um pod",
+      "Atualiza a configuração do pod"
+    ],
+    "answer": "Lista todos os pods em execução no cluster",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 66,
+    "question": "O que significa o princípio 'Open/Closed' em SOLID?",
+    "options": [
+      "Software deve estar aberto para extensão, mas fechado para modificação",
+      "Classes devem ter apenas uma responsabilidade",
+      "Subclasses devem substituir suas classes base",
+      "Interfaces devem ser específicas"
+    ],
+    "answer": "Software deve estar aberto para extensão, mas fechado para modificação",
+    "difficulty": "médio"
+  },
+  {
+    "id": 67,
+    "question": "O que o Camunda oferece para sistemas de workflow?",
+    "options": [
+      "Motor de workflow e automação de processos baseado em BPMN",
+      "Banco de dados relacional",
+      "Servidor web",
+      "Ferramenta de monitoramento"
+    ],
+    "answer": "Motor de workflow e automação de processos baseado em BPMN",
+    "difficulty": "médio"
+  },
+  {
+    "id": 68,
+    "question": "Qual o principal benefício de usar GitHub Actions?",
+    "options": [
+      "Automatizar pipelines de CI/CD dentro do GitHub",
+      "Hospedar páginas estáticas",
+      "Gerenciar dependências",
+      "Monitorar servidores"
+    ],
+    "answer": "Automatizar pipelines de CI/CD dentro do GitHub",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 69,
+    "question": "Qual ferramenta é utilizada para visualizar logs e realizar buscas em ambientes distribuídos?",
+    "options": [
+      "Kibana",
+      "Prometheus",
+      "Grafana",
+      "Jenkins"
+    ],
+    "answer": "Kibana",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 70,
+    "question": "O que é uma pipeline em CI/CD?",
+    "options": [
+      "Sequência automatizada de etapas para build, teste e deploy",
+      "Uma biblioteca de testes",
+      "Um container Docker",
+      "Um servidor web"
+    ],
+    "answer": "Sequência automatizada de etapas para build, teste e deploy",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 71,
+    "question": "Qual é o propósito da anotação @Transactional no Spring?",
+    "options": [
+      "Gerenciar transações de banco de dados automaticamente",
+      "Criar controladores REST",
+      "Configurar segurança",
+      "Definir beans"
+    ],
+    "answer": "Gerenciar transações de banco de dados automaticamente",
+    "difficulty": "médio"
+  },
+  {
+    "id": 72,
+    "question": "Em AWS, qual serviço é usado para hospedar aplicações em containers?",
+    "options": [
+      "Amazon ECS",
+      "Amazon S3",
+      "AWS Lambda",
+      "Amazon RDS"
+    ],
+    "answer": "Amazon ECS",
+    "difficulty": "médio"
+  },
+  {
+    "id": 73,
+    "question": "Qual é o principal benefício de usar a arquitetura hexagonal?",
+    "options": [
+      "Desacoplar a lógica de negócio da infraestrutura e das interfaces externas",
+      "Aumentar a complexidade do código",
+      "Integrar múltiplos bancos de dados",
+      "Reduzir o número de classes"
+    ],
+    "answer": "Desacoplar a lógica de negócio da infraestrutura e das interfaces externas",
+    "difficulty": "médio"
+  },
+  {
+    "id": 74,
+    "question": "O que é o padrão Strategy em design patterns?",
+    "options": [
+      "Permite definir famílias de algoritmos e torná-los intercambiáveis",
+      "Cria um objeto único global",
+      "Facilita a criação de objetos complexos",
+      "Notifica objetos sobre eventos"
+    ],
+    "answer": "Permite definir famílias de algoritmos e torná-los intercambiáveis",
+    "difficulty": "médio"
+  },
+  {
+    "id": 75,
+    "question": "Qual a função do Grafana em um ambiente de monitoração?",
+    "options": [
+      "Visualizar métricas através de dashboards customizáveis",
+      "Executar testes unitários",
+      "Gerenciar repositórios Git",
+      "Criar containers"
+    ],
+    "answer": "Visualizar métricas através de dashboards customizáveis",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 76,
+    "question": "Qual é a vantagem do uso de testes unitários em desenvolvimento de software?",
+    "options": [
+      "Detectar erros precocemente e facilitar manutenção",
+      "Diminuir o número de desenvolvedores",
+      "Aumentar o tamanho do código",
+      "Evitar a documentação"
+    ],
+    "answer": "Detectar erros precocemente e facilitar manutenção",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 77,
+    "question": "Qual a diferença entre JDK e JRE?",
+    "options": [
+      "JDK inclui ferramentas de desenvolvimento; JRE apenas a máquina virtual para executar",
+      "JRE inclui compilador; JDK não",
+      "São a mesma coisa",
+      "JDK é para Linux, JRE para Windows"
+    ],
+    "answer": "JDK inclui ferramentas de desenvolvimento; JRE apenas a máquina virtual para executar",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 78,
+    "question": "Qual é a finalidade da anotação @Component no Spring?",
+    "options": [
+      "Indicar uma classe gerenciada pelo Spring",
+      "Configurar banco de dados",
+      "Criar um endpoint REST",
+      "Definir uma interface"
+    ],
+    "answer": "Indicar uma classe gerenciada pelo Spring",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 79,
+    "question": "O que é OpenTelemetry?",
+    "options": [
+      "Um projeto open-source para coleta de métricas, logs e traces em sistemas distribuídos",
+      "Uma linguagem de programação",
+      "Um framework de testes",
+      "Um banco de dados NoSQL"
+    ],
+    "answer": "Um projeto open-source para coleta de métricas, logs e traces em sistemas distribuídos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 80,
+    "question": "No Git, o que faz o comando 'git branch'?",
+    "options": [
+      "Lista, cria ou deleta branches",
+      "Faz merge de branches",
+      "Exclui repositórios",
+      "Atualiza repositórios remotos"
+    ],
+    "answer": "Lista, cria ou deleta branches",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 81,
+    "question": "Em Java, o que significa que uma classe é 'final'?",
+    "options": [
+      "Não pode ser estendida por subclasses",
+      "Não pode ser instanciada",
+      "Sempre é abstrata",
+      "Pode ser modificada em tempo de execução"
+    ],
+    "answer": "Não pode ser estendida por subclasses",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 82,
+    "question": "Qual é o papel do Kubernetes em um ambiente de containers?",
+    "options": [
+      "Orquestrar e gerenciar containers em clusters",
+      "Criar containers Docker",
+      "Monitorar servidores físicos",
+      "Fazer backup de dados"
+    ],
+    "answer": "Orquestrar e gerenciar containers em clusters",
+    "difficulty": "médio"
+  },
+  {
+    "id": 83,
+    "question": "O que significa CI/CD?",
+    "options": [
+      "Integração Contínua / Entrega Contínua",
+      "Controle de Interface / Controle de Dados",
+      "Código Imutável / Código Dinâmico",
+      "Compilação Instantânea / Deploy Instantâneo"
+    ],
+    "answer": "Integração Contínua / Entrega Contínua",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 84,
+    "question": "No Java, qual palavra-chave é usada para lançar uma exceção?",
+    "options": [
+      "throw",
+      "catch",
+      "try",
+      "finally"
+    ],
+    "answer": "throw",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 85,
+    "question": "Qual é o conceito do princípio 'Dependency Injection'?",
+    "options": [
+      "Fornecer as dependências de um objeto externamente em vez de criá-las internamente",
+      "Criar objetos únicos e globais",
+      "Executar código assincronamente",
+      "Usar somente variáveis globais"
+    ],
+    "answer": "Fornecer as dependências de um objeto externamente em vez de criá-las internamente",
+    "difficulty": "médio"
+  },
+  {
+    "id": 86,
+    "question": "Qual comando Git cria um novo repositório local?",
+    "options": [
+      "git init",
+      "git clone",
+      "git pull",
+      "git commit"
+    ],
+    "answer": "git init",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 87,
+    "question": "No Spring Boot, qual arquivo é usado para configurar propriedades da aplicação?",
+    "options": [
+      "application.properties ou application.yml",
+      "pom.xml",
+      "Dockerfile",
+      "README.md"
+    ],
+    "answer": "application.properties ou application.yml",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 88,
+    "question": "Qual tecnologia permite o uso de containers em nuvem pública, privada e híbrida?",
+    "options": [
+      "Kubernetes",
+      "Jenkins",
+      "GitHub",
+      "Maven"
+    ],
+    "answer": "Kubernetes",
+    "difficulty": "médio"
+  },
+  {
+    "id": 89,
+    "question": "O que é o conceito de 'event sourcing' em arquitetura de software?",
+    "options": [
+      "Guardar todas as mudanças de estado como uma sequência de eventos",
+      "Salvar estados em cache",
+      "Criar eventos de interface de usuário",
+      "Gerar logs automáticos"
+    ],
+    "answer": "Guardar todas as mudanças de estado como uma sequência de eventos",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 90,
+    "question": "Qual método do Java 11 facilita a criação de strings multilinha?",
+    "options": [
+      "Text Blocks",
+      "String.format",
+      "String.join",
+      "StringBuilder"
+    ],
+    "answer": "Text Blocks",
+    "difficulty": "médio"
+  },
+  {
+    "id": 91,
+    "question": "Em DevOps, o que é 'blue-green deployment'?",
+    "options": [
+      "Estratégia de deploy que mantém duas versões do sistema para minimizar downtime",
+      "Deploy manual",
+      "Deploy somente em produção",
+      "Monitoramento contínuo"
+    ],
+    "answer": "Estratégia de deploy que mantém duas versões do sistema para minimizar downtime",
+    "difficulty": "médio"
+  },
+  {
+    "id": 92,
+    "question": "Qual componente do Spring Boot ajuda a configurar a aplicação automaticamente?",
+    "options": [
+      "@SpringBootApplication",
+      "@Controller",
+      "@Service",
+      "@Repository"
+    ],
+    "answer": "@SpringBootApplication",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 93,
+    "question": "O que é um Service Mesh em arquitetura de microsserviços?",
+    "options": [
+      "Infraestrutura para controlar comunicação entre serviços",
+      "Banco de dados distribuído",
+      "Framework para UI",
+      "Servidor web"
+    ],
+    "answer": "Infraestrutura para controlar comunicação entre serviços",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 94,
+    "question": "Qual das opções é uma ferramenta popular para automação de builds em Java?",
+    "options": [
+      "Maven",
+      "Jenkins",
+      "Docker",
+      "Kubernetes"
+    ],
+    "answer": "Maven",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 95,
+    "question": "Qual é a função do GitHub Actions?",
+    "options": [
+      "Automatizar processos de build, teste e deploy no GitHub",
+      "Hospedar sites",
+      "Gerenciar bancos de dados",
+      "Criar containers Docker"
+    ],
+    "answer": "Automatizar processos de build, teste e deploy no GitHub",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 96,
+    "question": "O que o padrão Repository faz em arquitetura de software?",
+    "options": [
+      "Abstrai o acesso aos dados, separando lógica de negócio e persistência",
+      "Define a interface do usuário",
+      "Gerencia serviços REST",
+      "Controla autenticação"
+    ],
+    "answer": "Abstrai o acesso aos dados, separando lógica de negócio e persistência",
+    "difficulty": "médio"
+  },
+  {
+    "id": 97,
+    "question": "Qual comando Git combina alterações de branches diferentes?",
+    "options": [
+      "git merge",
+      "git pull",
+      "git commit",
+      "git branch"
+    ],
+    "answer": "git merge",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 98,
+    "question": "Em Java, o que é um Optional?",
+    "options": [
+      "Um container que pode ou não conter um valor não nulo",
+      "Uma lista imutável",
+      "Uma variável global",
+      "Uma exceção"
+    ],
+    "answer": "Um container que pode ou não conter um valor não nulo",
+    "difficulty": "médio"
+  },
+  {
+    "id": 99,
+    "question": "O que é a anotação @Bean no Spring?",
+    "options": [
+      "Indica que o método produz um bean gerenciado pelo container Spring",
+      "Marca uma classe para testes",
+      "Define um endpoint REST",
+      "Configura segurança"
+    ],
+    "answer": "Indica que o método produz um bean gerenciado pelo container Spring",
+    "difficulty": "médio"
+  },
+  {
+    "id": 100,
+    "question": "Qual ferramenta do AWS é usada para armazenar objetos (arquivos)?",
+    "options": [
+      "Amazon S3",
+      "Amazon EC2",
+      "Amazon RDS",
+      "Amazon Lambda"
+    ],
+    "answer": "Amazon S3",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 101,
+    "question": "O que significa a sigla JVM?",
+    "options": [
+      "Java Virtual Machine",
+      "Java Visual Model",
+      "Java Variable Method",
+      "Java Version Manager"
+    ],
+    "answer": "Java Virtual Machine",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 102,
+    "question": "Qual a diferença entre throw e throws em Java?",
+    "options": [
+      "throw lança uma exceção, throws declara que um método pode lançar exceções",
+      "throw declara exceções, throws lança exceções",
+      "São sinônimos",
+      "Nenhuma das anteriores"
+    ],
+    "answer": "throw lança uma exceção, throws declara que um método pode lançar exceções",
+    "difficulty": "médio"
+  },
+  {
+    "id": 103,
+    "question": "Qual anotação do Spring Boot é usada para criar um serviço REST?",
+    "options": [
+      "@RestController",
+      "@Service",
+      "@Repository",
+      "@Component"
+    ],
+    "answer": "@RestController",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 104,
+    "question": "O que é um bean singleton no contexto do Spring?",
+    "options": [
+      "Uma instância única compartilhada em toda a aplicação",
+      "Uma instância nova para cada requisição",
+      "Um bean que não é gerenciado pelo Spring",
+      "Um bean de escopo protótipo"
+    ],
+    "answer": "Uma instância única compartilhada em toda a aplicação",
+    "difficulty": "médio"
+  },
+  {
+    "id": 105,
+    "question": "O que é o projeto OpenShift?",
+    "options": [
+      "Plataforma de orquestração de containers baseada em Kubernetes",
+      "Ferramenta de monitoramento",
+      "Framework para testes unitários",
+      "Banco de dados"
+    ],
+    "answer": "Plataforma de orquestração de containers baseada em Kubernetes",
+    "difficulty": "médio"
+  },
+  {
+    "id": 106,
+    "question": "Qual comando Git cria um commit?",
+    "options": [
+      "git commit -m 'mensagem'",
+      "git push",
+      "git clone",
+      "git pull"
+    ],
+    "answer": "git commit -m 'mensagem'",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 107,
+    "question": "Em AWS, qual serviço é usado para executar funções serverless?",
+    "options": [
+      "AWS Lambda",
+      "Amazon EC2",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "answer": "AWS Lambda",
+    "difficulty": "médio"
+  },
+  {
+    "id": 108,
+    "question": "Qual é a função do Spring Data JPA?",
+    "options": [
+      "Simplificar acesso a bancos de dados usando JPA com repositórios automáticos",
+      "Gerenciar configurações de segurança",
+      "Criar controladores REST",
+      "Configurar transações"
+    ],
+    "answer": "Simplificar acesso a bancos de dados usando JPA com repositórios automáticos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 109,
+    "question": "Em design de software, o que o princípio Liskov Substitution estabelece?",
+    "options": [
+      "Subtipos devem ser substituíveis por seus tipos base sem alterar a funcionalidade",
+      "Classes devem ter apenas uma responsabilidade",
+      "Classes devem depender de abstrações",
+      "Software deve ser aberto para extensão"
+    ],
+    "answer": "Subtipos devem ser substituíveis por seus tipos base sem alterar a funcionalidade",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 110,
+    "question": "No contexto de monitoração, o que é 'alerta false positive'?",
+    "options": [
+      "Um alerta que indica problema quando não existe problema real",
+      "Um alerta que não dispara",
+      "Alerta que indica erro real",
+      "Alerta configurado incorretamente"
+    ],
+    "answer": "Um alerta que indica problema quando não existe problema real",
+    "difficulty": "médio"
+  },
+  {
+    "id": 111,
+    "question": "Qual das opções é um recurso novo no Java 17?",
+    "options": [
+      "Sealed Classes",
+      "Text Blocks",
+      "Lambda Expressions",
+      "Modules System"
+    ],
+    "answer": "Sealed Classes",
+    "difficulty": "médio"
+  },
+  {
+    "id": 112,
+    "question": "Qual ferramenta é mais usada para orquestrar pipelines de CI/CD?",
+    "options": [
+      "Jenkins",
+      "Git",
+      "Docker",
+      "Kubernetes"
+    ],
+    "answer": "Jenkins",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 113,
+    "question": "O que é o princípio DRY em desenvolvimento de software?",
+    "options": [
+      "Don't Repeat Yourself — evitar duplicação de código",
+      "Debug Regularly Yourself — depurar regularmente",
+      "Depend on Reliable Yields — depender de resultados confiáveis",
+      "Design Reactively Yourself — projetar de forma reativa"
+    ],
+    "answer": "Don't Repeat Yourself — evitar duplicação de código",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 114,
+    "question": "Qual comando Docker cria um novo container a partir de uma imagem?",
+    "options": [
+      "docker run",
+      "docker build",
+      "docker pull",
+      "docker commit"
+    ],
+    "answer": "docker run",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 115,
+    "question": "O que significa o termo 'blue-green deployment'?",
+    "options": [
+      "Ter duas versões do sistema para deploy sem downtime",
+      "Deploy somente em ambiente de testes",
+      "Deploy automático com rollback",
+      "Deploy manual sem testes"
+    ],
+    "answer": "Ter duas versões do sistema para deploy sem downtime",
+    "difficulty": "médio"
+  },
+  {
+    "id": 116,
+    "question": "O que é o Spring Boot Actuator?",
+    "options": [
+      "Ferramenta para expor métricas e endpoints de monitoração na aplicação",
+      "Framework para segurança",
+      "Banco de dados embutido",
+      "Gerenciador de dependências"
+    ],
+    "answer": "Ferramenta para expor métricas e endpoints de monitoração na aplicação",
+    "difficulty": "médio"
+  },
+  {
+    "id": 117,
+    "question": "Qual das seguintes opções é uma vantagem do uso de containers?",
+    "options": [
+      "Isolamento e portabilidade das aplicações",
+      "Aumento do uso de memória",
+      "Dificuldade de deploy",
+      "Maior acoplamento entre sistemas"
+    ],
+    "answer": "Isolamento e portabilidade das aplicações",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 118,
+    "question": "No Java, o que é o padrão Builder?",
+    "options": [
+      "Padrão que facilita a criação de objetos complexos passo a passo",
+      "Padrão para notificar objetos",
+      "Padrão para criar instância única",
+      "Padrão para controlar acesso"
+    ],
+    "answer": "Padrão que facilita a criação de objetos complexos passo a passo",
+    "difficulty": "médio"
+  },
+  {
+    "id": 119,
+    "question": "O que é uma exceção checked em Java?",
+    "options": [
+      "Exceção que deve ser declarada ou tratada explicitamente",
+      "Exceção que ocorre em runtime e não precisa ser tratada",
+      "Erro de sintaxe",
+      "Exceção fatal que encerra a JVM"
+    ],
+    "answer": "Exceção que deve ser declarada ou tratada explicitamente",
+    "difficulty": "médio"
+  },
+  {
+    "id": 120,
+    "question": "Qual o comando para verificar o status dos arquivos no Git?",
+    "options": [
+      "git status",
+      "git log",
+      "git diff",
+      "git branch"
+    ],
+    "answer": "git status",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 121,
+    "question": "O que o Camunda utiliza para modelar processos?",
+    "options": [
+      "BPMN (Business Process Model and Notation)",
+      "UML",
+      "ERD",
+      "JSON"
+    ],
+    "answer": "BPMN (Business Process Model and Notation)",
+    "difficulty": "médio"
+  },
+  {
+    "id": 122,
+    "question": "Qual serviço AWS é utilizado para armazenamento de arquivos estáticos?",
+    "options": [
+      "Amazon S3",
+      "Amazon DynamoDB",
+      "AWS Lambda",
+      "Amazon EC2"
+    ],
+    "answer": "Amazon S3",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 123,
+    "question": "Qual comando Git desfaz um commit local sem perder as alterações feitas nos arquivos?",
+    "options": [
+      "git reset --soft HEAD~1",
+      "git revert HEAD",
+      "git reset --hard HEAD~1",
+      "git checkout"
+    ],
+    "answer": "git reset --soft HEAD~1",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 124,
+    "question": "Qual recurso do Java 9 permite modularizar aplicações?",
+    "options": [
+      "Java Platform Module System (JPMS)",
+      "Lambda expressions",
+      "Text Blocks",
+      "Var keyword"
+    ],
+    "answer": "Java Platform Module System (JPMS)",
+    "difficulty": "médio"
+  },
+  {
+    "id": 125,
+    "question": "No contexto de Cloud Computing, o que significa SaaS?",
+    "options": [
+      "Software as a Service",
+      "Storage as a Service",
+      "Server as a Service",
+      "Security as a Service"
+    ],
+    "answer": "Software as a Service",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 126,
+    "question": "Qual é o papel do OpenShift na arquitetura de nuvem?",
+    "options": [
+      "Automatizar deployment e gerenciamento de containers com Kubernetes",
+      "Monitorar aplicações",
+      "Gerenciar repositórios Git",
+      "Configurar servidores físicos"
+    ],
+    "answer": "Automatizar deployment e gerenciamento de containers com Kubernetes",
+    "difficulty": "médio"
+  },
+  {
+    "id": 127,
+    "question": "O que é o princípio 'Interface Segregation' em SOLID?",
+    "options": [
+      "Clientes não devem ser forçados a depender de interfaces que não utilizam",
+      "Classes devem ser abertas para extensão",
+      "Subclasses devem ser substituíveis",
+      "Deve haver apenas uma razão para mudar"
+    ],
+    "answer": "Clientes não devem ser forçados a depender de interfaces que não utilizam",
+    "difficulty": "médio"
+  },
+  {
+    "id": 128,
+    "question": "Qual comando Git recupera as últimas alterações do repositório remoto?",
+    "options": [
+      "git pull",
+      "git fetch",
+      "git clone",
+      "git commit"
+    ],
+    "answer": "git pull",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 129,
+    "question": "Qual recurso do Java 11 permite executar um arquivo Java diretamente sem compilar explicitamente?",
+    "options": [
+      "Run single-file source-code programs",
+      "Text Blocks",
+      "Var keyword",
+      "Modules"
+    ],
+    "answer": "Run single-file source-code programs",
+    "difficulty": "médio"
+  },
+  {
+    "id": 130,
+    "question": "O que é o padrão Adapter em design patterns?",
+    "options": [
+      "Permite que interfaces incompatíveis trabalhem juntas",
+      "Cria objetos únicos",
+      "Define uma família de algoritmos",
+      "Observa eventos"
+    ],
+    "answer": "Permite que interfaces incompatíveis trabalhem juntas",
+    "difficulty": "médio"
+  },
+  {
+    "id": 131,
+    "question": "Qual é o objetivo principal do GitHub Actions?",
+    "options": [
+      "Automatizar workflows de build, teste e deploy",
+      "Gerenciar repositórios",
+      "Hospedar sites estáticos",
+      "Executar containers"
+    ],
+    "answer": "Automatizar workflows de build, teste e deploy",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 132,
+    "question": "No Spring Security, qual anotação é usada para habilitar a segurança web?",
+    "options": [
+      "@EnableWebSecurity",
+      "@Secured",
+      "@PreAuthorize",
+      "@Controller"
+    ],
+    "answer": "@EnableWebSecurity",
+    "difficulty": "médio"
+  },
+  {
+    "id": 133,
+    "question": "O que é telemetria distribuída?",
+    "options": [
+      "Coleta de métricas e logs em múltiplos componentes de um sistema distribuído",
+      "Monitoramento local de uma aplicação",
+      "Backup automático de dados",
+      "Teste unitário"
+    ],
+    "answer": "Coleta de métricas e logs em múltiplos componentes de um sistema distribuído",
+    "difficulty": "médio"
+  },
+  {
+    "id": 134,
+    "question": "Qual serviço AWS oferece bancos de dados relacionais gerenciados?",
+    "options": [
+      "Amazon RDS",
+      "Amazon S3",
+      "AWS Lambda",
+      "Amazon DynamoDB"
+    ],
+    "answer": "Amazon RDS",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 135,
+    "question": "Qual ferramenta permite criar dashboards customizados para visualização de métricas?",
+    "options": [
+      "Grafana",
+      "Prometheus",
+      "Kibana",
+      "Elasticsearch"
+    ],
+    "answer": "Grafana",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 136,
+    "question": "O que é um Service Registry em arquitetura de microsserviços?",
+    "options": [
+      "Banco de dados que armazena localizações de serviços para descoberta dinâmica",
+      "Banco de dados relacional",
+      "Serviço de autenticação",
+      "API Gateway"
+    ],
+    "answer": "Banco de dados que armazena localizações de serviços para descoberta dinâmica",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 137,
+    "question": "Qual comando Git cria uma nova branch e já muda para ela?",
+    "options": [
+      "git checkout -b nome-da-branch",
+      "git branch nome-da-branch",
+      "git switch nome-da-branch",
+      "git merge nome-da-branch"
+    ],
+    "answer": "git checkout -b nome-da-branch",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 138,
+    "question": "Qual o objetivo do padrão Facade em design patterns?",
+    "options": [
+      "Fornecer uma interface simplificada para um conjunto complexo de interfaces",
+      "Garantir a criação de uma instância única",
+      "Definir uma família de algoritmos",
+      "Proteger o acesso a objetos"
+    ],
+    "answer": "Fornecer uma interface simplificada para um conjunto complexo de interfaces",
+    "difficulty": "médio"
+  },
+  {
+    "id": 139,
+    "question": "O que é o comando 'docker build'?",
+    "options": [
+      "Cria uma imagem Docker a partir de um Dockerfile",
+      "Inicia um container",
+      "Lista containers ativos",
+      "Remove uma imagem"
+    ],
+    "answer": "Cria uma imagem Docker a partir de um Dockerfile",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 140,
+    "question": "O que significa a anotação @Value no Spring?",
+    "options": [
+      "Injeta valores de propriedades configuradas",
+      "Define um bean singleton",
+      "Marca uma classe para teste",
+      "Cria um endpoint REST"
+    ],
+    "answer": "Injeta valores de propriedades configuradas",
+    "difficulty": "médio"
+  },
+  {
+    "id": 141,
+    "question": "Qual é o propósito do garbage collector na JVM?",
+    "options": [
+      "Liberar memória de objetos não mais usados",
+      "Compilar o código Java",
+      "Executar testes unitários",
+      "Gerenciar threads"
+    ],
+    "answer": "Liberar memória de objetos não mais usados",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 142,
+    "question": "Qual anotação do Spring Boot é usada para definir um método que será executado após a inicialização do bean?",
+    "options": [
+      "@PostConstruct",
+      "@PreDestroy",
+      "@Autowired",
+      "@Bean"
+    ],
+    "answer": "@PostConstruct",
+    "difficulty": "médio"
+  },
+  {
+    "id": 143,
+    "question": "No Quarkus, qual é o modo que permite desenvolvimento rápido com hot reload?",
+    "options": [
+      "Dev mode",
+      "Prod mode",
+      "Test mode",
+      "Debug mode"
+    ],
+    "answer": "Dev mode",
+    "difficulty": "médio"
+  },
+  {
+    "id": 144,
+    "question": "Qual componente do Grafana é usado para consultar dados de várias fontes?",
+    "options": [
+      "Datasource",
+      "Dashboard",
+      "Panel",
+      "Alert"
+    ],
+    "answer": "Datasource",
+    "difficulty": "médio"
+  },
+  {
+    "id": 145,
+    "question": "No GitHub Actions, qual arquivo é usado para definir os workflows?",
+    "options": [
+      "Arquivos YAML dentro da pasta .github/workflows",
+      "package.json",
+      "Dockerfile",
+      "README.md"
+    ],
+    "answer": "Arquivos YAML dentro da pasta .github/workflows",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 146,
+    "question": "O que é um pipeline CI/CD?",
+    "options": [
+      "Processo automatizado de build, teste e deploy",
+      "Banco de dados para aplicações",
+      "Framework front-end",
+      "Servidor web"
+    ],
+    "answer": "Processo automatizado de build, teste e deploy",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 147,
+    "question": "Qual a finalidade do Camel na arquitetura de software?",
+    "options": [
+      "Integração de sistemas usando Enterprise Integration Patterns",
+      "Gerenciamento de banco de dados",
+      "Serviço de autenticação",
+      "Criação de UI"
+    ],
+    "answer": "Integração de sistemas usando Enterprise Integration Patterns",
+    "difficulty": "médio"
+  },
+  {
+    "id": 148,
+    "question": "O que é o padrão de arquitetura Hexagonal?",
+    "options": [
+      "Arquitetura que isola o domínio do mundo externo por portas e adaptadores",
+      "Arquitetura baseada em camadas tradicionais",
+      "Arquitetura orientada a eventos",
+      "Arquitetura monolítica"
+    ],
+    "answer": "Arquitetura que isola o domínio do mundo externo por portas e adaptadores",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 149,
+    "question": "Qual é a função do Elasticsearch em uma stack de monitoração?",
+    "options": [
+      "Indexar e permitir buscas eficientes em grandes volumes de dados",
+      "Expor dashboards",
+      "Coletar métricas",
+      "Gerenciar containers"
+    ],
+    "answer": "Indexar e permitir buscas eficientes em grandes volumes de dados",
+    "difficulty": "médio"
+  },
+  {
+    "id": 150,
+    "question": "O que a anotação @Transactional no Spring controla?",
+    "options": [
+      "Gerenciamento de transações em métodos",
+      "Log de auditoria",
+      "Criação de beans",
+      "Injeção de dependência"
+    ],
+    "answer": "Gerenciamento de transações em métodos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 151,
+    "question": "Em Kubernetes, o que é um Pod?",
+    "options": [
+      "Unidade básica que representa um ou mais containers executando juntos",
+      "Serviço de armazenamento",
+      "Banco de dados",
+      "Servidor web"
+    ],
+    "answer": "Unidade básica que representa um ou mais containers executando juntos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 152,
+    "question": "O que o comando 'git merge' faz?",
+    "options": [
+      "Integra mudanças de uma branch em outra",
+      "Cria um novo branch",
+      "Remove arquivos do repositório",
+      "Reverte um commit"
+    ],
+    "answer": "Integra mudanças de uma branch em outra",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 153,
+    "question": "Qual o recurso do Java 14 que facilita a manipulação de dados imutáveis?",
+    "options": [
+      "Records",
+      "Var keyword",
+      "Text Blocks",
+      "Modules"
+    ],
+    "answer": "Records",
+    "difficulty": "médio"
+  },
+  {
+    "id": 154,
+    "question": "O que significa o princípio 'Open/Closed' em SOLID?",
+    "options": [
+      "Software deve estar aberto para extensão, mas fechado para modificação",
+      "Classes devem ser públicas",
+      "Classes devem ser fechadas",
+      "Código deve ser aberto"
+    ],
+    "answer": "Software deve estar aberto para extensão, mas fechado para modificação",
+    "difficulty": "médio"
+  },
+  {
+    "id": 155,
+    "question": "Qual protocolo é usado para enviar logs do sistema para um servidor remoto no ELK Stack?",
+    "options": [
+      "Syslog",
+      "HTTP",
+      "FTP",
+      "SMTP"
+    ],
+    "answer": "Syslog",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 156,
+    "question": "Qual anotação do Spring é usada para mapear rotas HTTP GET?",
+    "options": [
+      "@GetMapping",
+      "@PostMapping",
+      "@DeleteMapping",
+      "@PutMapping"
+    ],
+    "answer": "@GetMapping",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 157,
+    "question": "Qual a finalidade do pipeline no Jenkins?",
+    "options": [
+      "Automatizar a sequência de passos para build, teste e deploy",
+      "Gerenciar servidores",
+      "Configurar bancos de dados",
+      "Monitorar redes"
+    ],
+    "answer": "Automatizar a sequência de passos para build, teste e deploy",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 158,
+    "question": "O que o termo 'Infrastructure as Code' significa?",
+    "options": [
+      "Gerenciar infraestrutura por meio de código e automação",
+      "Configurar hardware manualmente",
+      "Escrever código sem infraestrutura",
+      "Testar código"
+    ],
+    "answer": "Gerenciar infraestrutura por meio de código e automação",
+    "difficulty": "médio"
+  },
+  {
+    "id": 159,
+    "question": "Em DevOps, o que é um 'blueprint'?",
+    "options": [
+      "Modelo ou template para configuração de infraestrutura ou pipelines",
+      "Backup de dados",
+      "Relatório de testes",
+      "Servidor de build"
+    ],
+    "answer": "Modelo ou template para configuração de infraestrutura ou pipelines",
+    "difficulty": "médio"
+  },
+  {
+    "id": 160,
+    "question": "Qual comando Maven compila um projeto Java?",
+    "options": [
+      "mvn compile",
+      "mvn clean",
+      "mvn test",
+      "mvn package"
+    ],
+    "answer": "mvn compile",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 161,
+    "question": "O que é o padrão Observer em design patterns?",
+    "options": [
+      "Define uma dependência um-para-muitos entre objetos para notificações automáticas",
+      "Garante a criação de uma instância única",
+      "Permite alterar o comportamento de um objeto",
+      "Simplifica interfaces"
+    ],
+    "answer": "Define uma dependência um-para-muitos entre objetos para notificações automáticas",
+    "difficulty": "médio"
+  },
+  {
+    "id": 162,
+    "question": "Qual recurso do Java 8 permite manipulação funcional de coleções?",
+    "options": [
+      "Streams API",
+      "Generics",
+      "Annotations",
+      "Reflection"
+    ],
+    "answer": "Streams API",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 163,
+    "question": "O que faz o comando 'kubectl get pods'?",
+    "options": [
+      "Lista os pods em execução no cluster Kubernetes",
+      "Cria um pod novo",
+      "Remove pods",
+      "Atualiza o cluster"
+    ],
+    "answer": "Lista os pods em execução no cluster Kubernetes",
+    "difficulty": "médio"
+  },
+  {
+    "id": 164,
+    "question": "O que é o padrão Circuit Breaker em microsserviços?",
+    "options": [
+      "Protege serviços de falhas cascata ao interromper chamadas para serviços não disponíveis",
+      "Padrão para criar instância única",
+      "Padrão para notificar eventos",
+      "Gerencia transações"
+    ],
+    "answer": "Protege serviços de falhas cascata ao interromper chamadas para serviços não disponíveis",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 165,
+    "question": "Qual comando para rodar testes unitários em um projeto Maven?",
+    "options": [
+      "mvn test",
+      "mvn compile",
+      "mvn package",
+      "mvn install"
+    ],
+    "answer": "mvn test",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 166,
+    "question": "O que é o Camunda em arquitetura de software?",
+    "options": [
+      "Motor de workflow para automação de processos de negócios",
+      "Framework de front-end",
+      "Servidor de banco de dados",
+      "Ferramenta de monitoramento"
+    ],
+    "answer": "Motor de workflow para automação de processos de negócios",
+    "difficulty": "médio"
+  },
+  {
+    "id": 167,
+    "question": "Qual comando Git cria um patch para um commit?",
+    "options": [
+      "git format-patch",
+      "git diff",
+      "git stash",
+      "git rebase"
+    ],
+    "answer": "git format-patch",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 168,
+    "question": "O que significa a sigla CI/CD?",
+    "options": [
+      "Continuous Integration / Continuous Deployment",
+      "Code Inspection / Code Delivery",
+      "Container Integration / Container Deployment",
+      "Continuous Inspection / Continuous Debugging"
+    ],
+    "answer": "Continuous Integration / Continuous Deployment",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 169,
+    "question": "Qual é o objetivo principal do Kibana?",
+    "options": [
+      "Visualizar e explorar dados do Elasticsearch com dashboards",
+      "Coletar métricas",
+      "Gerenciar containers",
+      "Enviar logs"
+    ],
+    "answer": "Visualizar e explorar dados do Elasticsearch com dashboards",
+    "difficulty": "médio"
+  },
+  {
+    "id": 170,
+    "question": "Em Spring, para que serve a anotação @Autowired?",
+    "options": [
+      "Injetar dependências automaticamente",
+      "Definir um bean como singleton",
+      "Configurar segurança",
+      "Criar endpoints REST"
+    ],
+    "answer": "Injetar dependências automaticamente",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 171,
+    "question": "Qual ferramenta é usada para gerenciar containers Docker em cluster?",
+    "options": [
+      "Kubernetes",
+      "Jenkins",
+      "GitHub",
+      "Terraform"
+    ],
+    "answer": "Kubernetes",
+    "difficulty": "médio"
+  },
+  {
+    "id": 172,
+    "question": "Qual recurso do Java 16 simplifica a criação de classes imutáveis?",
+    "options": [
+      "Records",
+      "Var keyword",
+      "Text Blocks",
+      "Modules"
+    ],
+    "answer": "Records",
+    "difficulty": "médio"
+  },
+  {
+    "id": 173,
+    "question": "Qual é o propósito do Git rebase?",
+    "options": [
+      "Reaplicar commits em outra base, reorganizando histórico",
+      "Mesclar branches automaticamente",
+      "Criar novo branch",
+      "Excluir commits"
+    ],
+    "answer": "Reaplicar commits em outra base, reorganizando histórico",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 174,
+    "question": "O que é a anotação @Component no Spring?",
+    "options": [
+      "Marca uma classe como componente gerenciado pelo Spring",
+      "Define um endpoint REST",
+      "Configura segurança",
+      "Cria um bean protótipo"
+    ],
+    "answer": "Marca uma classe como componente gerenciado pelo Spring",
+    "difficulty": "médio"
+  },
+  {
+    "id": 175,
+    "question": "Qual é a vantagem principal do uso de microsserviços?",
+    "options": [
+      "Escalabilidade e independência de deploy",
+      "Menor complexidade",
+      "Facilidade de debugging",
+      "Nenhuma das anteriores"
+    ],
+    "answer": "Escalabilidade e independência de deploy",
+    "difficulty": "médio"
+  },
+  {
+    "id": 176,
+    "question": "No contexto de DevOps, o que é 'shift-left'?",
+    "options": [
+      "Incluir testes e qualidade mais cedo no ciclo de desenvolvimento",
+      "Executar deploy manual",
+      "Ignorar testes",
+      "Testar só após produção"
+    ],
+    "answer": "Incluir testes e qualidade mais cedo no ciclo de desenvolvimento",
+    "difficulty": "médio"
+  },
+  {
+    "id": 177,
+    "question": "Qual é a diferença entre REST e SOAP?",
+    "options": [
+      "REST é mais leve e usa HTTP, SOAP é protocolo mais pesado baseado em XML",
+      "REST usa XML, SOAP usa JSON",
+      "SOAP é mais rápido que REST",
+      "Não há diferenças"
+    ],
+    "answer": "REST é mais leve e usa HTTP, SOAP é protocolo mais pesado baseado em XML",
+    "difficulty": "médio"
+  },
+  {
+    "id": 178,
+    "question": "O que o comando 'docker-compose up' faz?",
+    "options": [
+      "Inicia múltiplos containers definidos em um arquivo docker-compose.yml",
+      "Cria uma imagem Docker",
+      "Remove containers",
+      "Lista imagens Docker"
+    ],
+    "answer": "Inicia múltiplos containers definidos em um arquivo docker-compose.yml",
+    "difficulty": "médio"
+  },
+  {
+    "id": 179,
+    "question": "Qual serviço AWS oferece balanceamento de carga?",
+    "options": [
+      "Elastic Load Balancer (ELB)",
+      "Amazon S3",
+      "AWS Lambda",
+      "Amazon EC2"
+    ],
+    "answer": "Elastic Load Balancer (ELB)",
+    "difficulty": "médio"
+  },
+  {
+    "id": 180,
+    "question": "Qual conceito é aplicado para garantir que uma aplicação web mantenha estado entre requisições?",
+    "options": [
+      "Session management",
+      "Statelessness",
+      "Caching",
+      "Load balancing"
+    ],
+    "answer": "Session management",
+    "difficulty": "médio"
+  },
+  {
+    "id": 181,
+    "question": "O que significa a sigla JVM?",
+    "options": [
+      "Java Virtual Machine",
+      "Java Variable Method",
+      "Java Visual Model",
+      "Java Version Manager"
+    ],
+    "answer": "Java Virtual Machine",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 182,
+    "question": "Qual é o objetivo do Spring Boot?",
+    "options": [
+      "Facilitar a configuração e inicialização de aplicações Spring",
+      "Substituir o Java EE",
+      "Gerenciar containers Docker",
+      "Implementar microsserviços com Quarkus"
+    ],
+    "answer": "Facilitar a configuração e inicialização de aplicações Spring",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 183,
+    "question": "Qual anotação do Spring indica um controlador REST?",
+    "options": [
+      "@RestController",
+      "@Controller",
+      "@Service",
+      "@Repository"
+    ],
+    "answer": "@RestController",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 184,
+    "question": "O que é o Camunda?",
+    "options": [
+      "Motor de workflow e automação de processos de negócio",
+      "Banco de dados NoSQL",
+      "Servidor web",
+      "Ferramenta de monitoramento"
+    ],
+    "answer": "Motor de workflow e automação de processos de negócio",
+    "difficulty": "médio"
+  },
+  {
+    "id": 185,
+    "question": "O que significa CI/CD?",
+    "options": [
+      "Continuous Integration/Continuous Delivery",
+      "Code Inspection/Code Debugging",
+      "Container Integration/Container Deployment",
+      "Continuous Improvement/Continuous Deployment"
+    ],
+    "answer": "Continuous Integration/Continuous Delivery",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 186,
+    "question": "Qual comando Git cria um novo branch?",
+    "options": [
+      "git branch nome-do-branch",
+      "git commit -m 'msg'",
+      "git merge nome-do-branch",
+      "git push origin main"
+    ],
+    "answer": "git branch nome-do-branch",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 187,
+    "question": "Qual comando Maven gera o arquivo JAR do projeto?",
+    "options": [
+      "mvn package",
+      "mvn compile",
+      "mvn clean",
+      "mvn install"
+    ],
+    "answer": "mvn package",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 188,
+    "question": "O que é um Bean no Spring Framework?",
+    "options": [
+      "Um objeto gerenciado pelo contêiner Spring",
+      "Um banco de dados",
+      "Um servidor web",
+      "Um tipo de exceção"
+    ],
+    "answer": "Um objeto gerenciado pelo contêiner Spring",
+    "difficulty": "médio"
+  },
+  {
+    "id": 189,
+    "question": "Qual é a principal novidade do Java 17?",
+    "options": [
+      "Suporte LTS (Long Term Support)",
+      "Introdução do var",
+      "Switch Expressions",
+      "Project Loom"
+    ],
+    "answer": "Suporte LTS (Long Term Support)",
+    "difficulty": "médio"
+  },
+  {
+    "id": 190,
+    "question": "Qual recurso do Java 14 facilita a criação de classes imutáveis?",
+    "options": [
+      "Records",
+      "Var keyword",
+      "Sealed classes",
+      "Text blocks"
+    ],
+    "answer": "Records",
+    "difficulty": "médio"
+  },
+  {
+    "id": 191,
+    "question": "O que é a arquitetura hexagonal?",
+    "options": [
+      "Arquitetura que usa portas e adaptadores para desacoplar o domínio das tecnologias externas",
+      "Arquitetura monolítica tradicional",
+      "Arquitetura orientada a eventos",
+      "Arquitetura em camadas"
+    ],
+    "answer": "Arquitetura que usa portas e adaptadores para desacoplar o domínio das tecnologias externas",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 192,
+    "question": "Para que serve o OpenTelemetry?",
+    "options": [
+      "Coletar telemetria distribuída para monitoramento e rastreamento",
+      "Gerenciar pipelines CI/CD",
+      "Armazenar dados no banco de dados",
+      "Controlar containers Docker"
+    ],
+    "answer": "Coletar telemetria distribuída para monitoramento e rastreamento",
+    "difficulty": "médio"
+  },
+  {
+    "id": 193,
+    "question": "Qual ferramenta permite visualizar dados coletados no Elastic Stack?",
+    "options": [
+      "Kibana",
+      "Grafana",
+      "Prometheus",
+      "Jaeger"
+    ],
+    "answer": "Kibana",
+    "difficulty": "médio"
+  },
+  {
+    "id": 194,
+    "question": "O que é um Deployment no Kubernetes?",
+    "options": [
+      "Um objeto que gerencia a criação e atualização de pods",
+      "Um tipo de container",
+      "Um banco de dados para Kubernetes",
+      "Uma ferramenta de monitoramento"
+    ],
+    "answer": "Um objeto que gerencia a criação e atualização de pods",
+    "difficulty": "médio"
+  },
+  {
+    "id": 195,
+    "question": "Qual comando do Docker constrói uma imagem a partir do Dockerfile?",
+    "options": [
+      "docker build",
+      "docker run",
+      "docker push",
+      "docker pull"
+    ],
+    "answer": "docker build",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 196,
+    "question": "Qual é a finalidade do padrão Singleton?",
+    "options": [
+      "Garantir que uma classe tenha apenas uma instância",
+      "Criar objetos com múltiplas variações",
+      "Separar interface e implementação",
+      "Alterar comportamento em tempo de execução"
+    ],
+    "answer": "Garantir que uma classe tenha apenas uma instância",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 197,
+    "question": "O que o Spring Security oferece?",
+    "options": [
+      "Autenticação e autorização para aplicações Spring",
+      "Monitoramento de logs",
+      "Gerenciamento de banco de dados",
+      "Criação de APIs REST"
+    ],
+    "answer": "Autenticação e autorização para aplicações Spring",
+    "difficulty": "médio"
+  },
+  {
+    "id": 198,
+    "question": "O que faz o padrão Repository em arquitetura de software?",
+    "options": [
+      "Abstrai o acesso a dados, fornecendo interface para manipulação de objetos",
+      "Cria uma interface REST",
+      "Gerencia segurança",
+      "Controla a injeção de dependência"
+    ],
+    "answer": "Abstrai o acesso a dados, fornecendo interface para manipulação de objetos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 199,
+    "question": "Qual versão do Java introduziu o var para inferência de tipos?",
+    "options": [
+      "Java 10",
+      "Java 8",
+      "Java 11",
+      "Java 14"
+    ],
+    "answer": "Java 10",
+    "difficulty": "médio"
+  },
+  {
+    "id": 200,
+    "question": "No Git, o que faz o comando 'git stash'?",
+    "options": [
+      "Armazena temporariamente modificações não commitadas",
+      "Cria um branch",
+      "Faz merge entre branches",
+      "Reverte um commit"
+    ],
+    "answer": "Armazena temporariamente modificações não commitadas",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 201,
+    "question": "O que significa a sigla AWS?",
+    "options": [
+      "Amazon Web Services",
+      "Advanced Web Security",
+      "Application Web Server",
+      "Amazon Workflow Service"
+    ],
+    "answer": "Amazon Web Services",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 202,
+    "question": "O que é uma Lambda Function na AWS?",
+    "options": [
+      "Função sem servidor que executa código em resposta a eventos",
+      "Servidor dedicado",
+      "Banco de dados gerenciado",
+      "Ferramenta de monitoramento"
+    ],
+    "answer": "Função sem servidor que executa código em resposta a eventos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 203,
+    "question": "Qual anotação do Spring define um método que é um endpoint REST para POST?",
+    "options": [
+      "@PostMapping",
+      "@GetMapping",
+      "@DeleteMapping",
+      "@PutMapping"
+    ],
+    "answer": "@PostMapping",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 204,
+    "question": "Qual é o propósito do Dockerfile?",
+    "options": [
+      "Definir como construir uma imagem Docker",
+      "Gerenciar containers",
+      "Executar containers",
+      "Monitorar containers"
+    ],
+    "answer": "Definir como construir uma imagem Docker",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 205,
+    "question": "O que é o princípio 'Dependency Injection' em Spring?",
+    "options": [
+      "Injeção de dependências para desacoplar classes",
+      "Criar múltiplas instâncias de objetos",
+      "Escrever código síncrono",
+      "Gerenciar banco de dados"
+    ],
+    "answer": "Injeção de dependências para desacoplar classes",
+    "difficulty": "médio"
+  },
+  {
+    "id": 206,
+    "question": "Qual comando kubectl exibe todos os serviços em um namespace?",
+    "options": [
+      "kubectl get svc",
+      "kubectl get pods",
+      "kubectl describe node",
+      "kubectl delete svc"
+    ],
+    "answer": "kubectl get svc",
+    "difficulty": "médio"
+  },
+  {
+    "id": 207,
+    "question": "Em Spring, qual é a anotação para indicar uma classe de serviço?",
+    "options": [
+      "@Service",
+      "@Repository",
+      "@Component",
+      "@Controller"
+    ],
+    "answer": "@Service",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 208,
+    "question": "O que é a especificação JPA?",
+    "options": [
+      "Java Persistence API para mapeamento objeto-relacional",
+      "Java Process Automation",
+      "Java Performance Analyzer",
+      "Java Pattern Architecture"
+    ],
+    "answer": "Java Persistence API para mapeamento objeto-relacional",
+    "difficulty": "médio"
+  },
+  {
+    "id": 209,
+    "question": "O que é uma microservice architecture?",
+    "options": [
+      "Arquitetura que divide a aplicação em pequenos serviços independentes",
+      "Arquitetura monolítica",
+      "Arquitetura orientada a eventos",
+      "Padrão de design"
+    ],
+    "answer": "Arquitetura que divide a aplicação em pequenos serviços independentes",
+    "difficulty": "médio"
+  },
+  {
+    "id": 210,
+    "question": "Qual ferramenta é usada para integração contínua na AWS?",
+    "options": [
+      "AWS CodePipeline",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS EC2"
+    ],
+    "answer": "AWS CodePipeline",
+    "difficulty": "médio"
+  },
+  {
+    "id": 211,
+    "question": "Qual é a função do 'Actuator' no Spring Boot?",
+    "options": [
+      "Expor endpoints para monitoramento e métricas da aplicação",
+      "Criar controllers REST",
+      "Gerenciar banco de dados",
+      "Autenticar usuários"
+    ],
+    "answer": "Expor endpoints para monitoramento e métricas da aplicação",
+    "difficulty": "médio"
+  },
+  {
+    "id": 212,
+    "question": "O que é a injeção de dependência por construtor?",
+    "options": [
+      "Passar as dependências via construtor da classe",
+      "Criar dependências manualmente dentro da classe",
+      "Usar variáveis estáticas",
+      "Criar novos objetos dentro dos métodos"
+    ],
+    "answer": "Passar as dependências via construtor da classe",
+    "difficulty": "médio"
+  },
+  {
+    "id": 213,
+    "question": "No Git, o que significa 'fast-forward merge'?",
+    "options": [
+      "Atualizar o branch sem criar um commit de merge",
+      "Reverter um commit",
+      "Criar um novo branch",
+      "Ignorar mudanças"
+    ],
+    "answer": "Atualizar o branch sem criar um commit de merge",
+    "difficulty": "médio"
+  },
+  {
+    "id": 214,
+    "question": "Qual versão do Java introduziu Text Blocks para facilitar strings multilinhas?",
+    "options": [
+      "Java 13",
+      "Java 8",
+      "Java 11",
+      "Java 17"
+    ],
+    "answer": "Java 13",
+    "difficulty": "médio"
+  },
+  {
+    "id": 215,
+    "question": "O que é GitHub Actions?",
+    "options": [
+      "Ferramenta para automação de workflows dentro do GitHub",
+      "Editor de código",
+      "Servidor web",
+      "Banco de dados"
+    ],
+    "answer": "Ferramenta para automação de workflows dentro do GitHub",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 216,
+    "question": "O que faz o comando 'docker run'?",
+    "options": [
+      "Executa um container Docker a partir de uma imagem",
+      "Constrói uma imagem Docker",
+      "Lista containers ativos",
+      "Remove uma imagem Docker"
+    ],
+    "answer": "Executa um container Docker a partir de uma imagem",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 217,
+    "question": "Qual comando do Maven executa testes unitários?",
+    "options": [
+      "mvn test",
+      "mvn compile",
+      "mvn package",
+      "mvn clean"
+    ],
+    "answer": "mvn test",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 218,
+    "question": "O que é o padrão 'Factory Method'?",
+    "options": [
+      "Define uma interface para criar objetos, mas deixa subclasses decidirem a classe a ser instanciada",
+      "Garante apenas uma instância da classe",
+      "Permite modificar comportamento de objetos dinamicamente",
+      "Define passos para criação de objetos"
+    ],
+    "answer": "Define uma interface para criar objetos, mas deixa subclasses decidirem a classe a ser instanciada",
+    "difficulty": "médio"
+  },
+  {
+    "id": 219,
+    "question": "O que é a anotação @RequestBody no Spring?",
+    "options": [
+      "Mapeia o corpo da requisição HTTP para um objeto Java",
+      "Indica método GET",
+      "Define bean como singleton",
+      "Indica serviço REST"
+    ],
+    "answer": "Mapeia o corpo da requisição HTTP para um objeto Java",
+    "difficulty": "médio"
+  },
+  {
+    "id": 220,
+    "question": "O que significa 'idempotência' em APIs REST?",
+    "options": [
+      "Repetir a mesma requisição não altera o estado após a primeira execução",
+      "Todas requisições são únicas",
+      "APIs que sempre retornam erro",
+      "Requisições que nunca terminam"
+    ],
+    "answer": "Repetir a mesma requisição não altera o estado após a primeira execução",
+    "difficulty": "médio"
+  },
+  {
+    "id": 221,
+    "question": "Qual o objetivo do pattern 'Strategy'?",
+    "options": [
+      "Permitir selecionar algoritmos em tempo de execução",
+      "Garantir instância única",
+      "Observar mudanças em objetos",
+      "Criar objetos complexos"
+    ],
+    "answer": "Permitir selecionar algoritmos em tempo de execução",
+    "difficulty": "médio"
+  },
+  {
+    "id": 222,
+    "question": "Qual é o papel do Prometheus em sistemas distribuídos?",
+    "options": [
+      "Coletar e armazenar métricas para monitoramento",
+      "Visualizar dashboards",
+      "Gerenciar containers",
+      "Executar testes"
+    ],
+    "answer": "Coletar e armazenar métricas para monitoramento",
+    "difficulty": "médio"
+  },
+  {
+    "id": 223,
+    "question": "Qual é a diferença entre @Controller e @RestController no Spring?",
+    "options": [
+      "@RestController combina @Controller e @ResponseBody, retornando JSON diretamente",
+      "@Controller sempre retorna JSON",
+      "@RestController é usado só para HTML",
+      "Não há diferença"
+    ],
+    "answer": "@RestController combina @Controller e @ResponseBody, retornando JSON diretamente",
+    "difficulty": "médio"
+  },
+  {
+    "id": 224,
+    "question": "O que é a anotação @EnableAutoConfiguration no Spring Boot?",
+    "options": [
+      "Ativa a configuração automática com base nas dependências presentes",
+      "Cria um bean singleton",
+      "Define um endpoint REST",
+      "Configura segurança"
+    ],
+    "answer": "Ativa a configuração automática com base nas dependências presentes",
+    "difficulty": "médio"
+  },
+  {
+    "id": 225,
+    "question": "O que significa a sigla LTS em versões Java?",
+    "options": [
+      "Long Term Support",
+      "Latest Technology Standard",
+      "Lightweight Technical Specification",
+      "Local Testing Server"
+    ],
+    "answer": "Long Term Support",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 226,
+    "question": "O que é o padrão Adapter?",
+    "options": [
+      "Permite que interfaces incompatíveis trabalhem juntas",
+      "Cria uma única instância de uma classe",
+      "Define uma família de algoritmos",
+      "Observa mudanças em objetos"
+    ],
+    "answer": "Permite que interfaces incompatíveis trabalhem juntas",
+    "difficulty": "médio"
+  },
+  {
+    "id": 227,
+    "question": "Qual comando Git exibe o histórico de commits?",
+    "options": [
+      "git log",
+      "git status",
+      "git branch",
+      "git diff"
+    ],
+    "answer": "git log",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 228,
+    "question": "Qual a finalidade do GitHub Issues?",
+    "options": [
+      "Gerenciar tarefas e bugs em projetos",
+      "Hospedar repositórios Git",
+      "Gerenciar branches",
+      "Automatizar deploy"
+    ],
+    "answer": "Gerenciar tarefas e bugs em projetos",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 229,
+    "question": "O que é a anotação @ComponentScan no Spring?",
+    "options": [
+      "Define os pacotes onde o Spring deve buscar componentes para injeção",
+      "Marca um bean como singleton",
+      "Define endpoints REST",
+      "Configura segurança"
+    ],
+    "answer": "Define os pacotes onde o Spring deve buscar componentes para injeção",
+    "difficulty": "médio"
+  },
+  {
+    "id": 230,
+    "question": "Qual é a finalidade da ferramenta Jenkins?",
+    "options": [
+      "Automação de integração e entrega contínua (CI/CD)",
+      "Monitoramento de sistemas",
+      "Gerenciamento de containers",
+      "Banco de dados"
+    ],
+    "answer": "Automação de integração e entrega contínua (CI/CD)",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 231,
+    "question": "O que é 'scaling horizontal' em cloud computing?",
+    "options": [
+      "Adicionar mais máquinas para distribuir carga",
+      "Aumentar recursos de uma máquina",
+      "Diminuir número de usuários",
+      "Fazer backup dos dados"
+    ],
+    "answer": "Adicionar mais máquinas para distribuir carga",
+    "difficulty": "médio"
+  },
+  {
+    "id": 232,
+    "question": "O que é o pattern 'Decorator'?",
+    "options": [
+      "Adicionar funcionalidades a objetos dinamicamente",
+      "Criar instância única",
+      "Selecionar algoritmo em tempo de execução",
+      "Observar mudanças em objetos"
+    ],
+    "answer": "Adicionar funcionalidades a objetos dinamicamente",
+    "difficulty": "médio"
+  },
+  {
+    "id": 233,
+    "question": "Qual comando do Kubernetes escala o número de pods de uma aplicação?",
+    "options": [
+      "kubectl scale deployment nome --replicas=n",
+      "kubectl get pods",
+      "kubectl delete pod nome",
+      "kubectl apply -f arquivo.yaml"
+    ],
+    "answer": "kubectl scale deployment nome --replicas=n",
+    "difficulty": "médio"
+  },
+  {
+    "id": 234,
+    "question": "Qual é o objetivo do padrão Factory?",
+    "options": [
+      "Criar objetos sem expor a lógica de criação",
+      "Garantir um único objeto",
+      "Modularizar o código",
+      "Validar entrada"
+    ],
+    "answer": "Criar objetos sem expor a lógica de criação",
+    "difficulty": "médio"
+  },
+  {
+    "id": 235,
+    "question": "Qual a função do Jaeger em sistemas distribuídos?",
+    "options": [
+      "Rastreamento distribuído (tracing) para monitorar fluxos de chamadas",
+      "Coleta de métricas",
+      "Visualização de dashboards",
+      "Gerenciamento de containers"
+    ],
+    "answer": "Rastreamento distribuído (tracing) para monitorar fluxos de chamadas",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 236,
+    "question": "Qual anotação do Spring Boot configura um método para ser executado periodicamente?",
+    "options": [
+      "@Scheduled",
+      "@Async",
+      "@EventListener",
+      "@Transactional"
+    ],
+    "answer": "@Scheduled",
+    "difficulty": "médio"
+  },
+  {
+    "id": 237,
+    "question": "Qual é o comando para aplicar um arquivo de configuração no Kubernetes?",
+    "options": [
+      "kubectl apply -f arquivo.yaml",
+      "kubectl create -f arquivo.yaml",
+      "kubectl run",
+      "kubectl delete -f arquivo.yaml"
+    ],
+    "answer": "kubectl apply -f arquivo.yaml",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 238,
+    "question": "O que é o padrão Builder?",
+    "options": [
+      "Separar a construção de um objeto complexo da sua representação",
+      "Criar instância única",
+      "Definir interface para criação de objetos",
+      "Observar mudanças"
+    ],
+    "answer": "Separar a construção de um objeto complexo da sua representação",
+    "difficulty": "médio"
+  },
+  {
+    "id": 239,
+    "question": "O que faz a anotação @Qualifier no Spring?",
+    "options": [
+      "Distinguir entre múltiplas implementações para injeção",
+      "Definir um bean singleton",
+      "Configurar endpoints REST",
+      "Marcar uma classe como componente"
+    ],
+    "answer": "Distinguir entre múltiplas implementações para injeção",
+    "difficulty": "médio"
+  },
+  {
+    "id": 240,
+    "question": "Qual comando Git desfaz o último commit, mantendo as alterações no código?",
+    "options": [
+      "git reset --soft HEAD~1",
+      "git revert HEAD",
+      "git checkout",
+      "git clean"
+    ],
+    "answer": "git reset --soft HEAD~1",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 241,
+    "question": "Qual é o principal benefício da arquitetura baseada em microsserviços?",
+    "options": [
+      "Escalabilidade e independência dos serviços",
+      "Código monolítico mais simples",
+      "Redução do uso de containers",
+      "Aumento da complexidade do deploy"
+    ],
+    "answer": "Escalabilidade e independência dos serviços",
+    "difficulty": "médio"
+  },
+  {
+    "id": 242,
+    "question": "Em arquitetura hexagonal, o que são as portas (ports)?",
+    "options": [
+      "Interfaces que definem pontos de entrada e saída do domínio",
+      "Componentes visuais da aplicação",
+      "Banco de dados externos",
+      "APIs REST"
+    ],
+    "answer": "Interfaces que definem pontos de entrada e saída do domínio",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 243,
+    "question": "Qual feature do Java 17 facilita o uso de expressões switch?",
+    "options": [
+      "Switch Expressions com 'yield'",
+      "Var keyword",
+      "Records",
+      "Sealed classes"
+    ],
+    "answer": "Switch Expressions com 'yield'",
+    "difficulty": "médio"
+  },
+  {
+    "id": 244,
+    "question": "Qual é o propósito do GitHub Actions?",
+    "options": [
+      "Automatizar workflows de CI/CD integrados ao GitHub",
+      "Hospedar repositórios Git",
+      "Editor de código online",
+      "Gerenciar bancos de dados"
+    ],
+    "answer": "Automatizar workflows de CI/CD integrados ao GitHub",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 245,
+    "question": "O que é um pipeline CI/CD?",
+    "options": [
+      "Sequência automatizada de etapas para construir, testar e entregar software",
+      "Manual de deploy",
+      "Banco de dados de usuários",
+      "Servidor de produção"
+    ],
+    "answer": "Sequência automatizada de etapas para construir, testar e entregar software",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 246,
+    "question": "No Apache Camel, o que é uma 'route'?",
+    "options": [
+      "Definição de fluxo de mensagens entre endpoints",
+      "Banco de dados",
+      "Interface gráfica",
+      "Classe Java"
+    ],
+    "answer": "Definição de fluxo de mensagens entre endpoints",
+    "difficulty": "médio"
+  },
+  {
+    "id": 247,
+    "question": "Qual anotação Quarkus habilita a injeção de dependência em um bean?",
+    "options": [
+      "@Inject",
+      "@Autowired",
+      "@Component",
+      "@Service"
+    ],
+    "answer": "@Inject",
+    "difficulty": "médio"
+  },
+  {
+    "id": 248,
+    "question": "O que é Camunda?",
+    "options": [
+      "Motor de orquestração de processos BPMN",
+      "Banco de dados relacional",
+      "Framework web para Java",
+      "Sistema de filas"
+    ],
+    "answer": "Motor de orquestração de processos BPMN",
+    "difficulty": "médio"
+  },
+  {
+    "id": 249,
+    "question": "Qual protocolo é amplamente usado para filas de mensagens assíncronas?",
+    "options": [
+      "AMQP",
+      "HTTP",
+      "FTP",
+      "TCP"
+    ],
+    "answer": "AMQP",
+    "difficulty": "médio"
+  },
+  {
+    "id": 250,
+    "question": "Qual é o comando para criar um novo branch e já trocar para ele no Git?",
+    "options": [
+      "git checkout -b nome-branch",
+      "git branch nome-branch",
+      "git switch nome-branch",
+      "git merge nome-branch"
+    ],
+    "answer": "git checkout -b nome-branch",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 251,
+    "question": "Em Java, o que são 'sealed classes' introduzidas no Java 17?",
+    "options": [
+      "Classes que restringem quais outras classes podem estendê-las",
+      "Classes abstratas",
+      "Interfaces funcionais",
+      "Classes anônimas"
+    ],
+    "answer": "Classes que restringem quais outras classes podem estendê-las",
+    "difficulty": "médio"
+  },
+  {
+    "id": 252,
+    "question": "No GitHub Actions, qual arquivo define os workflows?",
+    "options": [
+      "YAML dentro da pasta .github/workflows",
+      "Dockerfile",
+      "pom.xml",
+      "README.md"
+    ],
+    "answer": "YAML dentro da pasta .github/workflows",
+    "difficulty": "médio"
+  },
+  {
+    "id": 253,
+    "question": "Qual conceito representa desacoplamento entre componentes em arquitetura de software?",
+    "options": [
+      "Inversão de controle (IoC)",
+      "Herança múltipla",
+      "Singleton",
+      "Encapsulamento"
+    ],
+    "answer": "Inversão de controle (IoC)",
+    "difficulty": "médio"
+  },
+  {
+    "id": 254,
+    "question": "Qual é o objetivo do padrão Circuit Breaker em sistemas distribuídos?",
+    "options": [
+      "Evitar falhas em cascata ao isolar serviços com problemas",
+      "Melhorar desempenho de banco de dados",
+      "Gerenciar filas de mensagens",
+      "Monitorar logs"
+    ],
+    "answer": "Evitar falhas em cascata ao isolar serviços com problemas",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 255,
+    "question": "O que é Kafka em sistemas de mensageria?",
+    "options": [
+      "Sistema distribuído de streaming e filas de mensagens",
+      "Banco de dados SQL",
+      "Servidor web",
+      "Container Docker"
+    ],
+    "answer": "Sistema distribuído de streaming e filas de mensagens",
+    "difficulty": "médio"
+  },
+  {
+    "id": 256,
+    "question": "No Apache Camel, qual componente permite comunicação com filas JMS?",
+    "options": [
+      "jms",
+      "file",
+      "http",
+      "ftp"
+    ],
+    "answer": "jms",
+    "difficulty": "médio"
+  },
+  {
+    "id": 257,
+    "question": "Qual anotação do Quarkus permite definir um método para ser executado após a inicialização da aplicação?",
+    "options": [
+      "@PostConstruct",
+      "@PreDestroy",
+      "@Scheduled",
+      "@Inject"
+    ],
+    "answer": "@PostConstruct",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 258,
+    "question": "Em Camunda, o que significa BPMN?",
+    "options": [
+      "Business Process Model and Notation",
+      "Basic Process Modular Network",
+      "Business Program Management Node",
+      "Batch Process Modeling Notation"
+    ],
+    "answer": "Business Process Model and Notation",
+    "difficulty": "médio"
+  },
+  {
+    "id": 259,
+    "question": "Qual comando Git reverte um commit já enviado ao repositório remoto?",
+    "options": [
+      "git revert <commit>",
+      "git reset --hard <commit>",
+      "git checkout <commit>",
+      "git clean"
+    ],
+    "answer": "git revert <commit>",
+    "difficulty": "médio"
+  },
+  {
+    "id": 260,
+    "question": "O que o comando 'git merge --no-ff' faz?",
+    "options": [
+      "Cria um commit de merge mesmo que o merge possa ser fast-forward",
+      "Desfaz um commit",
+      "Cria um novo branch",
+      "Apaga um branch"
+    ],
+    "answer": "Cria um commit de merge mesmo que o merge possa ser fast-forward",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 261,
+    "question": "O que é um message broker em arquitetura de software?",
+    "options": [
+      "Sistema intermediário que gerencia mensagens entre produtores e consumidores",
+      "Banco de dados relacional",
+      "Servidor HTTP",
+      "IDE para desenvolvimento"
+    ],
+    "answer": "Sistema intermediário que gerencia mensagens entre produtores e consumidores",
+    "difficulty": "médio"
+  },
+  {
+    "id": 262,
+    "question": "Qual a principal vantagem de usar Quarkus em Java?",
+    "options": [
+      "Baixo tempo de inicialização e uso reduzido de memória para aplicações cloud-native",
+      "Mais linhas de código",
+      "Execução somente local",
+      "Apenas para aplicações desktop"
+    ],
+    "answer": "Baixo tempo de inicialização e uso reduzido de memória para aplicações cloud-native",
+    "difficulty": "médio"
+  },
+  {
+    "id": 263,
+    "question": "Qual comando Git exibe diferenças entre o código local e o último commit?",
+    "options": [
+      "git diff",
+      "git status",
+      "git log",
+      "git show"
+    ],
+    "answer": "git diff",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 264,
+    "question": "Em arquitetura, o que é 'event sourcing'?",
+    "options": [
+      "Padrão que armazena todas as mudanças do estado como uma sequência de eventos",
+      "Banco de dados relacional",
+      "Sistema de filas",
+      "Padrão para REST APIs"
+    ],
+    "answer": "Padrão que armazena todas as mudanças do estado como uma sequência de eventos",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 265,
+    "question": "Qual anotação no Spring Boot marca um método para executar uma transação?",
+    "options": [
+      "@Transactional",
+      "@Service",
+      "@RestController",
+      "@Autowired"
+    ],
+    "answer": "@Transactional",
+    "difficulty": "médio"
+  },
+  {
+    "id": 266,
+    "question": "O que é um 'dead letter queue' em sistemas de filas?",
+    "options": [
+      "Fila onde mensagens que não puderam ser processadas são enviadas",
+      "Fila principal de mensagens",
+      "Banco de dados temporário",
+      "Buffer de memória"
+    ],
+    "answer": "Fila onde mensagens que não puderam ser processadas são enviadas",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 267,
+    "question": "Qual comando Git cria um tag para marcar uma versão no repositório?",
+    "options": [
+      "git tag nome-tag",
+      "git branch nome-branch",
+      "git commit -m 'msg'",
+      "git merge nome-branch"
+    ],
+    "answer": "git tag nome-tag",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 268,
+    "question": "Qual versão do Java introduziu o padrão de módulos (Project Jigsaw)?",
+    "options": [
+      "Java 9",
+      "Java 8",
+      "Java 11",
+      "Java 17"
+    ],
+    "answer": "Java 9",
+    "difficulty": "médio"
+  },
+  {
+    "id": 269,
+    "question": "Qual recurso do Java 21 está focado em melhorar desempenho e segurança?",
+    "options": [
+      "Scoped Values",
+      "Records",
+      "Text Blocks",
+      "Switch Expressions"
+    ],
+    "answer": "Scoped Values",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 270,
+    "question": "Em Camel, qual é o componente padrão para integração HTTP?",
+    "options": [
+      "http",
+      "ftp",
+      "file",
+      "jms"
+    ],
+    "answer": "http",
+    "difficulty": "médio"
+  },
+  {
+    "id": 271,
+    "question": "Qual ferramenta de pipeline pode ser usada para executar jobs declarados em YAML?",
+    "options": [
+      "GitHub Actions",
+      "Jenkins (só via UI)",
+      "Docker",
+      "Git"
+    ],
+    "answer": "GitHub Actions",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 272,
+    "question": "O que é 'blue-green deployment' em DevOps?",
+    "options": [
+      "Técnica para reduzir downtime alternando entre dois ambientes de produção",
+      "Criar backups automáticos",
+      "Monitorar logs em tempo real",
+      "Gerenciar filas"
+    ],
+    "answer": "Técnica para reduzir downtime alternando entre dois ambientes de produção",
+    "difficulty": "médio"
+  },
+  {
+    "id": 273,
+    "question": "Qual comando Git faz o upload do branch local para o remoto?",
+    "options": [
+      "git push origin nome-branch",
+      "git pull origin nome-branch",
+      "git fetch origin",
+      "git clone"
+    ],
+    "answer": "git push origin nome-branch",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 274,
+    "question": "Em Java, qual recurso permite inferir o tipo de variável local automaticamente?",
+    "options": [
+      "Var",
+      "Let",
+      "Const",
+      "Auto"
+    ],
+    "answer": "Var",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 275,
+    "question": "O que é o 'back pressure' em sistemas de mensageria?",
+    "options": [
+      "Mecanismo para evitar sobrecarga do consumidor controlando o fluxo de mensagens",
+      "Método para acelerar filas",
+      "Técnica para balancear carga de CPU",
+      "Sistema de cache"
+    ],
+    "answer": "Mecanismo para evitar sobrecarga do consumidor controlando o fluxo de mensagens",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 276,
+    "question": "Qual é a vantagem de usar arquitetura orientada a eventos (Event-Driven Architecture)?",
+    "options": [
+      "Desacoplamento entre componentes e melhor escalabilidade",
+      "Menor uso de memória",
+      "Menor número de servidores",
+      "Melhor integração com banco de dados SQL"
+    ],
+    "answer": "Desacoplamento entre componentes e melhor escalabilidade",
+    "difficulty": "médio"
+  },
+  {
+    "id": 277,
+    "question": "Em Java 11, qual método da classe String permite repetir uma string N vezes?",
+    "options": [
+      "repeat(int count)",
+      "concat(String s)",
+      "join(CharSequence delimiter, CharSequence... elements)",
+      "strip()"
+    ],
+    "answer": "repeat(int count)",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 278,
+    "question": "No Git, o que faz o comando 'git rebase'?",
+    "options": [
+      "Reaplica commits de um branch em outro para manter histórico linear",
+      "Desfaz o último commit",
+      "Cria um novo branch",
+      "Apaga um arquivo do repositório"
+    ],
+    "answer": "Reaplica commits de um branch em outro para manter histórico linear",
+    "difficulty": "médio"
+  },
+  {
+    "id": 279,
+    "question": "Qual plugin do Maven é mais usado para executar testes automatizados em Java?",
+    "options": [
+      "maven-surefire-plugin",
+      "maven-compiler-plugin",
+      "maven-clean-plugin",
+      "maven-jar-plugin"
+    ],
+    "answer": "maven-surefire-plugin",
+    "difficulty": "médio"
+  },
+  {
+    "id": 280,
+    "question": "No Apache Camel, qual componente é usado para integração com bases de dados relacionais?",
+    "options": [
+      "jdbc",
+      "http",
+      "ftp",
+      "file"
+    ],
+    "answer": "jdbc",
+    "difficulty": "médio"
+  },
+  {
+    "id": 281,
+    "question": "Quarkus suporta qual modelo de programação para microservices reativos?",
+    "options": [
+      "Mutiny",
+      "Spring MVC",
+      "Servlets tradicionais",
+      "JSP"
+    ],
+    "answer": "Mutiny",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 282,
+    "question": "No Camunda, qual arquivo é usado para definir o fluxo do processo BPMN?",
+    "options": [
+      "arquivo .bpmn.xml",
+      "arquivo .java",
+      "arquivo .properties",
+      "arquivo .yaml"
+    ],
+    "answer": "arquivo .bpmn.xml",
+    "difficulty": "médio"
+  },
+  {
+    "id": 283,
+    "question": "Qual protocolo é frequentemente usado para comunicação com Kafka?",
+    "options": [
+      "TCP",
+      "HTTP",
+      "UDP",
+      "FTP"
+    ],
+    "answer": "TCP",
+    "difficulty": "médio"
+  },
+  {
+    "id": 284,
+    "question": "No GitHub Actions, qual evento pode ser usado para disparar um workflow quando um pull request é aberto?",
+    "options": [
+      "pull_request",
+      "push",
+      "release",
+      "issue_comment"
+    ],
+    "answer": "pull_request",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 285,
+    "question": "Em Java, qual classe foi introduzida no Java 8 para facilitar manipulação de datas e horas?",
+    "options": [
+      "java.time.LocalDateTime",
+      "java.util.Date",
+      "java.sql.Timestamp",
+      "java.util.Calendar"
+    ],
+    "answer": "java.time.LocalDateTime",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 286,
+    "question": "Qual é o objetivo do princípio SOLID chamado 'Single Responsibility Principle'?",
+    "options": [
+      "Cada classe deve ter uma única responsabilidade",
+      "Classes devem ser o mais geral possível",
+      "Métodos devem ter vários propósitos",
+      "Evitar a criação de interfaces"
+    ],
+    "answer": "Cada classe deve ter uma única responsabilidade",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 287,
+    "question": "O que é um 'dead letter queue' em sistemas de mensageria como RabbitMQ?",
+    "options": [
+      "Fila para mensagens que não puderam ser processadas",
+      "Fila padrão para novas mensagens",
+      "Buffer de memória",
+      "Cache de mensagens"
+    ],
+    "answer": "Fila para mensagens que não puderam ser processadas",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 288,
+    "question": "Qual comando Git é usado para ver o histórico de commits?",
+    "options": [
+      "git log",
+      "git status",
+      "git diff",
+      "git show"
+    ],
+    "answer": "git log",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 289,
+    "question": "Qual é o padrão arquitetural recomendado para desacoplar front-end e back-end em aplicações modernas?",
+    "options": [
+      "API REST",
+      "Monolito",
+      "Batch Processing",
+      "Tight Coupling"
+    ],
+    "answer": "API REST",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 290,
+    "question": "Quais vantagens o Java 21 traz com os 'Record Patterns'?",
+    "options": [
+      "Permitem destructurar objetos Record de forma concisa em switch expressions",
+      "Eliminam a necessidade de interfaces",
+      "Aumentam o tamanho do bytecode",
+      "Substituem Lambdas"
+    ],
+    "answer": "Permitem destructurar objetos Record de forma concisa em switch expressions",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 291,
+    "question": "O que é OpenShift?",
+    "options": [
+      "Plataforma de containers Kubernetes para orquestração e deploy de aplicações",
+      "Sistema gerenciador de banco de dados",
+      "IDE para desenvolvimento Java",
+      "Servidor FTP"
+    ],
+    "answer": "Plataforma de containers Kubernetes para orquestração e deploy de aplicações",
+    "difficulty": "médio"
+  },
+  {
+    "id": 292,
+    "question": "Em CI/CD, qual conceito indica que o código deve estar sempre em um estado implantável?",
+    "options": [
+      "Continuous Delivery",
+      "Continuous Integration",
+      "Continuous Deployment",
+      "Manual Release"
+    ],
+    "answer": "Continuous Delivery",
+    "difficulty": "médio"
+  },
+  {
+    "id": 293,
+    "question": "Qual comando Git reverte um arquivo para a última versão confirmada?",
+    "options": [
+      "git checkout -- nome-arquivo",
+      "git reset --hard",
+      "git revert",
+      "git clean"
+    ],
+    "answer": "git checkout -- nome-arquivo",
+    "difficulty": "médio"
+  },
+  {
+    "id": 294,
+    "question": "Em Apache Camel, qual é a função do componente 'direct'?",
+    "options": [
+      "Permite comunicação síncrona dentro da mesma JVM",
+      "Gerencia conexões FTP",
+      "Envia mensagens HTTP",
+      "Processa arquivos"
+    ],
+    "answer": "Permite comunicação síncrona dentro da mesma JVM",
+    "difficulty": "médio"
+  },
+  {
+    "id": 295,
+    "question": "Qual recurso do Java 17 permite criar classes imutáveis com menos código?",
+    "options": [
+      "Records",
+      "Enums",
+      "Interfaces",
+      "Annotations"
+    ],
+    "answer": "Records",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 296,
+    "question": "O que o conceito de 'Infrastructure as Code' (IaC) promove em DevOps?",
+    "options": [
+      "Automação do provisionamento e gerenciamento da infraestrutura usando código",
+      "Gerenciamento manual de servidores",
+      "Configuração via GUI",
+      "Backup de dados"
+    ],
+    "answer": "Automação do provisionamento e gerenciamento da infraestrutura usando código",
+    "difficulty": "médio"
+  },
+  {
+    "id": 297,
+    "question": "Qual é o objetivo principal do Git Flow como modelo de branching?",
+    "options": [
+      "Organizar branches para facilitar desenvolvimento, releases e hotfixes",
+      "Fazer deploy automático",
+      "Substituir o uso de tags",
+      "Controlar merges automaticamente"
+    ],
+    "answer": "Organizar branches para facilitar desenvolvimento, releases e hotfixes",
+    "difficulty": "médio"
+  },
+  {
+    "id": 298,
+    "question": "Em Quarkus, qual extensão permite integração com Kafka?",
+    "options": [
+      "quarkus-smallrye-reactive-messaging-kafka",
+      "quarkus-resteasy",
+      "quarkus-hibernate-orm",
+      "quarkus-jdbc-postgresql"
+    ],
+    "answer": "quarkus-smallrye-reactive-messaging-kafka",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 299,
+    "question": "Em Camunda, qual linguagem pode ser usada para definir regras de decisão (DMN)?",
+    "options": [
+      "FEEL",
+      "JavaScript",
+      "SQL",
+      "Python"
+    ],
+    "answer": "FEEL",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 300,
+    "question": "O que é o conceito de 'loose coupling' em arquitetura de software?",
+    "options": [
+      "Componentes com baixa dependência entre si",
+      "Componentes altamente dependentes",
+      "Integração direta entre todos módulos",
+      "Uso de classes anônimas"
+    ],
+    "answer": "Componentes com baixa dependência entre si",
+    "difficulty": "médio"
+  },
+  {
+    "id": 301,
+    "question": "Qual é a principal vantagem do GitHub Actions frente a outras ferramentas de CI/CD?",
+    "options": [
+      "Integração nativa com repositórios GitHub",
+      "Melhor suporte a Jenkins",
+      "Interface CLI exclusiva",
+      "Backup automático de código"
+    ],
+    "answer": "Integração nativa com repositórios GitHub",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 302,
+    "question": "Em Java, o que faz o método Optional.isPresent()?",
+    "options": [
+      "Verifica se o Optional contém um valor",
+      "Cria um Optional vazio",
+      "Remove o valor do Optional",
+      "Retorna o valor ou lança exceção"
+    ],
+    "answer": "Verifica se o Optional contém um valor",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 303,
+    "question": "No contexto de filas, o que é uma 'consumer group' em Kafka?",
+    "options": [
+      "Grupo de consumidores que compartilham a carga de processamento",
+      "Grupo de produtores",
+      "Banco de dados do Kafka",
+      "Partição da fila"
+    ],
+    "answer": "Grupo de consumidores que compartilham a carga de processamento",
+    "difficulty": "médio"
+  },
+  {
+    "id": 304,
+    "question": "Qual comando Git mostra quais arquivos foram modificados mas ainda não adicionados ao commit?",
+    "options": [
+      "git status",
+      "git diff",
+      "git log",
+      "git commit"
+    ],
+    "answer": "git status",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 305,
+    "question": "Em Quarkus, qual extensão facilita integração com banco de dados PostgreSQL?",
+    "options": [
+      "quarkus-jdbc-postgresql",
+      "quarkus-hibernate-orm-panache",
+      "quarkus-smallrye-reactive-messaging",
+      "quarkus-resteasy"
+    ],
+    "answer": "quarkus-jdbc-postgresql",
+    "difficulty": "médio"
+  },
+  {
+    "id": 306,
+    "question": "O que significa 'blue-green deployment' em pipelines CI/CD?",
+    "options": [
+      "Implantação que alterna entre dois ambientes para reduzir downtime",
+      "Deploy apenas manual",
+      "Rollback automático de versões antigas",
+      "Backup do banco de dados"
+    ],
+    "answer": "Implantação que alterna entre dois ambientes para reduzir downtime",
+    "difficulty": "médio"
+  },
+  {
+    "id": 307,
+    "question": "Em Java 17, qual anotação ajuda a restringir subclasses permitidas em uma classe?",
+    "options": [
+      "@Sealed",
+      "@Override",
+      "@Deprecated",
+      "@FunctionalInterface"
+    ],
+    "answer": "@Sealed",
+    "difficulty": "médio"
+  },
+  {
+    "id": 308,
+    "question": "Qual é o objetivo do padrão 'Adapter' em design patterns?",
+    "options": [
+      "Permitir que interfaces incompatíveis trabalhem juntas",
+      "Criar objetos singleton",
+      "Gerenciar ciclo de vida",
+      "Encapsular múltiplos objetos"
+    ],
+    "answer": "Permitir que interfaces incompatíveis trabalhem juntas",
+    "difficulty": "médio"
+  },
+  {
+    "id": 309,
+    "question": "No Apache Camel, qual componente é usado para enviar mensagens por email?",
+    "options": [
+      "smtp",
+      "ftp",
+      "jms",
+      "file"
+    ],
+    "answer": "smtp",
+    "difficulty": "médio"
+  },
+  {
+    "id": 310,
+    "question": "Em Camunda, qual ferramenta é usada para monitorar e administrar processos em produção?",
+    "options": [
+      "Camunda Cockpit",
+      "Camunda Tasklist",
+      "Camunda Modeler",
+      "Camunda Engine"
+    ],
+    "answer": "Camunda Cockpit",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 311,
+    "question": "O que é o padrão 'Repository' em arquitetura de software?",
+    "options": [
+      "Camada que abstrai o acesso a dados e persistência",
+      "Interface gráfica do usuário",
+      "Servidor web",
+      "Banco de dados"
+    ],
+    "answer": "Camada que abstrai o acesso a dados e persistência",
+    "difficulty": "médio"
+  },
+  {
+    "id": 312,
+    "question": "Em pipelines CI/CD, o que significa 'artifact'?",
+    "options": [
+      "Arquivo gerado após a construção que será implantado",
+      "Código fonte",
+      "Dockerfile",
+      "Arquivo de configuração YAML"
+    ],
+    "answer": "Arquivo gerado após a construção que será implantado",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 313,
+    "question": "Qual comando Git cria um novo commit com uma mensagem descritiva?",
+    "options": [
+      "git commit -m 'mensagem'",
+      "git add",
+      "git push",
+      "git clone"
+    ],
+    "answer": "git commit -m 'mensagem'",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 314,
+    "question": "Qual padrão de design ajuda a garantir que uma classe tenha apenas uma instância?",
+    "options": [
+      "Singleton",
+      "Factory",
+      "Observer",
+      "Decorator"
+    ],
+    "answer": "Singleton",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 315,
+    "question": "Qual recurso do Java 14 introduzido ajuda a simplificar blocos switch?",
+    "options": [
+      "Switch Expressions",
+      "Records",
+      "Text Blocks",
+      "Pattern Matching"
+    ],
+    "answer": "Switch Expressions",
+    "difficulty": "médio"
+  },
+  {
+    "id": 316,
+    "question": "Em Java, o que é a 'var' keyword introduzida no Java 10?",
+    "options": [
+      "Inferência de tipo para variáveis locais",
+      "Declaração de variável global",
+      "Declaração de constante",
+      "Palavra reservada para loops"
+    ],
+    "answer": "Inferência de tipo para variáveis locais",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 317,
+    "question": "O que é GitHub Actions Marketplace?",
+    "options": [
+      "Repositório de ações reutilizáveis para pipelines CI/CD",
+      "Lista de repositórios públicos",
+      "Área para editar arquivos YAML",
+      "Servidor de hospedagem"
+    ],
+    "answer": "Repositório de ações reutilizáveis para pipelines CI/CD",
+    "difficulty": "médio"
+  },
+  {
+    "id": 318,
+    "question": "Qual componente do Apache Camel é usado para transformar mensagens entre formatos diferentes?",
+    "options": [
+      "transform",
+      "route",
+      "endpoint",
+      "processor"
+    ],
+    "answer": "transform",
+    "difficulty": "médio"
+  },
+  {
+    "id": 319,
+    "question": "Qual é a finalidade do 'Continuous Integration' (CI)?",
+    "options": [
+      "Integrar mudanças de código frequentemente para detectar erros rapidamente",
+      "Fazer deploy automático em produção",
+      "Criar backups de banco de dados",
+      "Gerenciar servidores"
+    ],
+    "answer": "Integrar mudanças de código frequentemente para detectar erros rapidamente",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 320,
+    "question": "No Quarkus, qual extensão adiciona suporte ao Hibernate ORM com Panache?",
+    "options": [
+      "quarkus-hibernate-orm-panache",
+      "quarkus-resteasy",
+      "quarkus-smallrye-health",
+      "quarkus-jdbc-mysql"
+    ],
+    "answer": "quarkus-hibernate-orm-panache",
+    "difficulty": "médio"
+  },
+  {
+    "id": 321,
+    "question": "Explique o conceito de arquitetura hexagonal e qual problema ela resolve.",
+    "options": [
+      "Isola o núcleo da aplicação das dependências externas para aumentar a testabilidade e flexibilidade",
+      "Melhora a performance de banco de dados",
+      "Substitui camadas por microservices",
+      "Define um modelo de dados único"
+    ],
+    "answer": "Isola o núcleo da aplicação das dependências externas para aumentar a testabilidade e flexibilidade",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 322,
+    "question": "Quais são as vantagens do uso de record classes no Java 16 e posteriores?",
+    "options": [
+      "Redução de código boilerplate para classes imutáveis com dados",
+      "Permitem herança múltipla",
+      "Substituem interfaces funcionais",
+      "Geram automaticamente SQL para objetos"
+    ],
+    "answer": "Redução de código boilerplate para classes imutáveis com dados",
+    "difficulty": "médio"
+  },
+  {
+    "id": 323,
+    "question": "No contexto de pipelines CI/CD, o que é um 'canary deployment'?",
+    "options": [
+      "Implantar nova versão para uma pequena parte dos usuários para monitorar antes do rollout completo",
+      "Rollback automático",
+      "Deploy para ambiente de homologação",
+      "Deploy sem monitoramento"
+    ],
+    "answer": "Implantar nova versão para uma pequena parte dos usuários para monitorar antes do rollout completo",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 324,
+    "question": "Explique o papel do GitHub Actions Runner e como ele pode ser configurado.",
+    "options": [
+      "É um agente que executa jobs e pode ser auto-hospedado ou cloud-hosted",
+      "É um plugin para editar código",
+      "Banco de dados de ações",
+      "Ferramenta para merge automático"
+    ],
+    "answer": "É um agente que executa jobs e pode ser auto-hospedado ou cloud-hosted",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 325,
+    "question": "No Apache Camel, como funciona o padrão EIP (Enterprise Integration Patterns)?",
+    "options": [
+      "São soluções padronizadas para problemas comuns em integração de sistemas",
+      "Banco de dados distribuído",
+      "Interface gráfica para integração",
+      "Protocolo de rede"
+    ],
+    "answer": "São soluções padronizadas para problemas comuns em integração de sistemas",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 326,
+    "question": "Quais benefícios o Quarkus traz para o desenvolvimento de microsserviços em Java?",
+    "options": [
+      "Boot rápido, baixo consumo de memória, integração com GraalVM para compilação nativa",
+      "Mais pesado que Spring Boot",
+      "Somente suporta aplicações monolíticas",
+      "Desempenho inferior a Java EE"
+    ],
+    "answer": "Boot rápido, baixo consumo de memória, integração com GraalVM para compilação nativa",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 327,
+    "question": "No Camunda BPM, qual a função do Tasklist e como ele é utilizado na automação de processos?",
+    "options": [
+      "Interface para que usuários realizem tarefas humanas dentro dos processos BPMN",
+      "Interface para modelagem de processos",
+      "Servidor de banco de dados",
+      "Ferramenta de deploy"
+    ],
+    "answer": "Interface para que usuários realizem tarefas humanas dentro dos processos BPMN",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 328,
+    "question": "Explique o conceito de 'backpressure' em sistemas de mensageria e streaming, e como Kafka o trata.",
+    "options": [
+      "Mecanismo para lidar com excesso de mensagens para evitar sobrecarga do consumidor",
+      "Ferramenta para compressão de dados",
+      "Replicação de mensagens",
+      "Protocolo de segurança"
+    ],
+    "answer": "Mecanismo para lidar com excesso de mensagens para evitar sobrecarga do consumidor",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 329,
+    "question": "Como o OpenShift facilita o gerenciamento de aplicações em containers?",
+    "options": [
+      "Automatiza deploy, escalonamento, e gerenciamento sobre Kubernetes com UI e CLI simplificados",
+      "Banco de dados para containers",
+      "IDE para Kubernetes",
+      "Ferramenta para build de imagens Docker"
+    ],
+    "answer": "Automatiza deploy, escalonamento, e gerenciamento sobre Kubernetes com UI e CLI simplificados",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 330,
+    "question": "Quais as diferenças entre Continuous Integration, Continuous Delivery e Continuous Deployment?",
+    "options": [
+      "CI integra código; CD entrega para produção; Deployment faz deploy automático",
+      "CI cria backups; CD gera builds; Deployment testa código",
+      "São sinônimos",
+      "CI e CD são ferramentas"
+    ],
+    "answer": "CI integra código; CD entrega para produção; Deployment faz deploy automático",
+    "difficulty": "médio"
+  },
+  {
+    "id": 331,
+    "question": "Quais novidades de performance o Java 17 introduziu em relação a versões anteriores?",
+    "options": [
+      "Melhorias no garbage collector G1, suporte a ZGC escalável e melhorias de JVM",
+      "Remoção do suporte a generics",
+      "Novo compilador interpretado",
+      "Mudança na sintaxe da linguagem"
+    ],
+    "answer": "Melhorias no garbage collector G1, suporte a ZGC escalável e melhorias de JVM",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 332,
+    "question": "Como implementar idempotência em um pipeline CI/CD para evitar deploys duplicados?",
+    "options": [
+      "Usar tags, verificar status anterior e evitar executar etapas se já completadas",
+      "Executar tudo novamente",
+      "Ignorar erros",
+      "Rodar em paralelo"
+    ],
+    "answer": "Usar tags, verificar status anterior e evitar executar etapas se já completadas",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 333,
+    "question": "Qual a diferença entre 'git merge' e 'git rebase' e quando usar cada um?",
+    "options": [
+      "Merge combina históricos preservando commits; Rebase reescreve histórico para linearidade",
+      "Merge apaga branch; Rebase cria branch",
+      "São comandos equivalentes",
+      "Merge é para rollback; Rebase é para pull"
+    ],
+    "answer": "Merge combina históricos preservando commits; Rebase reescreve histórico para linearidade",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 334,
+    "question": "Em Apache Camel, o que é um 'RouteBuilder' e para que serve?",
+    "options": [
+      "Classe Java para definir rotas de integração usando DSL fluente",
+      "Componente para conectar com banco",
+      "Servidor para executar rotas",
+      "Ferramenta visual"
+    ],
+    "answer": "Classe Java para definir rotas de integração usando DSL fluente",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 335,
+    "question": "Explique como funciona a programação reativa em Quarkus com Mutiny.",
+    "options": [
+      "Mutiny oferece API fluente para trabalhar com fluxos assíncronos de dados com backpressure nativo",
+      "Mutiny é um banco de dados",
+      "Mutiny substitui Hibernate",
+      "Mutiny é framework web"
+    ],
+    "answer": "Mutiny oferece API fluente para trabalhar com fluxos assíncronos de dados com backpressure nativo",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 336,
+    "question": "No Camunda, o que é um 'Process Instance' e como gerenciá-lo via API REST?",
+    "options": [
+      "É uma execução de um processo BPMN; pode ser iniciado, suspenso ou terminado via REST API",
+      "É uma tarefa humana",
+      "Banco de dados do Camunda",
+      "Interface gráfica"
+    ],
+    "answer": "É uma execução de um processo BPMN; pode ser iniciado, suspenso ou terminado via REST API",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 337,
+    "question": "Explique o que é 'consumer lag' em Kafka e suas consequências.",
+    "options": [
+      "Atraso entre produção e consumo de mensagens que pode causar backlog e latência",
+      "Número de consumidores ativos",
+      "Quantidade de tópicos",
+      "Backup automático"
+    ],
+    "answer": "Atraso entre produção e consumo de mensagens que pode causar backlog e latência",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 338,
+    "question": "Quais recursos o AWS Cloud oferece para monitoramento e telemetria de aplicações?",
+    "options": [
+      "CloudWatch, X-Ray, CloudTrail e SNS para alertas",
+      "S3, EC2 e RDS",
+      "Lambda e API Gateway",
+      "Route 53 e IAM"
+    ],
+    "answer": "CloudWatch, X-Ray, CloudTrail e SNS para alertas",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 339,
+    "question": "Explique o que são 'GitHub Actions Secrets' e sua importância.",
+    "options": [
+      "Variáveis de ambiente criptografadas para armazenar credenciais sensíveis",
+      "Logs de ações",
+      "Branches protegidos",
+      "Repositórios privados"
+    ],
+    "answer": "Variáveis de ambiente criptografadas para armazenar credenciais sensíveis",
+    "difficulty": "médio"
+  },
+  {
+    "id": 340,
+    "question": "Como implementar retries e circuit breaker em Apache Camel?",
+    "options": [
+      "Usando policies como RedeliveryPolicy e CircuitBreaker EIP",
+      "Criando threads manuais",
+      "Usando banco de dados",
+      "Configurando no OS"
+    ],
+    "answer": "Usando policies como RedeliveryPolicy e CircuitBreaker EIP",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 341,
+    "question": "Em Java 21, o que são 'pattern matching for switch' e suas vantagens?",
+    "options": [
+      "Permitem verificar tipos e extrair dados no switch de forma concisa e segura",
+      "Substituem loops for",
+      "Removem exceptions",
+      "Aumentam o tamanho do código"
+    ],
+    "answer": "Permitem verificar tipos e extrair dados no switch de forma concisa e segura",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 342,
+    "question": "No pipeline CI/CD, qual é a função do 'artifact repository'?",
+    "options": [
+      "Armazenar pacotes e binários gerados para uso em deploys e versões",
+      "Servidor de código fonte",
+      "Ferramenta de monitoramento",
+      "Repositório de logs"
+    ],
+    "answer": "Armazenar pacotes e binários gerados para uso em deploys e versões",
+    "difficulty": "médio"
+  },
+  {
+    "id": 343,
+    "question": "Explique como usar o 'GitHub Actions Matrix' para rodar jobs paralelos.",
+    "options": [
+      "Define variáveis para executar o mesmo job com diferentes parâmetros simultaneamente",
+      "Define sequência de jobs",
+      "Cria branches",
+      "Configura ambiente virtual"
+    ],
+    "answer": "Define variáveis para executar o mesmo job com diferentes parâmetros simultaneamente",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 344,
+    "question": "Quais são as vantagens do uso de Kubernetes em ambientes de produção para microsserviços?",
+    "options": [
+      "Orquestração, escalabilidade automática, auto-recovery, balanceamento e deploy facilitado",
+      "Banco de dados integrado",
+      "Monitoramento nativo por padrão",
+      "Compilador embutido"
+    ],
+    "answer": "Orquestração, escalabilidade automática, auto-recovery, balanceamento e deploy facilitado",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 345,
+    "question": "Como configurar um pipeline CI/CD para executar testes unitários, integração e deploy usando GitHub Actions?",
+    "options": [
+      "Definir jobs sequenciais com passos para build, testes e deploy no arquivo YAML",
+      "Executar scripts manualmente",
+      "Usar apenas CLI do Git",
+      "Deploy sem testes"
+    ],
+    "answer": "Definir jobs sequenciais com passos para build, testes e deploy no arquivo YAML",
+    "difficulty": "médio"
+  },
+  {
+    "id": 346,
+    "question": "O que são 'deadlocks' em sistemas concorrentes e como evitar em Java?",
+    "options": [
+      "Situação onde duas threads esperam indefinidamente por recursos; evitar com locks ordenados e timeouts",
+      "Erros de sintaxe",
+      "Exceções lançadas em runtime",
+      "Erros de memória"
+    ],
+    "answer": "Situação onde duas threads esperam indefinidamente por recursos; evitar com locks ordenados e timeouts",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 347,
+    "question": "No Apache Camel, como funciona a integração com JMS (Java Message Service)?",
+    "options": [
+      "Camel usa componentes JMS para enviar/receber mensagens de brokers compatíveis",
+      "Camel executa serviços REST",
+      "Camel compila código Java",
+      "Camel monitora aplicações"
+    ],
+    "answer": "Camel usa componentes JMS para enviar/receber mensagens de brokers compatíveis",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 348,
+    "question": "O que é 'Infrastructure as Code' e qual sua importância em DevOps?",
+    "options": [
+      "Automatiza provisionamento e configuração da infraestrutura por meio de scripts/códigos, garantindo repetibilidade e versionamento",
+      "Configuração manual de servidores",
+      "Deploy via FTP",
+      "Backup de banco"
+    ],
+    "answer": "Automatiza provisionamento e configuração da infraestrutura por meio de scripts/códigos, garantindo repetibilidade e versionamento",
+    "difficulty": "médio"
+  },
+  {
+    "id": 349,
+    "question": "Em Java 11, qual recurso permite usar HTTP client de forma moderna e assíncrona?",
+    "options": [
+      "java.net.http.HttpClient",
+      "HttpURLConnection",
+      "Apache HttpClient",
+      "URLConnection"
+    ],
+    "answer": "java.net.http.HttpClient",
+    "difficulty": "médio"
+  },
+  {
+    "id": 350,
+    "question": "Quais são os componentes principais de um processo BPMN no Camunda?",
+    "options": [
+      "Eventos, tarefas, gateways, fluxos de sequência e participantes",
+      "Classes Java, métodos e interfaces",
+      "Jobs e filas",
+      "APIs REST"
+    ],
+    "answer": "Eventos, tarefas, gateways, fluxos de sequência e participantes",
+    "difficulty": "médio"
+  },
+  {
+    "id": 351,
+    "question": "Como o Apache Kafka garante a durabilidade das mensagens?",
+    "options": [
+      "Armazenando mensagens em disco e replicando entre brokers",
+      "Mantendo mensagens em memória somente",
+      "Apagando mensagens após leitura",
+      "Enviando mensagens direto para consumidores"
+    ],
+    "answer": "Armazenando mensagens em disco e replicando entre brokers",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 352,
+    "question": "Qual é o papel do 'Scheduler' no Quarkus para execução de tarefas programadas?",
+    "options": [
+      "Executar métodos anotados em intervalos definidos automaticamente",
+      "Gerenciar conexões com banco",
+      "Executar consultas SQL",
+      "Fazer deploy"
+    ],
+    "answer": "Executar métodos anotados em intervalos definidos automaticamente",
+    "difficulty": "médio"
+  },
+  {
+    "id": 353,
+    "question": "Quais são as melhores práticas para gerenciamento de segredos em pipelines CI/CD?",
+    "options": [
+      "Usar variáveis de ambiente criptografadas, cofres de segredos e limitar acessos",
+      "Salvar segredos no código fonte",
+      "Enviar segredos por email",
+      "Usar arquivos texto simples"
+    ],
+    "answer": "Usar variáveis de ambiente criptografadas, cofres de segredos e limitar acessos",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 354,
+    "question": "Como o Java Garbage Collector G1 otimiza a coleta de lixo em aplicações de grande escala?",
+    "options": [
+      "Divide heap em regiões e realiza coleta paralela para minimizar pausas longas",
+      "Desativa a coleta de lixo",
+      "Coleta toda heap de uma vez só",
+      "Usa apenas coleta serial"
+    ],
+    "answer": "Divide heap em regiões e realiza coleta paralela para minimizar pausas longas",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 355,
+    "question": "O que é um pipeline de 'blue-green deployment' e qual seu benefício principal?",
+    "options": [
+      "Mantém duas versões do ambiente para deploy com troca instantânea, reduzindo downtime",
+      "Deploy para ambiente dev",
+      "Rollback manual",
+      "Deploy somente noturno"
+    ],
+    "answer": "Mantém duas versões do ambiente para deploy com troca instantânea, reduzindo downtime",
+    "difficulty": "médio"
+  },
+  {
+    "id": 356,
+    "question": "Qual recurso do Java 21 ajuda na manipulação de strings multilinha com sintaxe mais simples?",
+    "options": [
+      "Text Blocks aprimorados",
+      "Strings imutáveis",
+      "Método repeat",
+      "Enums"
+    ],
+    "answer": "Text Blocks aprimorados",
+    "difficulty": "médio"
+  },
+  {
+    "id": 357,
+    "question": "Como funciona o mecanismo de autenticação do OpenShift para controle de acesso?",
+    "options": [
+      "Baseia-se em OAuth, certificados e RBAC para gerenciar permissões de usuários e serviços",
+      "Usa login básico HTTP",
+      "Não possui autenticação",
+      "Autenticação via FTP"
+    ],
+    "answer": "Baseia-se em OAuth, certificados e RBAC para gerenciar permissões de usuários e serviços",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 358,
+    "question": "Explique o conceito de 'backoff exponencial' e onde ele é usado em sistemas distribuídos.",
+    "options": [
+      "Aumenta progressivamente o tempo entre tentativas de retry para evitar sobrecarga",
+      "Diminuir número de threads",
+      "Balancear carga entre servidores",
+      "Gerar logs"
+    ],
+    "answer": "Aumenta progressivamente o tempo entre tentativas de retry para evitar sobrecarga",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 359,
+    "question": "Em Camunda, como os processos podem ser integrados a sistemas externos via REST API?",
+    "options": [
+      "Usando tarefas de serviço que fazem chamadas HTTP REST durante a execução",
+      "Usando banco de dados embutido",
+      "Usando somente interface gráfica",
+      "Camunda não suporta REST"
+    ],
+    "answer": "Usando tarefas de serviço que fazem chamadas HTTP REST durante a execução",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 360,
+    "question": "Quais são os benefícios da arquitetura orientada a eventos (EDA) para sistemas distribuídos?",
+    "options": [
+      "Desacoplamento, escalabilidade, resiliência e comunicação assíncrona",
+      "Maior acoplamento",
+      "Sincronização estrita",
+      "Processamento em lote"
+    ],
+    "answer": "Desacoplamento, escalabilidade, resiliência e comunicação assíncrona",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 361,
+    "question": "Como o Quarkus suporta a criação de imagens nativas com GraalVM e qual a vantagem disso?",
+    "options": [
+      "Compila aplicações Java para binários nativos, reduzindo tempo de startup e uso de memória",
+      "Executa código interpretado",
+      "Aumenta uso de memória",
+      "Compila para bytecode tradicional"
+    ],
+    "answer": "Compila aplicações Java para binários nativos, reduzindo tempo de startup e uso de memória",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 362,
+    "question": "O que é telemetria e como ela pode ser usada para melhorar a monitoração em sistemas em nuvem?",
+    "options": [
+      "Coleta de métricas, logs e traces para análise e detecção precoce de problemas",
+      "Backup automático",
+      "Gerenciamento de usuários",
+      "Ferramenta de deploy"
+    ],
+    "answer": "Coleta de métricas, logs e traces para análise e detecção precoce de problemas",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 363,
+    "question": "Em pipelines GitHub Actions, o que é um 'workflow dispatch'?",
+    "options": [
+      "Evento que permite disparar manualmente um workflow pelo usuário",
+      "Evento automático por push",
+      "Criação de branch",
+      "Rollback de versão"
+    ],
+    "answer": "Evento que permite disparar manualmente um workflow pelo usuário",
+    "difficulty": "médio"
+  },
+  {
+    "id": 364,
+    "question": "Explique o conceito de 'event sourcing' e sua relação com arquitetura de microsserviços.",
+    "options": [
+      "Persistência do estado do sistema através da sequência de eventos, facilitando auditoria e reexecução",
+      "Armazenar apenas o estado atual",
+      "Evitar eventos em sistemas",
+      "Processar eventos em batch"
+    ],
+    "answer": "Persistência do estado do sistema através da sequência de eventos, facilitando auditoria e reexecução",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 365,
+    "question": "Qual comando Git é usado para reverter um commit já enviado ao repositório remoto?",
+    "options": [
+      "git revert <commit>",
+      "git reset --hard",
+      "git checkout",
+      "git stash"
+    ],
+    "answer": "git revert <commit>",
+    "difficulty": "médio"
+  },
+  {
+    "id": 366,
+    "question": "Como configurar circuit breaker em Quarkus para proteger endpoints REST?",
+    "options": [
+      "Usando a extensão SmallRye Fault Tolerance com anotações como @CircuitBreaker",
+      "Configurando firewall",
+      "Usando annotations do Spring",
+      "Implementando try-catch manualmente"
+    ],
+    "answer": "Usando a extensão SmallRye Fault Tolerance com anotações como @CircuitBreaker",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 367,
+    "question": "O que são 'dead letters' em sistemas de filas e como devem ser tratados?",
+    "options": [
+      "Mensagens que não puderam ser processadas e precisam ser analisadas ou reenviadas",
+      "Mensagens normais",
+      "Mensagens duplicadas",
+      "Logs de erro"
+    ],
+    "answer": "Mensagens que não puderam ser processadas e precisam ser analisadas ou reenviadas",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 368,
+    "question": "Qual a função da ferramenta Kibana em monitoramento de aplicações?",
+    "options": [
+      "Visualizar e analisar dados de logs armazenados no Elasticsearch com dashboards customizáveis",
+      "Gerenciar containers",
+      "Compilar código",
+      "Monitorar hardware"
+    ],
+    "answer": "Visualizar e analisar dados de logs armazenados no Elasticsearch com dashboards customizáveis",
+    "difficulty": "médio"
+  },
+  {
+    "id": 369,
+    "question": "Quais as diferenças entre filas RabbitMQ e Apache Kafka em termos de arquitetura e casos de uso?",
+    "options": [
+      "RabbitMQ é message broker tradicional, Kafka é sistema de log distribuído para streaming",
+      "RabbitMQ é mais lento que Kafka",
+      "Kafka não suporta filas",
+      "RabbitMQ é baseado em HTTP"
+    ],
+    "answer": "RabbitMQ é message broker tradicional, Kafka é sistema de log distribuído para streaming",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 370,
+    "question": "Em Java, qual a principal diferença entre checked e unchecked exceptions?",
+    "options": [
+      "Checked são verificadas em tempo de compilação; unchecked em tempo de execução",
+      "Checked não precisam ser tratadas",
+      "Unchecked são obrigatórias",
+      "Não existe diferença"
+    ],
+    "answer": "Checked são verificadas em tempo de compilação; unchecked em tempo de execução",
+    "difficulty": "médio"
+  },
+  {
+    "id": 371,
+    "question": "Explique o conceito de 'idempotência' e sua importância em APIs REST e pipelines de deploy.",
+    "options": [
+      "Operações idempotentes podem ser repetidas sem alterar resultado além da primeira execução",
+      "Sempre resultam em erro",
+      "Executam comandos duplicados",
+      "Não são recomendadas"
+    ],
+    "answer": "Operações idempotentes podem ser repetidas sem alterar resultado além da primeira execução",
+    "difficulty": "médio"
+  },
+  {
+    "id": 372,
+    "question": "Como o Java 11 melhorou o suporte a strings e coleções comparado a versões anteriores?",
+    "options": [
+      "Introduziu métodos como isBlank, lines, strip e métodos imutáveis para coleções",
+      "Removeu métodos antigos",
+      "Alterou sintaxe das strings",
+      "Removeu suporte a generics"
+    ],
+    "answer": "Introduziu métodos como isBlank, lines, strip e métodos imutáveis para coleções",
+    "difficulty": "médio"
+  },
+  {
+    "id": 373,
+    "question": "Qual a importância do princípio Dependency Injection em arquitetura de software moderna?",
+    "options": [
+      "Promove baixo acoplamento e fácil teste, facilitando troca de implementações",
+      "Aumenta acoplamento",
+      "Torna código mais lento",
+      "Evita o uso de interfaces"
+    ],
+    "answer": "Promove baixo acoplamento e fácil teste, facilitando troca de implementações",
+    "difficulty": "médio"
+  },
+  {
+    "id": 374,
+    "question": "Explique o papel do arquivo Dockerfile em pipelines de CI/CD para microsserviços.",
+    "options": [
+      "Define como construir a imagem container da aplicação para deploy consistente",
+      "Arquivo de configuração de rede",
+      "Arquivo de log",
+      "Script de teste"
+    ],
+    "answer": "Define como construir a imagem container da aplicação para deploy consistente",
+    "difficulty": "médio"
+  },
+  {
+    "id": 375,
+    "question": "O que é o princípio Open/Closed do SOLID e como aplicá-lo em Java?",
+    "options": [
+      "Classes devem estar abertas para extensão, mas fechadas para modificação, usando herança ou interfaces",
+      "Classes devem ser modificadas diretamente",
+      "Evita polimorfismo",
+      "Restringe encapsulamento"
+    ],
+    "answer": "Classes devem estar abertas para extensão, mas fechadas para modificação, usando herança ou interfaces",
+    "difficulty": "médio"
+  },
+  {
+    "id": 376,
+    "question": "Como funciona o 'dead letter exchange' no RabbitMQ e sua utilidade?",
+    "options": [
+      "Exchange que redireciona mensagens rejeitadas ou expiradas para fila específica para análise",
+      "Exchange padrão",
+      "Cache de mensagens",
+      "Interface gráfica"
+    ],
+    "answer": "Exchange que redireciona mensagens rejeitadas ou expiradas para fila específica para análise",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 377,
+    "question": "No Git, qual o impacto do uso do comando 'git reset --hard'?",
+    "options": [
+      "Move o HEAD para commit especificado e descarta mudanças locais irreversivelmente",
+      "Cria novo branch",
+      "Faz merge automático",
+      "Apaga arquivos do repositório remoto"
+    ],
+    "answer": "Move o HEAD para commit especificado e descarta mudanças locais irreversivelmente",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 378,
+    "question": "Como o Kubernetes lida com falhas de pods e mantém a disponibilidade da aplicação?",
+    "options": [
+      "Reinicia pods com falha automaticamente e redistribui carga",
+      "Apaga containers sem reiniciar",
+      "Não monitora falhas",
+      "Executa testes manuais"
+    ],
+    "answer": "Reinicia pods com falha automaticamente e redistribui carga",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 379,
+    "question": "Quais são as vantagens do uso de 'multi-stage builds' em Docker para CI/CD?",
+    "options": [
+      "Reduz tamanho da imagem final e melhora segurança isolando etapas",
+      "Cria múltiplos containers",
+      "Backup automático",
+      "Automatiza deploy"
+    ],
+    "answer": "Reduz tamanho da imagem final e melhora segurança isolando etapas",
+    "difficulty": "médio"
+  },
+  {
+    "id": 380,
+    "question": "Explique o papel dos gateways em diagramas BPMN e exemplos comuns.",
+    "options": [
+      "Controlam o fluxo do processo, como decisões (exclusive) e paralelismo (parallel)",
+      "Executam tarefas manuais",
+      "Armazenam dados",
+      "Geram relatórios"
+    ],
+    "answer": "Controlam o fluxo do processo, como decisões (exclusive) e paralelismo (parallel)",
+    "difficulty": "médio"
+  },
+  {
+    "id": 381,
+    "question": "Como implementar logging estruturado para melhorar a análise no Kibana?",
+    "options": [
+      "Gerar logs em formato JSON com campos padronizados para fácil consulta e visualização",
+      "Gerar logs texto simples",
+      "Salvar logs em arquivos binários",
+      "Desabilitar logs"
+    ],
+    "answer": "Gerar logs em formato JSON com campos padronizados para fácil consulta e visualização",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 382,
+    "question": "Em Quarkus, o que é a extensão 'SmallRye Health' e para que serve?",
+    "options": [
+      "Fornece endpoints de health check para monitoramento da aplicação",
+      "Gerencia banco de dados",
+      "Compila código",
+      "Executa testes"
+    ],
+    "answer": "Fornece endpoints de health check para monitoramento da aplicação",
+    "difficulty": "médio"
+  },
+  {
+    "id": 383,
+    "question": "Qual o objetivo do princípio Liskov Substitution Principle (L do SOLID)?",
+    "options": [
+      "Subtipos devem ser substituíveis pelos seus tipos base sem alterar o funcionamento do programa",
+      "Subtipos devem ser diferentes",
+      "Evitar herança",
+      "Garantir métodos estáticos"
+    ],
+    "answer": "Subtipos devem ser substituíveis pelos seus tipos base sem alterar o funcionamento do programa",
+    "difficulty": "médio"
+  },
+  {
+    "id": 384,
+    "question": "Como funcionam os hooks em Git e para que servem em pipelines de desenvolvimento?",
+    "options": [
+      "Scripts executados em eventos como commit ou push para automatizar verificações ou tarefas",
+      "Ferramenta para merge",
+      "Servidor de backup",
+      "Interface gráfica"
+    ],
+    "answer": "Scripts executados em eventos como commit ou push para automatizar verificações ou tarefas",
+    "difficulty": "médio"
+  },
+  {
+    "id": 385,
+    "question": "Quais são as boas práticas para versionamento semântico (SemVer) em projetos de software?",
+    "options": [
+      "Usar MAJOR.MINOR.PATCH para indicar quebra de compatibilidade, funcionalidades novas e correções",
+      "Ignorar versões",
+      "Usar números aleatórios",
+      "Não versionar"
+    ],
+    "answer": "Usar MAJOR.MINOR.PATCH para indicar quebra de compatibilidade, funcionalidades novas e correções",
+    "difficulty": "médio"
+  },
+  {
+    "id": 386,
+    "question": "Qual a diferença entre 'processo de negócio' e 'caso de uso' na modelagem de sistemas?",
+    "options": [
+      "Processo é fluxo de atividades; caso de uso é interação entre ator e sistema para objetivo",
+      "São sinônimos",
+      "Caso de uso é mais detalhado que processo",
+      "Processo não é modelado"
+    ],
+    "answer": "Processo é fluxo de atividades; caso de uso é interação entre ator e sistema para objetivo",
+    "difficulty": "médio"
+  },
+  {
+    "id": 387,
+    "question": "No Java 17, como funciona a nova feature de selar classes com a palavra-chave 'sealed'?",
+    "options": [
+      "Restringe quais classes podem estender uma classe base para melhor controle da hierarquia",
+      "Impede herança completamente",
+      "Substitui interfaces",
+      "Cria classes abstratas"
+    ],
+    "answer": "Restringe quais classes podem estender uma classe base para melhor controle da hierarquia",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 388,
+    "question": "Qual a diferença entre integração síncrona e assíncrona em microsserviços?",
+    "options": [
+      "Síncrona espera resposta imediata; assíncrona processa independentemente",
+      "Síncrona é mais rápida sempre",
+      "Assíncrona não usa rede",
+      "São sinônimos"
+    ],
+    "answer": "Síncrona espera resposta imediata; assíncrona processa independentemente",
+    "difficulty": "médio"
+  },
+  {
+    "id": 389,
+    "question": "Como funciona a replicação de dados em clusters Kafka para garantir alta disponibilidade?",
+    "options": [
+      "Cada partição é replicada em múltiplos brokers para tolerar falhas",
+      "Kafka não tem replicação",
+      "Replicação é feita manualmente",
+      "Só uma réplica por cluster"
+    ],
+    "answer": "Cada partição é replicada em múltiplos brokers para tolerar falhas",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 390,
+    "question": "O que é 'sharding' e como pode ser usado para escalar bancos de dados em arquiteturas distribuídas?",
+    "options": [
+      "Divisão horizontal de dados em múltiplas máquinas para melhorar performance e escalabilidade",
+      "Backup de dados",
+      "Sincronização de servidores",
+      "Criação de índices"
+    ],
+    "answer": "Divisão horizontal de dados em múltiplas máquinas para melhorar performance e escalabilidade",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 391,
+    "question": "Qual é o papel do arquivo '.gitignore' em um repositório Git?",
+    "options": [
+      "Define arquivos e pastas que devem ser ignorados pelo controle de versão",
+      "Define branches protegidas",
+      "Configura hooks",
+      "Gerencia permissões"
+    ],
+    "answer": "Define arquivos e pastas que devem ser ignorados pelo controle de versão",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 392,
+    "question": "Como funciona o mecanismo de lock otimista e pessimista em sistemas concorrentes?",
+    "options": [
+      "Lock otimista assume poucas colisões e verifica no commit; pessimista bloqueia recurso durante operação",
+      "São sinônimos",
+      "Lock pessimista é mais rápido",
+      "Lock otimista bloqueia recursos"
+    ],
+    "answer": "Lock otimista assume poucas colisões e verifica no commit; pessimista bloqueia recurso durante operação",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 393,
+    "question": "Explique a diferença entre clustered e non-clustered index em bancos de dados relacionais.",
+    "options": [
+      "Clustered index define a ordem física das linhas; non-clustered é um índice separado",
+      "Non-clustered é mais rápido sempre",
+      "Clustered não existe em SQL",
+      "Ambos são iguais"
+    ],
+    "answer": "Clustered index define a ordem física das linhas; non-clustered é um índice separado",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 394,
+    "question": "Em pipelines CI/CD, o que é e para que serve um job 'lint'?",
+    "options": [
+      "Verifica estilo e qualidade do código antes da build para evitar erros e inconsistências",
+      "Faz deploy automático",
+      "Executa testes unitários",
+      "Remove arquivos antigos"
+    ],
+    "answer": "Verifica estilo e qualidade do código antes da build para evitar erros e inconsistências",
+    "difficulty": "médio"
+  },
+  {
+    "id": 395,
+    "question": "Como usar a extensão Quarkus DevServices para desenvolvimento local eficiente?",
+    "options": [
+      "Provisiona dependências como bancos e filas automaticamente em containers para testes locais rápidos",
+      "Gerencia deploy em produção",
+      "Cria imagens nativas",
+      "Compila código"
+    ],
+    "answer": "Provisiona dependências como bancos e filas automaticamente em containers para testes locais rápidos",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 396,
+    "question": "O que é uma 'saga' em arquitetura de microsserviços e para que serve?",
+    "options": [
+      "Padrão para garantir consistência em transações distribuídas de forma eventual e compensatória",
+      "Sincronização de threads",
+      "Deploy automático",
+      "Gerenciamento de logs"
+    ],
+    "answer": "Padrão para garantir consistência em transações distribuídas de forma eventual e compensatória",
+    "difficulty": "avançado"
+  },
+  {
+    "id": 397,
+    "question": "Explique o que é 'build cache' em pipelines e seu benefício.",
+    "options": [
+      "Armazena resultados intermediários para acelerar builds subsequentes evitando recompilação total",
+      "Apaga builds antigos",
+      "Cria novas versões",
+      "Executa testes"
+    ],
+    "answer": "Armazena resultados intermediários para acelerar builds subsequentes evitando recompilação total",
+    "difficulty": "médio"
+  },
+  {
+    "id": 398,
+    "question": "Como funciona o 'rolling update' no Kubernetes e vantagens sobre deploys tradicionais?",
+    "options": [
+      "Atualiza pods gradualmente para evitar downtime e reduzir riscos",
+      "Atualiza todos pods simultaneamente",
+      "Desliga cluster para update",
+      "Não suporta atualização"
+    ],
+    "answer": "Atualiza pods gradualmente para evitar downtime e reduzir riscos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 399,
+    "question": "Qual a importância do uso do princípio 'Interface Segregation' do SOLID?",
+    "options": [
+      "Evitar interfaces grandes demais, dividindo em menores para clientes específicos",
+      "Usar poucas interfaces",
+      "Aumentar dependências",
+      "Evitar polimorfismo"
+    ],
+    "answer": "Evitar interfaces grandes demais, dividindo em menores para clientes específicos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 400,
+    "question": "No Java 21, como funcionam os 'virtual threads' e suas vantagens para aplicações concorrentes?",
+    "options": [
+      "Threads leves gerenciadas pela JVM que permitem maior escalabilidade com baixo custo de criação e troca de contexto",
+      "Threads nativas do SO",
+      "Threads bloqueantes",
+      "Threads obsoletas"
+    ],
+    "answer": "Threads leves gerenciadas pela JVM que permitem maior escalabilidade com baixo custo de criação e troca de contexto",
+    "difficulty": "avançado"
+  }
+]

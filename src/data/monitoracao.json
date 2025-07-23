@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Qual é o objetivo principal da monitoração em sistemas?",
+    "options": [
+      "Detectar problemas e garantir a disponibilidade",
+      "Reduzir o tamanho do código",
+      "Melhorar a interface do usuário",
+      "Aumentar o número de usuários"
+    ],
+    "answer": "Detectar problemas e garantir a disponibilidade",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 2,
+    "question": "Qual ferramenta é popular para monitoração de aplicações?",
+    "options": ["Prometheus", "React", "Docker", "Git"],
+    "answer": "Prometheus",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 3,
+    "question": "O que é um alerta em monitoração?",
+    "options": [
+      "Notificação de um problema detectado",
+      "Backup automático",
+      "Relatório mensal",
+      "Atualização do sistema"
+    ],
+    "answer": "Notificação de um problema detectado",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 4,
+    "question": "Qual métrica é importante monitorar para avaliar performance?",
+    "options": [
+      "Latência de resposta",
+      "Número de linhas de código",
+      "Quantidade de commits",
+      "Versão do sistema"
+    ],
+    "answer": "Latência de resposta",
+    "difficulty": "médio"
+  },
+  {
+    "id": 5,
+    "question": "O que é um dashboard em ferramentas de monitoração?",
+    "options": [
+      "Painel visual que mostra métricas e status em tempo real",
+      "Editor de código",
+      "Servidor web",
+      "Banco de dados"
+    ],
+    "answer": "Painel visual que mostra métricas e status em tempo real",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 6,
+    "question": "Qual protocolo é comumente usado para coletar métricas em monitoração?",
+    "options": ["HTTP", "SMTP", "FTP", "SNMP"],
+    "answer": "HTTP",
+    "difficulty": "médio"
+  },
+  {
+    "id": 7,
+    "question": "Qual é a função do Grafana em um sistema de monitoração?",
+    "options": [
+      "Visualizar dashboards e gráficos das métricas",
+      "Coletar métricas diretamente",
+      "Enviar alertas por e-mail",
+      "Fazer deploy automático"
+    ],
+    "answer": "Visualizar dashboards e gráficos das métricas",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 8,
+    "question": "O que significa 'time series' em monitoração?",
+    "options": [
+      "Dados coletados e organizados ao longo do tempo",
+      "Número de usuários online",
+      "Quantidade de código fonte",
+      "Logs de erro"
+    ],
+    "answer": "Dados coletados e organizados ao longo do tempo",
+    "difficulty": "médio"
+  },
+  {
+    "id": 9,
+    "question": "Qual prática melhora a eficácia de alertas na monitoração?",
+    "options": [
+      "Configurar alertas para evitar falsos positivos",
+      "Enviar alertas para todos os usuários",
+      "Desligar alertas durante a noite",
+      "Aumentar a frequência de alertas sem critério"
+    ],
+    "answer": "Configurar alertas para evitar falsos positivos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 10,
+    "question": "Qual tipo de dado é comum ser coletado para monitoração de logs?",
+    "options": [
+      "Mensagens de erro e eventos do sistema",
+      "Configurações de firewall",
+      "Imagens do usuário",
+      "Senhas de acesso"
+    ],
+    "answer": "Mensagens de erro e eventos do sistema",
+    "difficulty": "fácil"
+  }
+]

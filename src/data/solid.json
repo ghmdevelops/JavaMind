@@ -1,0 +1,393 @@
+[
+  {
+    "id": 1,
+    "question": "O que significa o 'S' no princípio SOLID?",
+    "options": [
+      "Single Responsibility Principle",
+      "Simple Responsibility Principle",
+      "Static Responsibility Principle",
+      "Standard Responsibility Principle"
+    ],
+    "answer": "Single Responsibility Principle",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 2,
+    "question": "Qual princípio SOLID diz que uma classe deve ser aberta para extensão, mas fechada para modificação?",
+    "options": [
+      "Liskov Substitution Principle",
+      "Open/Closed Principle",
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle"
+    ],
+    "answer": "Open/Closed Principle",
+    "difficulty": "médio"
+  },
+  {
+    "id": 3,
+    "question": "Segundo o princípio Liskov Substitution, um objeto de uma classe derivada deve ser capaz de substituir um objeto da classe base sem alterar o funcionamento do programa?",
+    "options": ["Verdadeiro", "Falso"],
+    "answer": "Verdadeiro",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 4,
+    "question": "O princípio O em SOLID significa:",
+    "options": [
+      "Open/Closed Principle",
+      "Object/Component Principle",
+      "Operational Principle",
+      "Optional Principle"
+    ],
+    "answer": "Open/Closed Principle",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 5,
+    "question": "Qual princípio SOLID recomenda que clientes não devem depender de métodos que não utilizam?",
+    "options": [
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle",
+      "Single Responsibility Principle",
+      "Open/Closed Principle"
+    ],
+    "answer": "Interface Segregation Principle",
+    "difficulty": "médio"
+  },
+  {
+    "id": 6,
+    "question": "O que o Dependency Inversion Principle promove?",
+    "options": [
+      "Classes de alto nível não devem depender de classes de baixo nível; ambas devem depender de abstrações",
+      "Classes devem herdar somente de uma classe base",
+      "Classes devem ter apenas um método",
+      "Interfaces devem ter apenas um método"
+    ],
+    "answer": "Classes de alto nível não devem depender de classes de baixo nível; ambas devem depender de abstrações",
+    "difficulty": "médio"
+  },
+  {
+    "id": 7,
+    "question": "Segundo o princípio Single Responsibility, uma classe deve ter:",
+    "options": [
+      "Apenas uma razão para mudar",
+      "Várias responsabilidades",
+      "Responsabilidade pelo banco de dados",
+      "Responsabilidade pela interface do usuário"
+    ],
+    "answer": "Apenas uma razão para mudar",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 8,
+    "question": "Qual princípio SOLID facilita a manutenção ao evitar que uma mudança quebre funcionalidades relacionadas?",
+    "options": [
+      "Single Responsibility Principle",
+      "Liskov Substitution Principle",
+      "Open/Closed Principle",
+      "Interface Segregation Principle"
+    ],
+    "answer": "Open/Closed Principle",
+    "difficulty": "médio"
+  },
+  {
+    "id": 9,
+    "question": "O que caracteriza o Liskov Substitution Principle?",
+    "options": [
+      "Objetos de uma subclasse devem poder substituir objetos da superclasse sem erros",
+      "Objetos devem ter métodos estáticos",
+      "Classes devem ser imutáveis",
+      "Subclasses não devem ter métodos"
+    ],
+    "answer": "Objetos de uma subclasse devem poder substituir objetos da superclasse sem erros",
+    "difficulty": "médio"
+  },
+  {
+    "id": 10,
+    "question": "Qual princípio SOLID sugere dividir interfaces grandes em várias específicas?",
+    "options": [
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle",
+      "Single Responsibility Principle",
+      "Open/Closed Principle"
+    ],
+    "answer": "Interface Segregation Principle",
+    "difficulty": "médio"
+  },
+  {
+    "id": 11,
+    "question": "Qual das opções abaixo é um benefício direto do uso dos princípios SOLID?",
+    "options": [
+      "Código mais fácil de manter e estender",
+      "Código com menos comentários",
+      "Menor uso de interfaces",
+      "Mais classes abstratas"
+    ],
+    "answer": "Código mais fácil de manter e estender",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 12,
+    "question": "O princípio Dependency Inversion enfatiza a dependência em:",
+    "options": [
+      "Abstrações (interfaces ou classes abstratas)",
+      "Implementações concretas",
+      "Classes utilitárias",
+      "Classes estáticas"
+    ],
+    "answer": "Abstrações (interfaces ou classes abstratas)",
+    "difficulty": "médio"
+  },
+  {
+    "id": 13,
+    "question": "Em um design seguindo SOLID, o que deve ser evitado para melhor modularidade?",
+    "options": [
+      "Acoplamento forte entre módulos",
+      "Uso de interfaces",
+      "Uso de padrões de projeto",
+      "Separação clara de responsabilidades"
+    ],
+    "answer": "Acoplamento forte entre módulos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 14,
+    "question": "No princípio Interface Segregation, qual problema é evitado?",
+    "options": [
+      "Clientes dependem de interfaces que não utilizam",
+      "Herança múltipla",
+      "Sobrecarga de métodos",
+      "Exceções não tratadas"
+    ],
+    "answer": "Clientes dependem de interfaces que não utilizam",
+    "difficulty": "médio"
+  },
+  {
+    "id": 15,
+    "question": "Qual princípio SOLID ajuda a reduzir o acoplamento no código?",
+    "options": [
+      "Dependency Inversion Principle",
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Liskov Substitution Principle"
+    ],
+    "answer": "Dependency Inversion Principle",
+    "difficulty": "médio"
+  },
+  {
+    "id": 16,
+    "question": "O que pode acontecer se o Single Responsibility Principle não for seguido?",
+    "options": [
+      "Classes se tornam difíceis de manter e testar",
+      "Aumenta a performance do sistema",
+      "Diminui o tamanho do código",
+      "Garante que a aplicação nunca falhe"
+    ],
+    "answer": "Classes se tornam difíceis de manter e testar",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 17,
+    "question": "No princípio Open/Closed, como uma classe deve reagir a novos requisitos?",
+    "options": [
+      "Deve ser estendida, não modificada",
+      "Deve ser completamente reescrita",
+      "Deve ser eliminada",
+      "Deve ter métodos removidos"
+    ],
+    "answer": "Deve ser estendida, não modificada",
+    "difficulty": "médio"
+  },
+  {
+    "id": 18,
+    "question": "Qual é o objetivo principal dos princípios SOLID?",
+    "options": [
+      "Facilitar manutenção e extensão do software",
+      "Reduzir o uso de variáveis",
+      "Aumentar o número de classes",
+      "Implementar interfaces"
+    ],
+    "answer": "Facilitar manutenção e extensão do software",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 19,
+    "question": "Qual princípio SOLID ajuda a garantir que as subclasses possam substituir suas superclasses?",
+    "options": [
+      "Liskov Substitution Principle",
+      "Dependency Inversion Principle",
+      "Open/Closed Principle",
+      "Interface Segregation Principle"
+    ],
+    "answer": "Liskov Substitution Principle",
+    "difficulty": "médio"
+  },
+  {
+    "id": 20,
+    "question": "Qual é o papel das abstrações no Dependency Inversion Principle?",
+    "options": [
+      "Servem para desacoplar módulos",
+      "Devem ser evitadas",
+      "São usadas apenas para testes",
+      "São classes concretas"
+    ],
+    "answer": "Servem para desacoplar módulos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 21,
+    "question": "Por que evitar interfaces grandes de acordo com o Interface Segregation Principle?",
+    "options": [
+      "Para que os clientes implementem somente os métodos necessários",
+      "Para facilitar o uso do polimorfismo",
+      "Para melhorar a performance",
+      "Para reduzir a herança"
+    ],
+    "answer": "Para que os clientes implementem somente os métodos necessários",
+    "difficulty": "médio"
+  },
+  {
+    "id": 22,
+    "question": "Qual princípio SOLID é mais diretamente associado a evitar 'God Objects'?",
+    "options": [
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Dependency Inversion Principle",
+      "Liskov Substitution Principle"
+    ],
+    "answer": "Single Responsibility Principle",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 23,
+    "question": "Em SOLID, o que é uma 'abstração'?",
+    "options": [
+      "Uma interface ou classe abstrata",
+      "Uma classe concreta",
+      "Um método privado",
+      "Uma variável global"
+    ],
+    "answer": "Uma interface ou classe abstrata",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 24,
+    "question": "O que o princípio Open/Closed ajuda a prevenir?",
+    "options": [
+      "Modificações frequentes em classes existentes",
+      "Divisão de interfaces grandes",
+      "Dependência em abstrações",
+      "Substituição de classes base"
+    ],
+    "answer": "Modificações frequentes em classes existentes",
+    "difficulty": "médio"
+  },
+  {
+    "id": 25,
+    "question": "Por que o princípio Liskov Substitution é importante?",
+    "options": [
+      "Para garantir que subclasses possam ser usadas no lugar da superclasse sem erros",
+      "Para criar menos classes",
+      "Para facilitar a escrita de código procedural",
+      "Para reduzir o uso de interfaces"
+    ],
+    "answer": "Para garantir que subclasses possam ser usadas no lugar da superclasse sem erros",
+    "difficulty": "médio"
+  },
+  {
+    "id": 26,
+    "question": "Qual princípio SOLID incentiva a redução do acoplamento entre módulos?",
+    "options": [
+      "Dependency Inversion Principle",
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Liskov Substitution Principle"
+    ],
+    "answer": "Dependency Inversion Principle",
+    "difficulty": "médio"
+  },
+  {
+    "id": 27,
+    "question": "O que o princípio Interface Segregation evita em termos práticos?",
+    "options": [
+      "Implementações desnecessárias em classes clientes",
+      "Herança múltipla",
+      "Classes muito pequenas",
+      "Muitos métodos privados"
+    ],
+    "answer": "Implementações desnecessárias em classes clientes",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 28,
+    "question": "O Single Responsibility Principle ajuda a manter classes com:",
+    "options": [
+      "Uma única responsabilidade",
+      "Muitos métodos",
+      "Várias interfaces",
+      "Herança múltipla"
+    ],
+    "answer": "Uma única responsabilidade",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 29,
+    "question": "Qual é a consequência do não cumprimento do Dependency Inversion Principle?",
+    "options": [
+      "Acoplamento forte entre módulos de alto e baixo nível",
+      "Aumento da modularidade",
+      "Mais fácil para testar unidades",
+      "Menos dependências"
+    ],
+    "answer": "Acoplamento forte entre módulos de alto e baixo nível",
+    "difficulty": "médio"
+  },
+  {
+    "id": 30,
+    "question": "Qual princípio SOLID está diretamente relacionado a reutilização de código sem alteração da base?",
+    "options": [
+      "Open/Closed Principle",
+      "Single Responsibility Principle",
+      "Interface Segregation Principle",
+      "Liskov Substitution Principle"
+    ],
+    "answer": "Open/Closed Principle",
+    "difficulty": "médio"
+  },
+  {
+    "id": 31,
+    "question": "Quando devemos aplicar o princípio Liskov Substitution?",
+    "options": [
+      "Sempre que utilizarmos herança",
+      "Somente em aplicações Web",
+      "Apenas em linguagens funcionais",
+      "Em classes que não são abstratas"
+    ],
+    "answer": "Sempre que utilizarmos herança",
+    "difficulty": "médio"
+  },
+  {
+    "id": 32,
+    "question": "O que uma interface segregada permite?",
+    "options": [
+      "Clientes implementam somente métodos que usam",
+      "Interfaces grandes e genéricas",
+      "Menos modularidade",
+      "Mais métodos por interface"
+    ],
+    "answer": "Clientes implementam somente métodos que usam",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 33,
+    "question": "O que pode facilitar a aplicação do Single Responsibility Principle?",
+    "options": [
+      "Dividir responsabilidades em várias classes pequenas",
+      "Criar classes com muitas funções",
+      "Usar herança múltipla",
+      "Evitar interfaces"
+    ],
+    "answer": "Dividir responsabilidades em várias classes pequenas",
+    "difficulty": "fácil"
+  }
+]

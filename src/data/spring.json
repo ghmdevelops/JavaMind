@@ -1,0 +1,319 @@
+[
+  {
+    "id": 1,
+    "question": "Qual anotação é usada para marcar uma classe como componente gerenciado pelo Spring?",
+    "options": ["@Service", "@Component", "@Repository", "@Controller"],
+    "answer": "@Component",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 2,
+    "question": "Qual a função do arquivo application.properties em um projeto Spring Boot?",
+    "options": [
+      "Definir configurações e propriedades da aplicação",
+      "Armazenar entidades do banco de dados",
+      "Gerenciar sessões dos usuários",
+      "Configurar o servidor web"
+    ],
+    "answer": "Definir configurações e propriedades da aplicação",
+    "difficulty": "médio"
+  },
+  {
+    "id": 3,
+    "question": "Qual das opções abaixo é uma forma de injeção de dependência no Spring?",
+    "options": ["Herança", "Construtor", "Polimorfismo", "Encapsulamento"],
+    "answer": "Construtor",
+    "difficulty": "médio"
+  },
+  {
+    "id": 4,
+    "question": "Qual anotação do Spring é utilizada para definir um método como ponto de entrada de requisição HTTP GET?",
+    "options": ["@PostMapping", "@GetMapping", "@RequestMapping", "@PutMapping"],
+    "answer": "@GetMapping",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 5,
+    "question": "No Spring Boot, qual classe é responsável por iniciar a aplicação?",
+    "options": ["Main", "Application", "SpringApplication", "BootApp"],
+    "answer": "SpringApplication",
+    "difficulty": "médio"
+  },
+  {
+    "id": 6,
+    "question": "O que o Spring Framework oferece para facilitar o gerenciamento de transações?",
+    "options": [
+      "JDBC",
+      "Spring MVC",
+      "Spring Transaction Management",
+      "Hibernate"
+    ],
+    "answer": "Spring Transaction Management",
+    "difficulty": "médio"
+  },
+  {
+    "id": 7,
+    "question": "Qual é o propósito da anotação @Autowired no Spring?",
+    "options": [
+      "Criar novas instâncias de objetos",
+      "Injetar dependências automaticamente",
+      "Configurar propriedades da aplicação",
+      "Marcar métodos para testes"
+    ],
+    "answer": "Injetar dependências automaticamente",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 8,
+    "question": "Qual o padrão de arquitetura que o Spring MVC implementa?",
+    "options": [
+      "Model-View-Controller",
+      "Model-View-ViewModel",
+      "Microservices",
+      "Event-Driven"
+    ],
+    "answer": "Model-View-Controller",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 9,
+    "question": "Como se configura a porta do servidor embutido no Spring Boot?",
+    "options": [
+      "server.port=8080 no application.properties",
+      "server.port=8080 no pom.xml",
+      "serverPort=8080 no Main.java",
+      "Porta é fixa e não pode ser alterada"
+    ],
+    "answer": "server.port=8080 no application.properties",
+    "difficulty": "médio"
+  },
+  {
+    "id": 10,
+    "question": "Qual módulo do Spring facilita a integração com bancos de dados relacionais?",
+    "options": ["Spring Data", "Spring Security", "Spring Batch", "Spring Cloud"],
+    "answer": "Spring Data",
+    "difficulty": "médio"
+  },
+  {
+    "id": 11,
+    "question": "O que o Spring Security oferece para uma aplicação?",
+    "options": [
+      "Gerenciamento de autenticação e autorização",
+      "Monitoramento de performance",
+      "Geração de relatórios",
+      "Criação de interfaces"
+    ],
+    "answer": "Gerenciamento de autenticação e autorização",
+    "difficulty": "médio"
+  },
+  {
+    "id": 12,
+    "question": "Qual anotação do Spring Boot permite criar um serviço RESTful?",
+    "options": ["@RestController", "@Controller", "@Service", "@Repository"],
+    "answer": "@RestController",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 13,
+    "question": "Para que serve o arquivo application.yml no Spring Boot?",
+    "options": [
+      "Configuração alternativa ao application.properties usando YAML",
+      "Código fonte da aplicação",
+      "Definição de entidades do banco",
+      "Arquivo para armazenar logs"
+    ],
+    "answer": "Configuração alternativa ao application.properties usando YAML",
+    "difficulty": "médio"
+  },
+  {
+    "id": 14,
+    "question": "Qual anotação do Spring indica que uma classe é um serviço de negócios?",
+    "options": ["@Controller", "@Service", "@Component", "@Repository"],
+    "answer": "@Service",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 15,
+    "question": "O que faz a anotação @Repository no Spring?",
+    "options": [
+      "Define um controlador REST",
+      "Marca uma classe como componente de persistência",
+      "Define um serviço de negócio",
+      "Configura segurança"
+    ],
+    "answer": "Marca uma classe como componente de persistência",
+    "difficulty": "médio"
+  },
+  {
+    "id": 16,
+    "question": "Como o Spring Boot facilita a criação de aplicações Spring?",
+    "options": [
+      "Configurando automaticamente muitos componentes",
+      "Substituindo o Java padrão",
+      "Eliminando a necessidade de IDE",
+      "Executando código JavaScript"
+    ],
+    "answer": "Configurando automaticamente muitos componentes",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 17,
+    "question": "Qual comando Maven é usado para rodar uma aplicação Spring Boot?",
+    "options": [
+      "mvn spring-boot:run",
+      "mvn run",
+      "mvn package",
+      "mvn start"
+    ],
+    "answer": "mvn spring-boot:run",
+    "difficulty": "médio"
+  },
+  {
+    "id": 18,
+    "question": "O que é um Bean no contexto do Spring?",
+    "options": [
+      "Um objeto gerenciado pelo contêiner do Spring",
+      "Uma exceção do Java",
+      "Um tipo de base de dados",
+      "Uma interface"
+    ],
+    "answer": "Um objeto gerenciado pelo contêiner do Spring",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 19,
+    "question": "Qual anotação permite configurar métodos para serem executados após a inicialização do bean?",
+    "options": ["@PostConstruct", "@PreDestroy", "@Autowired", "@Bean"],
+    "answer": "@PostConstruct",
+    "difficulty": "médio"
+  },
+  {
+    "id": 20,
+    "question": "Qual é o padrão de projeto implementado pelo Spring para injeção de dependência?",
+    "options": ["Singleton", "Factory", "Observer", "Dependency Injection"],
+    "answer": "Dependency Injection",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 21,
+    "question": "Para qual propósito serve o Spring Actuator?",
+    "options": [
+      "Monitorar e gerenciar a aplicação em produção",
+      "Criar interfaces gráficas",
+      "Gerar documentação",
+      "Fazer deploy"
+    ],
+    "answer": "Monitorar e gerenciar a aplicação em produção",
+    "difficulty": "médio"
+  },
+  {
+    "id": 22,
+    "question": "Qual protocolo de comunicação REST é comumente usado no Spring MVC?",
+    "options": ["HTTP", "FTP", "SMTP", "TCP"],
+    "answer": "HTTP",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 23,
+    "question": "O que é o Spring Boot Starter?",
+    "options": [
+      "Um conjunto de dependências pré-configuradas para facilitar o início do projeto",
+      "Um tipo de servidor web",
+      "Um banco de dados embutido",
+      "Um plugin do Maven"
+    ],
+    "answer": "Um conjunto de dependências pré-configuradas para facilitar o início do projeto",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 24,
+    "question": "Qual anotação é usada para mapear variáveis de caminho em métodos REST no Spring?",
+    "options": ["@PathVariable", "@RequestParam", "@RequestBody", "@RequestHeader"],
+    "answer": "@PathVariable",
+    "difficulty": "médio"
+  },
+  {
+    "id": 25,
+    "question": "O que o Spring Boot Starter Web inclui principalmente?",
+    "options": [
+      "Bibliotecas para desenvolver aplicações web e REST",
+      "Bibliotecas para banco de dados NoSQL",
+      "Configurações para segurança",
+      "Bibliotecas para testes unitários"
+    ],
+    "answer": "Bibliotecas para desenvolver aplicações web e REST",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 26,
+    "question": "Qual anotação é usada para indicar que um método trata dados JSON na requisição no Spring?",
+    "options": ["@RequestBody", "@ResponseBody", "@RequestParam", "@RestController"],
+    "answer": "@RequestBody",
+    "difficulty": "médio"
+  },
+  {
+    "id": 27,
+    "question": "Qual é o propósito do Spring Boot DevTools?",
+    "options": [
+      "Facilitar o desenvolvimento com hot reload e melhorias",
+      "Gerenciar transações",
+      "Gerar relatórios",
+      "Configurar banco de dados"
+    ],
+    "answer": "Facilitar o desenvolvimento com hot reload e melhorias",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 28,
+    "question": "Como você define uma porta personalizada para o servidor Spring Boot no application.properties?",
+    "options": [
+      "server.port=8081",
+      "spring.port=8081",
+      "serverPort=8081",
+      "port=8081"
+    ],
+    "answer": "server.port=8081",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 29,
+    "question": "Qual anotação permite criar testes unitários no Spring Boot?",
+    "options": ["@SpringBootTest", "@Test", "@RunWith", "@MockBean"],
+    "answer": "@SpringBootTest",
+    "difficulty": "médio"
+  },
+  {
+    "id": 30,
+    "question": "Qual módulo do Spring é usado para integração com mensageria como RabbitMQ?",
+    "options": ["Spring AMQP", "Spring Security", "Spring MVC", "Spring Data"],
+    "answer": "Spring AMQP",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 31,
+    "question": "Qual anotação marca um método para ser executado dentro de uma transação no Spring?",
+    "options": ["@Transactional", "@Service", "@Component", "@Repository"],
+    "answer": "@Transactional",
+    "difficulty": "médio"
+  },
+  {
+    "id": 32,
+    "question": "O que o Spring Cloud facilita em uma aplicação?",
+    "options": [
+      "Construção de sistemas distribuídos e microserviços",
+      "Desenvolvimento web básico",
+      "Criação de interfaces gráficas",
+      "Monitoramento local"
+    ],
+    "answer": "Construção de sistemas distribuídos e microserviços",
+    "difficulty": "difícil"
+  },
+  {
+    "id": 33,
+    "question": "Qual anotação do Spring Boot indica que a classe é a principal do aplicativo?",
+    "options": ["@SpringBootApplication", "@Component", "@Service", "@Configuration"],
+    "answer": "@SpringBootApplication",
+    "difficulty": "fácil"
+  }
+
+]

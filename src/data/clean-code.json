@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Qual é o principal objetivo do Clean Code?",
+    "options": [
+      "Escrever código fácil de entender e manter",
+      "Otimizar para performance",
+      "Reduzir o número de linhas",
+      "Escrever código complexo para segurança"
+    ],
+    "answer": "Escrever código fácil de entender e manter",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 2,
+    "question": "Qual destes NÃO é um princípio de Clean Code?",
+    "options": [
+      "Nomes descritivos para variáveis",
+      "Funções pequenas e específicas",
+      "Evitar comentários desnecessários",
+      "Uso extensivo de variáveis globais"
+    ],
+    "answer": "Uso extensivo de variáveis globais",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 3,
+    "question": "Qual é o recomendado para o tamanho de funções em Clean Code?",
+    "options": [
+      "Funções pequenas, com uma única responsabilidade",
+      "Funções grandes para agrupar código",
+      "Funções sem retorno",
+      "Funções que fazem múltiplas tarefas"
+    ],
+    "answer": "Funções pequenas, com uma única responsabilidade",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 4,
+    "question": "Como o Clean Code recomenda tratar erros?",
+    "options": [
+      "Tratar erros imediatamente e com mensagens claras",
+      "Ignorar erros para performance",
+      "Usar prints para avisos",
+      "Deixar erros passarem silenciosamente"
+    ],
+    "answer": "Tratar erros imediatamente e com mensagens claras",
+    "difficulty": "médio"
+  },
+  {
+    "id": 5,
+    "question": "Qual destes é um benefício de manter o código limpo?",
+    "options": [
+      "Facilita a manutenção e colaboração da equipe",
+      "Aumenta o tamanho do código",
+      "Complica o processo de deploy",
+      "Diminui a legibilidade"
+    ],
+    "answer": "Facilita a manutenção e colaboração da equipe",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 6,
+    "question": "O que é considerado uma má prática segundo o Clean Code?",
+    "options": [
+      "Nomes de variáveis pouco descritivos",
+      "Comentários explicativos quando necessário",
+      "Funções com uma única responsabilidade",
+      "Uso de testes automatizados"
+    ],
+    "answer": "Nomes de variáveis pouco descritivos",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 7,
+    "question": "Qual a importância de escrever testes automatizados em Clean Code?",
+    "options": [
+      "Garantir que o código funciona conforme esperado",
+      "Reduzir o tamanho do código",
+      "Evitar o uso de documentação",
+      "Substituir revisão de código"
+    ],
+    "answer": "Garantir que o código funciona conforme esperado",
+    "difficulty": "médio"
+  },
+  {
+    "id": 8,
+    "question": "No Clean Code, o que deve ser evitado para facilitar a manutenção?",
+    "options": [
+      "Código duplicado",
+      "Uso de funções puras",
+      "Modularização",
+      "Código legível"
+    ],
+    "answer": "Código duplicado",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 9,
+    "question": "Qual é a recomendação do Clean Code para comentários no código?",
+    "options": [
+      "Comentários devem explicar o porquê, não o como",
+      "Comentários devem ser extensos e detalhados",
+      "Comentários não são necessários",
+      "Comentários devem substituir código complexo"
+    ],
+    "answer": "Comentários devem explicar o porquê, não o como",
+    "difficulty": "médio"
+  },
+  {
+    "id": 10,
+    "question": "Por que é importante que funções tenham nomes descritivos em Clean Code?",
+    "options": [
+      "Para que o código seja autoexplicativo e facilite o entendimento",
+      "Para diminuir o número de linhas de código",
+      "Para tornar o código mais complexo",
+      "Para evitar o uso de variáveis"
+    ],
+    "answer": "Para que o código seja autoexplicativo e facilite o entendimento",
+    "difficulty": "fácil"
+  }
+]

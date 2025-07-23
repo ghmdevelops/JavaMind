@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "O que é um design pattern?",
+    "options": [
+      "Soluções reutilizáveis para problemas comuns de design de software",
+      "Uma linguagem de programação",
+      "Um framework",
+      "Um banco de dados"
+    ],
+    "answer": "Soluções reutilizáveis para problemas comuns de design de software",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 2,
+    "question": "Qual padrão cria um objeto único e globalmente acessível?",
+    "options": ["Singleton", "Factory", "Observer", "Decorator"],
+    "answer": "Singleton",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 3,
+    "question": "Qual padrão permite alterar o comportamento de um objeto dinamicamente?",
+    "options": ["Decorator", "Adapter", "Proxy", "Builder"],
+    "answer": "Decorator",
+    "difficulty": "médio"
+  },
+  {
+    "id": 4,
+    "question": "O que o padrão Factory faz?",
+    "options": [
+      "Cria objetos sem expor a lógica de criação ao cliente",
+      "Define uma interface para objetos",
+      "Observa mudanças em objetos",
+      "Controla o acesso a outro objeto"
+    ],
+    "answer": "Cria objetos sem expor a lógica de criação ao cliente",
+    "difficulty": "médio"
+  },
+  {
+    "id": 5,
+    "question": "Qual padrão é usado para notificar múltiplos objetos sobre mudanças em outro objeto?",
+    "options": ["Observer", "Strategy", "Facade", "Singleton"],
+    "answer": "Observer",
+    "difficulty": "médio"
+  },
+  {
+    "id": 6,
+    "question": "Qual padrão permite que diferentes interfaces trabalhem juntas, adaptando uma para outra?",
+    "options": ["Adapter", "Decorator", "Observer", "Factory"],
+    "answer": "Adapter",
+    "difficulty": "médio"
+  },
+  {
+    "id": 7,
+    "question": "O padrão Strategy é utilizado para:",
+    "options": [
+      "Definir uma família de algoritmos intercambiáveis",
+      "Criar objetos complexos passo a passo",
+      "Garantir que uma classe tenha apenas uma instância",
+      "Ocultar a complexidade de um sistema"
+    ],
+    "answer": "Definir uma família de algoritmos intercambiáveis",
+    "difficulty": "médio"
+  },
+  {
+    "id": 8,
+    "question": "Qual padrão fornece uma interface simplificada para um subsistema complexo?",
+    "options": ["Facade", "Proxy", "Decorator", "Builder"],
+    "answer": "Facade",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 9,
+    "question": "O padrão Proxy é usado para:",
+    "options": [
+      "Controlar o acesso a um objeto",
+      "Criar objetos sem expor a lógica",
+      "Alterar o comportamento de um objeto",
+      "Notificar objetos sobre mudanças"
+    ],
+    "answer": "Controlar o acesso a um objeto",
+    "difficulty": "médio"
+  },
+  {
+    "id": 10,
+    "question": "Qual padrão facilita a criação de objetos complexos passo a passo?",
+    "options": ["Builder", "Factory", "Singleton", "Adapter"],
+    "answer": "Builder",
+    "difficulty": "médio"
+  }
+]

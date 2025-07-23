@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   const [showHistory, setShowHistory] = useState(false);
   const [history, setHistory] = useState([]);
-  const [isOpen, setIsOpen] = useState(false); // Estado do menu mobile aberto ou não
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const saved = localStorage.getItem("quizHistory");
@@ -29,21 +29,36 @@ function Navbar() {
         style={{ position: "sticky", top: 0, zIndex: 1050 }}
       >
         <Link
-          className="navbar-brand fw-bold"
+          className="navbar-brand fw-bold javabrand"
           to="/"
           onClick={closeMenu}
-          style={{
-            fontSize: "1.8rem",
-            letterSpacing: "0.1em",
-            textShadow: "0 0 8px #6f6fff",
-            userSelect: "none",
-            transition: "color 0.3s ease",
-          }}
-          onMouseEnter={(e) => (e.currentTarget.style.color = "#8c8cff")}
-          onMouseLeave={(e) => (e.currentTarget.style.color = "white")}
         >
           JavaMind
         </Link>
+
+        <style>
+          {`
+  .javabrand {
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+    user-select: none;
+    color: white;
+    text-shadow: 0 0 6px #6f6fff;
+    background: linear-gradient(90deg, #6f6fff, #8c8cff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
+  }
+
+  .javabrand:hover {
+    text-shadow: 0 0 12px #8c8cff;
+    filter: brightness(1.3);
+    transform: scale(1.05);
+  }
+`}
+        </style>
 
         <button
           className="navbar-toggler"

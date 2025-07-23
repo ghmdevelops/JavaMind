@@ -1,9 +1,32 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
-import questionsData from "../data/questions.json";
+
+import allQuestionsData from "../data/questions.json";
+import springQuestionsData from "../data/spring.json";
+import solidQuestionsData from "../data/solid.json";
+import cleanCodeData from "../data/clean-code.json";
+import cleanArchData from "../data/clean-architecture.json";
+import monitoracaoData from "../data/monitoracao.json";
+import telemetriaData from "../data/telemetria.json";
+import designPatternsData from "../data/design-patterns.json";
+import interviewQuestionsData from "../data/interview.json";
+
 import bgImage from "../img/pexels-krisof-1252890.jpg";
 
+const categories = [
+  { key: "all", label: "Todas" },
+  { key: "spring", label: "Spring" },
+  { key: "solid", label: "SOLID" },
+  { key: "clean-code", label: "Clean Code" },
+  { key: "clean-architecture", label: "Clean Architecture" },
+  { key: "monitoracao", label: "Monitoração" },
+  { key: "telemetria", label: "Telemetria" },
+  { key: "design-patterns", label: "Design Patterns" },
+  { key: "interview", label: "Perguntas de Entrevista" },
+];
+
 export default function Quiz() {
+  const [category, setCategory] = useState("all");
   const [questions, setQuestions] = useState([]);
   const [quizQuestions, setQuizQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
@@ -12,24 +35,58 @@ export default function Quiz() {
   const [numQuestions, setNumQuestions] = useState(10);
   const [started, setStarted] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [answers, setAnswers] = useState([]); // respostas dadas
+  const [answers, setAnswers] = useState([]);
   const [startTime, setStartTime] = useState(null);
   const [endTime, setEndTime] = useState(null);
   const [history, setHistory] = useState([]);
 
+  const getQuestionsByCategory = (cat) => {
+    switch (cat) {
+      case "spring":
+        return springQuestionsData;
+      case "solid":
+        return solidQuestionsData;
+      case "clean-code":
+        return cleanCodeData;
+      case "clean-architecture":
+        return cleanArchData;
+      case "monitoracao":
+        return monitoracaoData;
+      case "telemetria":
+        return telemetriaData;
+      case "design-patterns":
+        return designPatternsData;
+      case "interview":
+        return interviewQuestionsData;
+      case "all":
+      default:
+        return allQuestionsData;
+    }
+  };
+
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
-      setQuestions(questionsData);
+      const loadedQuestions = getQuestionsByCategory(category);
+      setQuestions(loadedQuestions);
       setLoading(false);
-    }, 1000);
+    }, 500);
 
     const saved = localStorage.getItem("quizHistory");
     if (saved) setHistory(JSON.parse(saved));
-  }, []);
+  }, [category]);
+
+  function shuffleArray(array) {
+    const arr = [...array];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
 
   const pickQuestions = (num) => {
-    const shuffled = [...questions].sort(() => 0.5 - Math.random());
+    const shuffled = shuffleArray(questions);
     return shuffled.slice(0, num);
   };
 
@@ -72,7 +129,7 @@ export default function Quiz() {
 
   const saveHistory = (scoreFinal, total) => {
     const now = new Date().toISOString();
-    const newEntry = { score: scoreFinal, total, date: now };
+    const newEntry = { score: scoreFinal, total, date: now, category };
     const updated = [newEntry, ...history].slice(0, 5);
     setHistory(updated);
     localStorage.setItem("quizHistory", JSON.stringify(updated));
@@ -137,6 +194,22 @@ export default function Quiz() {
           className="card p-5 rounded-4 shadow-lg text-center"
           style={{ maxWidth: "420px", width: "100%", color: "#343a40" }}
         >
+          <h2 className="mb-4" style={{ fontWeight: "600" }}>
+            Escolha a categoria
+          </h2>
+          <select
+            className="form-select form-select-lg mb-4"
+            value={category}
+            onChange={(e) => setCategory(e.target.value)}
+            style={{ borderRadius: "12px", padding: "12px" }}
+          >
+            {categories.map(({ key, label }) => (
+              <option key={key} value={key}>
+                {label}
+              </option>
+            ))}
+          </select>
+
           <h2 className="mb-4" style={{ fontWeight: "600" }}>
             Escolha a quantidade de perguntas
           </h2>
@@ -307,7 +380,6 @@ export default function Quiz() {
             )}
           </div>
 
-          {/* Lista perguntas detalhadas */}
           <div style={{ maxHeight: 300, overflowY: "auto", marginBottom: 20 }}>
             {answers.map(({ question, isCorrect, selected }, i) => (
               <div
@@ -341,7 +413,10 @@ export default function Quiz() {
               <ul style={{ paddingLeft: 20 }}>
                 {history.map((h, i) => (
                   <li key={i}>
-                    {new Date(h.date).toLocaleString()}: {h.score} de {h.total}
+                    {new Date(h.date).toLocaleString()}: {h.score} de {h.total}{" "}
+                    -{" "}
+                    {categories.find((c) => c.key === h.category)?.label ||
+                      "N/A"}
                   </li>
                 ))}
               </ul>

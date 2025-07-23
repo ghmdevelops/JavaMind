@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "O que é telemetria em sistemas de software?",
+    "options": [
+      "Coleta automática de dados sobre o comportamento da aplicação",
+      "Configuração manual do sistema",
+      "Monitoramento visual",
+      "Backup de dados"
+    ],
+    "answer": "Coleta automática de dados sobre o comportamento da aplicação",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 2,
+    "question": "Qual tipo de dado é comumente coletado pela telemetria?",
+    "options": [
+      "Erros, latência e uso de recursos",
+      "Código fonte",
+      "Documentação",
+      "Logins de usuários"
+    ],
+    "answer": "Erros, latência e uso de recursos",
+    "difficulty": "médio"
+  },
+  {
+    "id": 3,
+    "question": "Qual ferramenta é usada para coletar telemetria distribuída?",
+    "options": [
+      "OpenTelemetry",
+      "Jenkins",
+      "Webpack",
+      "Visual Studio"
+    ],
+    "answer": "OpenTelemetry",
+    "difficulty": "médio"
+  },
+  {
+    "id": 4,
+    "question": "Como a telemetria ajuda equipes de desenvolvimento?",
+    "options": [
+      "Fornecendo dados para identificar problemas rapidamente",
+      "Substituindo testes unitários",
+      "Gerando código automaticamente",
+      "Configurando servidores"
+    ],
+    "answer": "Fornecendo dados para identificar problemas rapidamente",
+    "difficulty": "fácil"
+  },
+  {
+    "id": 5,
+    "question": "Qual é a diferença principal entre telemetria e monitoração?",
+    "options": [
+      "Telemetria coleta dados detalhados, monitoração alerta e visualiza",
+      "São a mesma coisa",
+      "Telemetria é manual",
+      "Monitoração não usa dados"
+    ],
+    "answer": "Telemetria coleta dados detalhados, monitoração alerta e visualiza",
+    "difficulty": "médio"
+  },
+  {
+    "id": 6,
+    "question": "O que é tracing em telemetria distribuída?",
+    "options": [
+      "Rastreamento detalhado da execução de requisições entre serviços",
+      "Backup automático de dados",
+      "Configuração de firewall",
+      "Gerenciamento de usuários"
+    ],
+    "answer": "Rastreamento detalhado da execução de requisições entre serviços",
+    "difficulty": "médio"
+  },
+  {
+    "id": 7,
+    "question": "Qual protocolo é comum para exportar dados de telemetria?",
+    "options": [
+      "OTLP (OpenTelemetry Protocol)",
+      "SMTP",
+      "FTP",
+      "SNMP"
+    ],
+    "answer": "OTLP (OpenTelemetry Protocol)",
+    "difficulty": "médio"
+  },
+  {
+    "id": 8,
+    "question": "Quais dados ajudam a medir a performance em telemetria?",
+    "options": [
+      "Tempo de resposta e throughput",
+      "Quantidade de commits",
+      "Número de linhas de código",
+      "Versão do sistema"
+    ],
+    "answer": "Tempo de resposta e throughput",
+    "difficulty": "médio"
+  },
+  {
+    "id": 9,
+    "question": "Qual componente coleta, processa e exporta dados na arquitetura OpenTelemetry?",
+    "options": [
+      "Collector",
+      "Agent",
+      "Dashboard",
+      "Alert Manager"
+    ],
+    "answer": "Collector",
+    "difficulty": "médio"
+  },
+  {
+    "id": 10,
+    "question": "Por que a telemetria é importante para sistemas em nuvem?",
+    "options": [
+      "Permite observabilidade e diagnóstico distribuído",
+      "Reduz custo de armazenamento",
+      "Aumenta o tamanho do código",
+      "Substitui logs completamente"
+    ],
+    "answer": "Permite observabilidade e diagnóstico distribuído",
+    "difficulty": "fácil"
+  }
+]
